@@ -1,5 +1,5 @@
 {
-  "version": "0.2-deduplicated",
+  "version": "0.3-conservative-repair",
   "summary": {
     "original_records": 2118,
     "unique_records": 2042,
@@ -15,7 +15,15 @@
       "Only same course, type, normalized stem and same option mapping are merged.",
       "Different option sets remain separate to avoid deleting distinct questions.",
       "No claim of exhaustive medical verification; ambiguous questions are not automatically graded."
-    ]
+    ],
+    "repair_notes": [
+      "选项仅在 raw 中存在唯一完整 A-E 选项集时重建。",
+      "案例分析原始文档未随仓库提供；案例记录保留 needs_review 并按导出段落建立保守 case_id。",
+      "未分章/未分类章节未依据关键词猜测。"
+    ],
+    "repaired_option_sets": 56,
+    "repaired_question_types": 53,
+    "inferred_answers": 50
   },
   "questions": [
     {
@@ -3456,7 +3464,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 431",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "属于非胸腺依赖性抗原的是\nA.绵羊红细胞              B.卡介苗              C.脂多糖\nD类毒素                  E.鸡卵清白蛋白\nB.多克隆激活剂",
       "source_occurrences": [
         {
@@ -3465,7 +3473,9 @@
           "location": "段落 431",
           "original_answer": "C"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "9345e0f2a34a",
@@ -4043,7 +4053,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 508",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "普通抗原能特异性激活人体总T细胞库的T细胞克隆比例是\nA.1/1000 000 至 1/10 000                B.1/10 000至 1/1000\nC1/1000至1/100                        D.2/100至20/100\nE.1/10至1/2",
       "source_occurrences": [
         {
@@ -4052,7 +4062,9 @@
           "location": "段落 508",
           "original_answer": "A"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "f6007ab9d7cf",
@@ -4096,7 +4108,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 518",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "霍乱肠毒素是一种\nA 超抗原              B.TI-Ag                    c.半抗原\nD.佐剂                 E.丝裂原\n36关于内源性抗原的叙述，正确的是\nA.在胞质中被加工为抗原肽                B.在内体溶酶体中被降解\nC与MHCⅡ类分子结合                    D.激活 CD4T 细胞\nE.无需抗原提呈",
       "source_occurrences": [
         {
@@ -4105,7 +4117,9 @@
           "location": "段落 518",
           "original_answer": "D"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "298903019880",
@@ -4263,7 +4277,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 545",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "脂多糖可多克激话的免疫细胞类型是\nA. 人T细胞            B .小鼠B细胞               C人肥大细胞\nD.小鼠胸腺细胞         E.T细胞和DC 细胞",
       "source_occurrences": [
         {
@@ -4272,7 +4286,9 @@
           "location": "段落 545",
           "original_answer": "B"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "9d0342a7f0f9",
@@ -6581,7 +6597,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 834",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "研究生邓某,实验操作过程中不小心被生锈的铁器割伤,迅速赶往医院注射抗破伤风免疫\n球蛋白。为提纯抗破伤风抗毒素,一般需经哪种处理\nA.胃蛋白酶水解             B木瓜蛋白酶水解    C.胰酶水解\nD.淀粉酶水解               E葡萄糖酶水解",
       "source_occurrences": [
         {
@@ -6590,7 +6606,9 @@
           "location": "段落 834",
           "original_answer": "A"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "6faf8fe731f7",
@@ -7979,7 +7997,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1019",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "产生补体的主要细胞是\nA.肝细胞和巨噬细胞          B.淋巴细胞和巨噬细胞\nC.肝细胞和淋巴细胞          D.胸腺细胞和淋巴细胞\nE胸腺细胞和肝细胞",
       "source_occurrences": [
         {
@@ -7988,7 +8006,9 @@
           "location": "段落 1019",
           "original_answer": "A"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "9390dd1dc441",
@@ -9096,7 +9116,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1148",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "一种细胞因子可以对不同的细胞发挥不同作用,这种作用的特点称为细胞因子的\nA.多效性  B.重叠性  C协同性\nD.拮抗性  E.网络性",
       "source_occurrences": [
         {
@@ -9105,7 +9125,9 @@
           "location": "段落 1148",
           "original_answer": "A"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "adc7f498a0e1",
@@ -9963,7 +9985,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1250",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "能产生IL-2、IFN-y、TNFa的细胞是\nA.Th2 细胞\t        B.ThI 细胞\t       C 巨噬细胞\nD.肥大细胞\t        E.B 细胞",
       "source_occurrences": [
         {
@@ -9972,7 +9994,9 @@
           "location": "段落 1250",
           "original_answer": "B"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "ec01523b6f42",
@@ -10550,7 +10574,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1316",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "抗IL-8单抗(ABX-IL8)抗IL-12/23单抗(Ustekinumab)可用于治疗\nA.强直性脊柱炎       B.类风湿关节炎\t               C.银屑病\nD.哮喘\t             E Crohn disease",
       "source_occurrences": [
         {
@@ -10559,7 +10583,9 @@
           "location": "段落 1316",
           "original_answer": "C"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "faad58bb4195",
@@ -12156,8 +12182,8 @@
       "type": "单选题",
       "question": "HLA-Ⅱ类基因包括",
       "options": {
-        "A": "",
-        "B": "C座位",
+        "A": "HLA-A座位",
+        "B": "HLA-A、B、C座位",
         "C": "HLA-DR、DQ、DP三个亚区",
         "D": "HLA-DR 亚区",
         "E": "HLA-DQ亚区"
@@ -12193,7 +12219,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1557",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "下列关于MHCI类分子的叙述正确的是\nA.其肽链均为MHC编码\nB.可与辅助受体CD4结合\nC.由两条相同的重链和两条相同的轻链组成\nD.参与内源性抗原的提呈\nE仅表达在抗原提呈细胞表面",
       "source_occurrences": [
         {
@@ -12202,7 +12228,9 @@
           "location": "段落 1557",
           "original_answer": "D"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "e1820e895a1e",
@@ -12500,7 +12528,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1605",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "HLA-I类抗原的重要功能是\nÁ向Th细胞提呈外源性抗原肽\t B.向Tc细胞提呈外源性抗原肽\nC.向Th细胞提呈外源性抗原肽\t D.向T细胞提呈内源性抗原肽\nE.向γδT 细胞提呈外源性抗原肽",
       "source_occurrences": [
         {
@@ -12509,7 +12537,9 @@
           "location": "段落 1605",
           "original_answer": "D"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "0f87613905c5",
@@ -12891,7 +12921,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1665",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "进行器官移植时优先考虑的候选供者是\nA.患者的父母\tB.患者的妻子\tC，患者的子女\nD.患者的表兄弟姐妹\tE.患者的同胞兄弟姐妹",
       "source_occurrences": [
         {
@@ -12900,7 +12930,9 @@
           "location": "段落 1665",
           "original_answer": "E"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "c10c401504b8",
@@ -13142,7 +13174,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1698",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "既表达MHCI类分子,又表达MHCП类分子的细胞是\nA、红细胞\t    B.嗜碱性粒细脑\tC.B细胞\nD，中性粒细胞\tE.肥大细胞",
       "source_occurrences": [
         {
@@ -13151,7 +13183,9 @@
           "location": "段落 1698",
           "original_answer": "C"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "fec1acc423fa",
@@ -13365,7 +13399,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1728",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "HLA的息传方式在器官移植供者的选择、法医的亲子鉴定中广泛应用，其机制是\nA.HLA单体型均来自父方\nB.同胞之间两个单体型完全相同或完全不同的概率名占25%\nC.孪生兄弟的HLA两个单体型完全相同\nD.亲代与子代之问必然有一个单体型相同\nB.同胞之间一个单体型相同成不相同概率各为50%",
       "source_occurrences": [
         {
@@ -13374,7 +13408,9 @@
           "location": "段落 1728",
           "original_answer": "D"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "b1742a388c50",
@@ -19183,7 +19219,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 2530",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "特异性免疫应答过程不包括\nA.T/B细胞在中中枢疫器官的分化成熟         B.APC对抗原的加工和提呈\nC.T/B细对抗原的特异性识别                 D.T/B细胞的活化、增殖和分化\nE效应细胞和效应分子的产生和作用",
       "source_occurrences": [
         {
@@ -19192,7 +19228,9 @@
           "location": "段落 2530",
           "original_answer": "A"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "be21805321e6",
@@ -19321,7 +19359,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 2551",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "下列说法错误的是\nA.内源性抗原以抗原肽-MHCⅠ类分子复合物的形式提呈给CD8+T细\nB外源性抗原以抗原度MHCⅡ类分于复合物的形式提呈给CD4+T细胞\nC.内源性抗原可被非专职性APC提呈\nD.外源性抗原经专职APC提呈\nE.内源性和外源性抗均可直接被T细胞识别",
       "source_occurrences": [
         {
@@ -19330,7 +19368,9 @@
           "location": "段落 2551",
           "original_answer": "E"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "02c21c548529",
@@ -19459,7 +19499,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 2579",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "CD8分于是哪种细胞的标志\nA.Treg细胞B.Th细胞C.CTL细胞\nD活化的巨噬细胞E中性粒细胞",
       "source_occurrences": [
         {
@@ -19468,7 +19508,9 @@
           "location": "段落 2579",
           "original_answer": "C"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "a23a6e5eb144",
@@ -19737,7 +19779,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 2640",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "Th细胞的主要功能是\nA调理作用                         B.中和作用                   C.分泌细胞因子\nD.激活补体\nE释放颗粒酶",
       "source_occurrences": [
         {
@@ -19746,7 +19788,9 @@
           "location": "段落 2640",
           "original_answer": "C"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "6e7204c7d2e2",
@@ -21745,10 +21789,10 @@
       "type": "单选题",
       "question": "编码Ig重链可变区的基因片段是",
       "options": {
-        "A": "",
-        "D": "C片段",
+        "A": "D、J片段",
         "B": "V、J片段",
-        "C": "V、",
+        "C": "V、D、J片段",
+        "D": "C片段",
         "E": "S区"
       },
       "answer": "C",
@@ -27171,7 +27215,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 3641",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "下列可诱发血清病的因素是\nA.存在抗肾小球基底膜抗体\tB.大量IgE产生\nC.补体水平升高\tD.中等大小可溶性免疫复合物形成\nE巨噬细胞功能亢进",
       "source_occurrences": [
         {
@@ -27180,7 +27224,9 @@
           "location": "段落 3641",
           "original_answer": "D"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "97bdfba7df5d",
@@ -27506,7 +27552,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 3679",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "下列不属于免疫复合物病的是\nA.自身免疫性溶血性贫血\tB，链球菌感染后肾小球肾炎\nC.血清病\tD.血管炎\nE.Arthus 反应",
       "source_occurrences": [
         {
@@ -27515,7 +27561,9 @@
           "location": "段落 3679",
           "original_answer": "A"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "2ad686d0665d",
@@ -27533,7 +27581,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 3683",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "与农民肺无关的是\nA.特异性IgG介导\tB.局部 Arthus 反应\nC，激活补体是炎症损伤的主要原因\tD.嗜热放线菌为常见的变应原\nE.注射局部可出现干酪性病变",
       "source_occurrences": [
         {
@@ -27542,7 +27590,9 @@
           "location": "段落 3683",
           "original_answer": "E"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "9b8bf4e7c9fb",
@@ -28679,7 +28729,8 @@
       "type": "单选题",
       "question": "下列哪种属于自然被动免疫",
       "options": {
-        "A": "注射丙种球蛋白 B:注射抗毒素血清",
+        "A": "注射丙种球蛋白",
+        "B": "注射抗毒素血清",
         "C": "从母体经胎盘得到的抗体",
         "D": "接种类毒素产生的抗体",
         "E": "接种疫苗产生的抗体"
@@ -29218,7 +29269,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 3907",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "下面哪种制剂不是人工被动免疫制剂\nA 抗毒素    B.类毒索    C.抗病毒血清    D.血清丙种球蛋白  E.胎盘球蛋白",
       "source_occurrences": [
         {
@@ -29227,7 +29278,9 @@
           "location": "段落 3907",
           "original_answer": "B"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "db6267f873d7",
@@ -31525,7 +31578,7 @@
       "explanation": null,
       "source": "医学细胞生物学题库B.docx",
       "source_location": "段落 226",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "减数分裂过程中，同源染色体联会、形成四分体发生在哪个时期？（ ）\nA. 减数第一次分裂间期\nB. 减数第一次分裂前期\nC. 减数第一次分裂中期\nD. 减数第二次分裂前期\n答案：B",
       "source_occurrences": [
         {
@@ -31534,7 +31587,9 @@
           "location": "段落 226",
           "original_answer": "B"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "9c3ea0dd355b",
@@ -31552,7 +31607,7 @@
       "explanation": null,
       "source": "医学细胞生物学题库B.docx",
       "source_location": "段落 227",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "减数分裂染色体数目减半的根本原因是（ ）\nA. 染色体复制一次\nB. 细胞质不均等分裂\nC. 同源染色体分离进入两个子细胞\nD. 着丝粒分裂\n答案：C",
       "source_occurrences": [
         {
@@ -31561,7 +31616,9 @@
           "location": "段落 227",
           "original_answer": "C"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "f5144b778b4f",
@@ -31579,7 +31636,7 @@
       "explanation": null,
       "source": "医学细胞生物学题库B.docx",
       "source_location": "段落 228",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "下列关于减数分裂叙述正确的是（ ）\nA. 只进行一次 DNA 复制，连续两次细胞分裂\nB. 子细胞染色体数与体细胞相同\nC. 着丝粒分裂发生在减 Ⅰ 后期\nD. 无同源染色体分离现象\n答案：A",
       "source_occurrences": [
         {
@@ -31588,7 +31645,9 @@
           "location": "段落 228",
           "original_answer": "A"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "47e10cefce4f",
@@ -33248,9 +33307,15 @@
       "id": "3aa892196d02",
       "course": "医学微生物学",
       "chapter": "第二章 细菌的生理",
-      "type": "未分类",
+      "type": "单选题",
       "question": "不属于细菌代谢产物的是 A.内毒素 B.外毒素 C:抗毒素",
-      "options": {},
+      "options": {
+        "A": "内毒素",
+        "B": "外毒素",
+        "C": "抗毒素",
+        "D": "抗生素",
+        "E": "细菌素"
+      },
       "answer": null,
       "explanation": null,
       "source": "医学微生物学题库.docx",
@@ -33314,9 +33379,15 @@
       "id": "6648b2d32402",
       "course": "医学微生物学",
       "chapter": "第二章 细菌的生理",
-      "type": "未分类",
+      "type": "单选题",
       "question": "能以简单无机物为原料合成复杂原生质的细菌是",
-      "options": {},
+      "options": {
+        "A": "异养菌",
+        "B": "自养菌",
+        "C": "腐生菌",
+        "D": "寄生菌",
+        "E": "致病菌"
+      },
       "answer": null,
       "explanation": null,
       "source": "医学微生物学题库.docx",
@@ -33336,9 +33407,15 @@
       "id": "ad24d98bae0c",
       "course": "医学微生物学",
       "chapter": "第二章 细菌的生理",
-      "type": "未分类",
+      "type": "单选题",
       "question": "属于细菌分解性代谢产物的是",
-      "options": {},
+      "options": {
+        "A": "热原质",
+        "B": "硫化氨",
+        "C": "外毒索",
+        "D": "维生素",
+        "E": "抗生素"
+      },
       "answer": null,
       "explanation": null,
       "source": "医学微生物学题库.docx",
@@ -42042,7 +42119,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 1171",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "以下病毒感染中，包涵体有诊断价值的是\nEB 病毒        B.巨细胞病毒\nC.单纯疱疹病毒    D.流感病毒\nE.脊髓灰质炎病毒",
       "source_occurrences": [
         {
@@ -42051,7 +42128,9 @@
           "location": "段落 1171",
           "original_answer": "B"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "2adc823432bb",
@@ -42208,7 +42287,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 1200",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "潜伏性病毒感染的特点是在间歇期\nA可以分离出病毒B不能分离出病毒\nC.不产生抗体     D.可以分离出病毒但测不出抗体\nE.不能分离出病毒但能测出抗体",
       "source_occurrences": [
         {
@@ -42217,7 +42296,9 @@
           "location": "段落 1200",
           "original_answer": "E"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "a86a30b47f77",
@@ -42263,7 +42344,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 1208",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "病毒人侵机体后取平生的有免疫调节作用的物质是\nA.slgA          B.中和抗体\nc 补体结合抗体D.干扰素\nE. T杀伤细胞",
       "source_occurrences": [
         {
@@ -42272,7 +42353,9 @@
           "location": "段落 1208",
           "original_answer": "D"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "610acd374366",
@@ -44910,7 +44993,14 @@
           "location": "段落 13",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-1",
+      "case_ids_in_raw": [
+        "case-1"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "8509da455e83",
@@ -44932,7 +45022,14 @@
           "location": "段落 14",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-1",
+      "case_ids_in_raw": [
+        "case-1"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "d2a0e2dfbec6",
@@ -44954,7 +45051,14 @@
           "location": "段落 16",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-1",
+      "case_ids_in_raw": [
+        "case-1"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "4c3d7beb236f",
@@ -44976,7 +45080,15 @@
           "location": "段落 17",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-1",
+      "case_ids_in_raw": [
+        "case-1",
+        "case-2"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "7cd9d41dd0ff",
@@ -44998,7 +45110,14 @@
           "location": "段落 29",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-2",
+      "case_ids_in_raw": [
+        "case-2"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "abb41672f156",
@@ -45020,7 +45139,14 @@
           "location": "段落 30",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-2",
+      "case_ids_in_raw": [
+        "case-2"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "e3bd14f3763d",
@@ -45042,7 +45168,14 @@
           "location": "段落 32",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-2",
+      "case_ids_in_raw": [
+        "case-2"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "eed23d7cb119",
@@ -45064,16 +45197,30 @@
           "location": "段落 33",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-2",
+      "case_ids_in_raw": [
+        "case-2",
+        "case-3"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "a779bbbf7ed6",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "引起该疾病的病原体最有可能是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "甲型肝炎病毒",
+        "B": "志贺菌",
+        "C": "肠炎沙门菌",
+        "D": "霍乱弧菌",
+        "E": "艰难梭菌\n【答案】D"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 37",
@@ -45092,16 +45239,29 @@
           "location": "段落 60",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-3",
+      "case_ids_in_raw": [
+        "case-3"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "9385478f9ac8",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "该患者的粪便标本接种固体鉴别培养基前的处理，错误的是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "接种碱性蛋白胨水增菌",
+        "B": "选用甘油盐水缓冲液保存",
+        "C": "选用Cary-Blair保存液保存",
+        "D": "选用O1群抗血清进行制动试验",
+        "E": "选用O139群抗血清进行制动试验\n【答案】B"
+      },
+      "answer": "B",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 44",
@@ -45114,16 +45274,29 @@
           "location": "段落 44",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-3",
+      "case_ids_in_raw": [
+        "case-3"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "9f116168c4f4",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "关于该病原体的描述，错误的是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "可产生肠毒素致病",
+        "B": "该细菌的TcpA菌毛在致病中发挥黏附作用",
+        "C": "嗜盐，以含35g／L NaCl的培养基最为适宜",
+        "D": "引起霍乱的病原体包括O1群和O139群",
+        "E": "在TCBS培养基上形成黄色菌落\n【答案】C\n案例4\n患者，男性，35岁。反复上腹部疼痛、腹胀、反酸、嗳气，胃镜提示慢性浅表性胃炎，胃黏膜快速尿素酶试验阳性。"
+      },
+      "answer": "C",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 51",
@@ -45136,16 +45309,30 @@
           "location": "段落 51",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-3",
+      "case_ids_in_raw": [
+        "case-3",
+        "case-4"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "42d5e278ec0c",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "不属于该病原体生物学性状的是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "微需氧菌",
+        "B": "营养要求高",
+        "C": "革兰染色阴性",
+        "D": "周身鞭毛",
+        "E": "可产生空泡毒素A\n【答案】D\n案例5\n【案例分析】患者，男性，36岁。1天前张口困难、颈项僵硬就诊。一周前钉子刺入右足底，自行拔除未处理。查体：生命体征正常，苦笑面容，张口受限（可张口1cm），口腔分泌物多、伸舌困难、吐词不清、颈项强直，足底见绿豆大小黑点、伤口愈合。收入院予破伤风免疫球蛋白、类毒素、镇静解痉抗感染。次日加重，突发牙关紧闭、角弓反张、呕吐白沫、呼吸困难、紫绀，呼吸骤停、心率下降，经心肺复苏、气管插管机械通气后缓解，40天后治愈。\n【问题】患者可能感染何种细菌？为何出现牙关紧闭、角弓反张、呕吐白沫、呼吸困难等症状？如何治疗？\n【答案解析】\n病原体：破伤风梭菌，经伤口感染，芽胞在局部厌氧微环境发芽增殖，产生破伤风痉挛毒素，毒素经血循环到达神经肌肉接头，沿神经轴突逆行至脊髓前角运动神经元，抑制抑制性神经递质释放，导致肌肉强直痉挛，故出现苦笑面容、张口困难、角弓反张等症状。\n治疗：早诊断早治疗，联合人工被动免疫（破伤风抗毒素/免疫球蛋白中和游离毒素）+人工主动免疫（破伤风类毒素），辅以镇静、解痉、抗感染、保持呼吸道通畅等对症支持。毒素一旦与受体结合，抗毒素不能中和，故症状可进行性加重。\n案例6\n两姐妹，22岁、20岁，同食罐装午餐肉数小时后先后出现腹痛、腹泻、恶心、呕吐，初诊急性胃肠炎。3天后出现失声、张口困难、吞咽呛咳、上眼睑下垂、复视、瞳孔散大、对光反射迟钝，四肢肌力减退、腱反射减弱，伴呼吸困难，神志清楚。"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 67",
@@ -45170,16 +45357,31 @@
           "location": "段落 659",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-4",
+      "case_ids_in_raw": [
+        "case-4",
+        "case-5",
+        "case-6"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "10eccc55d8db",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "最可能的诊断是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "食源性肉毒中毒",
+        "B": "产气荚膜梭菌所致食物中毒",
+        "C": "金黄色葡萄球菌所致食物中毒",
+        "D": "副溶血弧菌所致食物中毒",
+        "E": "空肠弯曲菌所致食物中毒\n【答案】A\n案例7\n患者，男性，40岁。田间劳动时右足底割伤深达肌腱，自行包扎。10天后出现乏力、畏光、咀嚼无力、下肢痛。查体：满面大汗，苦笑面容，张口困难，阵发性四肢痉挛、角弓反张，心肺无异常。"
+      },
+      "answer": "A",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 82",
@@ -45228,16 +45430,30 @@
           "location": "段落 729",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-6",
+      "case_ids_in_raw": [
+        "case-6",
+        "case-7"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "d786ee8d860b",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "患者最可能患有的疾病",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "破伤风",
+        "B": "气性坏疽",
+        "C": "肉毒中毒",
+        "D": "脊髓灰质炎",
+        "E": "流行性脑脊髓膜炎\n【答案】A"
+      },
+      "answer": "A",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 91",
@@ -45250,16 +45466,29 @@
           "location": "段落 91",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-7",
+      "case_ids_in_raw": [
+        "case-7"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "cab07fff33c5",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "引起该疾病的致病菌属于",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "革兰氏染色阴性、双球菌",
+        "B": "革兰氏染色阴性、无芽胞厌氧菌",
+        "C": "革兰氏染色阴性、厌氧芽胞梭菌",
+        "D": "革兰氏染色阳性、无芽胞厌氧菌",
+        "E": "革兰氏染色阳性、厌氧芽胞梭菌\n【答案】E"
+      },
+      "answer": "E",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 98",
@@ -45272,16 +45501,29 @@
           "location": "段落 98",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-7",
+      "case_ids_in_raw": [
+        "case-7"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "4c4cfa15575e",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "治疗该疾病应",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "注射干扰素",
+        "B": "首选青霉素治疗",
+        "C": "迅速注射A、B、E三型多价抗毒素",
+        "D": "清创扩创，早期足量注射破伤风抗毒素，使用抗生素",
+        "E": "清创扩创，切除感染和坏死组织，注射多价抗毒素和青霉素\n【答案】D"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 105",
@@ -45294,16 +45536,29 @@
           "location": "段落 105",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-7",
+      "case_ids_in_raw": [
+        "case-7"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "85f09d4ff0eb",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "为预防该疾病的发生，应接种",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "类毒素",
+        "B": "灭活疫苗",
+        "C": "减毒活疫苗",
+        "D": "荚膜多糖疫苗",
+        "E": "基因工程亚单位疫苗\n【答案】A\n案例8\n患者，男性，32岁。1天前农田劳作足部受伤，2小时前突发高热、左下肢剧痛、肿胀发紫。查体：左下肢皮肤由紫红转紫黑，皮下捻发音，伤口恶臭血性渗出，涂片见革兰氏阳性大杆菌。"
+      },
+      "answer": "A",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 112",
@@ -45316,16 +45571,30 @@
           "location": "段落 112",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-7",
+      "case_ids_in_raw": [
+        "case-7",
+        "case-8"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "6dad1905b5ec",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "该致病菌毒性最强、最重要的毒素是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "神经氨酸酶",
+        "B": "胶原酶（k毒素）",
+        "C": "DNA酶（v毒素）",
+        "D": "卵磷脂酶（α毒素）",
+        "E": "透明质酸酶（μ毒素）\n【答案】D"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 128",
@@ -45338,16 +45607,29 @@
           "location": "段落 128",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-8",
+      "case_ids_in_raw": [
+        "case-8"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "1ae4fc61365c",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "该疾病最关键的治疗措施是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "输血、输液",
+        "B": "高压氧舱疗法",
+        "C": "注射多价抗毒素",
+        "D": "紧急外科手术处理",
+        "E": "注射大剂量青霉素\n【答案】D\n案例9\n患者，女性，59岁。间断咳嗽、咳痰6个月，伴低热、盗汗、乏力、食欲减退，劳累后加重伴咯血。查体：低热，轻度贫血貌。胸片示双上肺云雾状、片状模糊阴影。"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 135",
@@ -45360,16 +45642,30 @@
           "location": "段落 135",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-8",
+      "case_ids_in_raw": [
+        "case-8",
+        "case-9"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "6ec8383b3ba0",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "最可能的病原体感染为",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "支原体",
+        "B": "肺炎链球菌",
+        "C": "结核分枝杆菌",
+        "D": "流感病毒",
+        "E": "新生隐球菌\n【答案】C\n案例10\n患者，男性，20岁。咳嗽、咳痰、发热3月，胸片示右肺片状阴影，结核菌素试验阴性，痰涂片检出抗酸杆菌。"
+      },
+      "answer": "C",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 144",
@@ -45382,16 +45678,30 @@
           "location": "段落 144",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-9",
+      "case_ids_in_raw": [
+        "case-9",
+        "case-10"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "48afb8a5644c",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "该患者最有可能为",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "支原体肺炎",
+        "B": "肺炎链球菌肺炎",
+        "C": "肺炎克雷伯杆菌肺炎",
+        "D": "军团菌肺炎",
+        "E": "肺结核\n【答案】E\n案例11\n患者，女性，43岁。下腹痛、乏力、食欲减退3个月。查体：贫血貌，腹部柔韧感，无压痛反跳痛。化验：贫血、血沉增快，PPD试验阳性，肠镜病理提示肉芽肿性炎症。"
+      },
+      "answer": "E",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 153",
@@ -45404,7 +45714,15 @@
           "location": "段落 153",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-10",
+      "case_ids_in_raw": [
+        "case-10",
+        "case-11"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "1400dab8cfdd",
@@ -45426,16 +45744,29 @@
           "location": "段落 171",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-11",
+      "case_ids_in_raw": [
+        "case-11"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "fdd74ce74095",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "下列关于该病原体的描述错误的是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "无鞭毛，无芽胞",
+        "B": "无荚膜",
+        "C": "需氧或兼性厌氧",
+        "D": "体外培养需要加入新鲜血液或血液成分",
+        "E": "可引起原发感染和继发感染\n【答案】B\n案例13\n患者，女性，27岁。手臂蓝黑色溃疡，周围水疱、软组织脓肿水肿，伴发热、全身中毒症状，近期曾旅居国外，购买皮革、羊皮制品。"
+      },
+      "answer": "B",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 178",
@@ -45448,16 +45779,30 @@
           "location": "段落 178",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-11",
+      "case_ids_in_raw": [
+        "case-11",
+        "case-13"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "89d47a980b08",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "患者最可能的感染途径是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "创伤感染",
+        "B": "鼠蚤叮咬",
+        "C": "恙螨叮咬",
+        "D": "接触动物皮毛",
+        "E": "吸入含病菌的尘埃\n【答案】D"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 194",
@@ -45470,16 +45815,29 @@
           "location": "段落 194",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-13",
+      "case_ids_in_raw": [
+        "case-13"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "d8888d0a9811",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "进一步确诊的方法是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "外斐反应检测血清抗体",
+        "B": "细菌分离培养+噬菌体裂解试验",
+        "C": "乳胶凝集试验检测IgM抗体",
+        "D": "涂片镜检排查杂菌感染",
+        "E": "涂片镜检查找竹节状排列革兰阳性大杆菌（带荚膜）\n【答案】E\n案例14\n【案例分析】患者，男性，36岁。猎捕、食用旱獭后4天，出现畏寒、全身不适，继而高热、剧烈头痛、恶心呕吐，意识模糊、血压下降、呼吸急促，皮肤黏膜出血、黑便血尿，全身淋巴结肿大坚硬剧痛。\n【问题】"
+      },
+      "answer": "E",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 201",
@@ -45492,7 +45850,15 @@
           "location": "段落 201",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-13",
+      "case_ids_in_raw": [
+        "case-13",
+        "case-14"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "e2e863db79b6",
@@ -45514,7 +45880,14 @@
           "location": "段落 211",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-14",
+      "case_ids_in_raw": [
+        "case-14"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "76185b835673",
@@ -45536,7 +45909,14 @@
           "location": "段落 212",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-14",
+      "case_ids_in_raw": [
+        "case-14"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "4451b18fb325",
@@ -45558,7 +45938,14 @@
           "location": "段落 213",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-14",
+      "case_ids_in_raw": [
+        "case-14"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "b8eda76b4592",
@@ -45580,7 +45967,14 @@
           "location": "段落 214",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-14",
+      "case_ids_in_raw": [
+        "case-14"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "3ec35eceb3d5",
@@ -45602,7 +45996,14 @@
           "location": "段落 216",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-14",
+      "case_ids_in_raw": [
+        "case-14"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "9f60a3d7fecb",
@@ -45624,7 +46025,14 @@
           "location": "段落 217",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-14",
+      "case_ids_in_raw": [
+        "case-14"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "33b0da66731e",
@@ -45646,7 +46054,14 @@
           "location": "段落 218",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-14",
+      "case_ids_in_raw": [
+        "case-14"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "31cec0c1d078",
@@ -45668,7 +46083,15 @@
           "location": "段落 219",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-14",
+      "case_ids_in_raw": [
+        "case-14",
+        "case-15"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "9bbf7805e043",
@@ -45690,7 +46113,14 @@
           "location": "段落 223",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-15",
+      "case_ids_in_raw": [
+        "case-15"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "ee4130e08e2a",
@@ -45712,7 +46142,14 @@
           "location": "段落 224",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-15",
+      "case_ids_in_raw": [
+        "case-15"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "fd562b693b62",
@@ -45734,7 +46171,14 @@
           "location": "段落 225",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-15",
+      "case_ids_in_raw": [
+        "case-15"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "0fdfe174fc8f",
@@ -45756,7 +46200,14 @@
           "location": "段落 227",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-15",
+      "case_ids_in_raw": [
+        "case-15"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "171a956fc3a6",
@@ -45778,7 +46229,14 @@
           "location": "段落 228",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-15",
+      "case_ids_in_raw": [
+        "case-15"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "317af0159156",
@@ -45800,16 +46258,30 @@
           "location": "段落 229",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-15",
+      "case_ids_in_raw": [
+        "case-15",
+        "case-16"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "09d8d263c2da",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "最有可能感染的病原体是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "鲍曼不动杆菌",
+        "B": "伤寒沙门菌",
+        "C": "流感嗜血杆菌",
+        "D": "白喉棒状杆菌",
+        "E": "金黄色葡萄球菌\n【答案】D\n案例17\n患儿，男性，5岁。咳嗽1个月，无发热，夜间阵发性痉咳伴呕吐，面部浮肿、结膜出血、舌系带溃疡，肺部无啰音，血常规白细胞显著升高，红霉素治疗有效。"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 232",
@@ -45822,16 +46294,30 @@
           "location": "段落 232",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-16",
+      "case_ids_in_raw": [
+        "case-16",
+        "case-17"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "ae5f09c0fb48",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "感染的病原菌最可能是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "肺炎链球菌",
+        "B": "呼吸道合胞病毒",
+        "C": "腺病毒",
+        "D": "肺炎支原体",
+        "E": "百日咳鲍特菌\n【答案】E\n案例18\n患者，女性，34岁。大面积烧伤术后高热，创面脓性分泌物增多，培养出扁平枫叶状、带金属光泽、生姜味菌落，产绿色水溶性色素。"
+      },
+      "answer": "E",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 241",
@@ -45850,7 +46336,15 @@
           "location": "段落 268",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-17",
+      "case_ids_in_raw": [
+        "case-17",
+        "case-18"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "7de34bcb32de",
@@ -45872,16 +46366,30 @@
           "location": "段落 250",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-18",
+      "case_ids_in_raw": [
+        "case-18",
+        "case-19"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "418358fd9753",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "最有可能感染",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "流感嗜血杆菌",
+        "B": "肺炎克雷伯菌",
+        "C": "百日咳鲍特菌",
+        "D": "结核分枝杆菌",
+        "E": "嗜肺军团菌\n【答案】E\n案例20\n老年男性，慢性哮喘雾化治疗后高热稽留、浓痰胸痛、恶心腹泻，相对缓脉、肺部实变、低钠血症，红霉素治疗有效。"
+      },
+      "answer": "E",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 259",
@@ -45894,16 +46402,30 @@
           "location": "段落 259",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-19",
+      "case_ids_in_raw": [
+        "case-19",
+        "case-20"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "95b661441496",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "最可能的病原体是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "风疹病毒",
+        "B": "麻疹病毒",
+        "C": "人类疱疹病毒8型",
+        "D": "单纯疱疹病毒2型",
+        "E": "水痘-带状疱疹病毒\n【答案】E"
+      },
+      "answer": "E",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 652",
@@ -45940,16 +46462,29 @@
           "location": "段落 652",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-49",
+      "case_ids_in_raw": [
+        "case-49"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "b15572d59475",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "最可能感染的病原体是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "脑膜炎奈瑟菌",
+        "B": "新生隐球菌",
+        "C": "乙型脑炎病毒",
+        "D": "结核分枝杆菌",
+        "E": "脊髓灰质炎病毒\n【答案】C"
+      },
+      "answer": "C",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 620",
@@ -45974,16 +46509,29 @@
           "location": "段落 620",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-47",
+      "case_ids_in_raw": [
+        "case-47"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "e91c8bc4f613",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "进一步检查最常用的诊断方法是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "培养",
+        "B": "免疫荧光法检查痰标本",
+        "C": "血清学诊断",
+        "D": "PCR",
+        "E": "涂片镜检\n【答案】C"
+      },
+      "answer": "C",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 300",
@@ -45996,16 +46544,29 @@
           "location": "段落 300",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-20",
+      "case_ids_in_raw": [
+        "case-20"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "6ccf0998152b",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "治疗首选抗生素是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "阿莫西林",
+        "B": "万古霉素",
+        "C": "四环素",
+        "D": "克拉霉素",
+        "E": "磺胺\n【答案】C\n案例25\n婴幼儿群体持续发热，肝脾、浅表淋巴结肿大，皮肤溃疡焦痂，白细胞升高、血小板降低，外斐试验OXk强阳性。"
+      },
+      "answer": "C",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 339",
@@ -46024,16 +46585,30 @@
           "location": "段落 339",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-24",
+      "case_ids_in_raw": [
+        "case-24",
+        "case-25"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "692f35c6e27a",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "不能用于治疗该微生物感染的抗生素是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "多西环素",
+        "B": "阿奇霉素",
+        "C": "罗红霉素",
+        "D": "头孢菌素",
+        "E": "环丙沙星\n【答案】D\n案例24\n患者，男性，30岁。丛林徒步后发热、头痛、肌痛关节痛、全身皮疹，累及手掌足底。"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 323",
@@ -46046,16 +46621,30 @@
           "location": "段落 323",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-20",
+      "case_ids_in_raw": [
+        "case-20",
+        "case-24"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "7724e8d3055a",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "最可能的疾病是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "钩端螺旋体病",
+        "B": "风湿性关节炎",
+        "C": "感冒",
+        "D": "莱姆病",
+        "E": "回归热\n【答案】D\n案例30\n患者，男性，48岁。被犬咬伤后低热、乏力、畏光畏声、恐水、咽喉紧缩。"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 433",
@@ -46086,16 +46675,30 @@
           "location": "段落 563",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-27",
+      "case_ids_in_raw": [
+        "case-27",
+        "case-30"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "9991e5276edd",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "该疾病的传染源是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "幼猪",
+        "B": "鼠",
+        "C": "犬",
+        "D": "蝙蝠",
+        "E": "蚊\n【答案】B"
+      },
+      "answer": "B",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 355",
@@ -46108,16 +46711,29 @@
           "location": "段落 355",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-25",
+      "case_ids_in_raw": [
+        "case-25"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "609204498b5b",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "该病原体的传播媒介是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "体虱",
+        "B": "鼠蚤",
+        "C": "蜱",
+        "D": "恙螨",
+        "E": "蚊\n【答案】D\n案例26\n患者，男性，29岁。不洁性行为后尿痛、尿道灼热、浆液性分泌物，涂片见白细胞、未见微生物。"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 362",
@@ -46130,16 +46746,30 @@
           "location": "段落 362",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-25",
+      "case_ids_in_raw": [
+        "case-25",
+        "case-26"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "75b594dab301",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "最可能的尿道炎病原体是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "淋球菌",
+        "B": "肺炎支原体",
+        "C": "沙眼衣原体",
+        "D": "阴道毛滴虫",
+        "E": "人型支原体\n【答案】C"
+      },
+      "answer": "C",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 371",
@@ -46152,16 +46782,29 @@
           "location": "段落 371",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-26",
+      "case_ids_in_raw": [
+        "case-26"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "ecdc4342cb52",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "该病原最敏感的检查方法是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "培养",
+        "B": "血清学检测",
+        "C": "免疫荧光检测",
+        "D": "核酸检测",
+        "E": "涂片镜检\n【答案】D"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 378",
@@ -46174,16 +46817,29 @@
           "location": "段落 378",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-26",
+      "case_ids_in_raw": [
+        "case-26"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "fff8b4e40dd6",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "该病原体抗生素敏感性描述正确的是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "对抗生素不敏感",
+        "B": "对β-内酰胺类抗生素最敏感",
+        "C": "对喹诺酮类抗生素耐药",
+        "D": "对大环内酯类抗生素敏感",
+        "E": "对干扰素敏感\n【答案】D"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 385",
@@ -46196,16 +46852,29 @@
           "location": "段落 385",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-26",
+      "case_ids_in_raw": [
+        "case-26"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "6b1ec3fdc6df",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "可治疗该病原体的药物是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "青霉素G",
+        "B": "多西环素",
+        "C": "苯唑西林",
+        "D": "阿莫西林",
+        "E": "头孢氨苄\n【答案】B"
+      },
+      "answer": "B",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 392",
@@ -46218,16 +46887,29 @@
           "location": "段落 392",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-26",
+      "case_ids_in_raw": [
+        "case-26"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "1e351c975a38",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "该病原体主要传播途径是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "性接触",
+        "B": "粪-口途径",
+        "C": "血源性传播",
+        "D": "呼吸道传播",
+        "E": "眼-眼或眼-手-眼\n【答案】E"
+      },
+      "answer": "E",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 399",
@@ -46240,16 +46922,29 @@
           "location": "段落 399",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-26",
+      "case_ids_in_raw": [
+        "case-26"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "83b9d8515ca9",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "本次感染对应的病原体分型是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "肺炎衣原体",
+        "B": "鹦鹉热衣原体",
+        "C": "沙眼衣原体沙眼生物型",
+        "D": "沙眼衣原体生殖生物型",
+        "E": "沙眼衣原体LGV生物型\n【答案】C\n案例27\n山区农民夏收后发热、头痛、眼结膜充血、轻度黄疸、腓肠肌压痛，白细胞升高。"
+      },
+      "answer": "C",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 406",
@@ -46262,16 +46957,30 @@
           "location": "段落 406",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-26",
+      "case_ids_in_raw": [
+        "case-26",
+        "case-27"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "fa44852749bd",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "对该病原体特征描述不正确的是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "非细胞型微生物",
+        "B": "基本结构为核衣壳",
+        "C": "只能在活细胞内增殖",
+        "D": "对抗生素不敏感",
+        "E": "以二分裂方式繁殖\n【答案】E\n案例31\n9月龄女婴，发热、持续性咳嗽、肺部啰音、肺浸润影，诊断肺炎。"
+      },
+      "answer": "E",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 442",
@@ -46284,16 +46993,30 @@
           "location": "段落 442",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-30",
+      "case_ids_in_raw": [
+        "case-30",
+        "case-31"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "c00606453a9a",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "最可能的致病病毒是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "轮状病毒",
+        "B": "鼻病毒",
+        "C": "腺病毒",
+        "D": "呼吸道合胞病毒",
+        "E": "柯萨奇病毒\n【答案】D\n案例32\n患者，男性，40岁。慢性乙肝病史，乏力、厌油、腹胀、肝区痛，HBsAg、HBV DNA阳性。"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 451",
@@ -46306,16 +47029,30 @@
           "location": "段落 451",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-31",
+      "case_ids_in_raw": [
+        "case-31",
+        "case-32"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "e77129773b47",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "关于慢性病毒感染描述不正确的是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "机体内病毒未完全清除",
+        "B": "病程长达数月至数年",
+        "C": "可表现轻微临床症状",
+        "D": "可无任何临床症状",
+        "E": "潜伏期较长，可出现进行性疾病\n【答案】E\n案例33\n4岁患儿，流涕轻咳后呕吐、黄绿色水样便、恶臭，低热，幼儿园聚集发病。"
+      },
+      "answer": "E",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 460",
@@ -46328,7 +47065,15 @@
           "location": "段落 460",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-32",
+      "case_ids_in_raw": [
+        "case-32",
+        "case-33"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "53b6354c2a94",
@@ -46350,7 +47095,18 @@
           "location": "段落 469",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-33",
+      "case_ids_in_raw": [
+        "case-33",
+        "case-34",
+        "case-35",
+        "case-36",
+        "case-37"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "b9ae0bb9d4b6",
@@ -46372,7 +47128,14 @@
           "location": "段落 492",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-37",
+      "case_ids_in_raw": [
+        "case-37"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "b378d9dd9148",
@@ -46394,7 +47157,14 @@
           "location": "段落 493",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-37",
+      "case_ids_in_raw": [
+        "case-37"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "9285ef5f9d3b",
@@ -46416,7 +47186,14 @@
           "location": "段落 495",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-37",
+      "case_ids_in_raw": [
+        "case-37"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "49b2441c4718",
@@ -46438,16 +47215,30 @@
           "location": "段落 496",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-37",
+      "case_ids_in_raw": [
+        "case-37",
+        "case-38"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "b6b24aad5bd6",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "除EV71外，可引起手足口病的病毒是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "CVA16",
+        "B": "EV70",
+        "C": "风疹病毒",
+        "D": "单纯疱疹病毒",
+        "E": "水痘-带状疱疹病毒\n【答案】A"
+      },
+      "answer": "A",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 499",
@@ -46460,16 +47251,29 @@
           "location": "段落 499",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-38",
+      "case_ids_in_raw": [
+        "case-38"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "dc5aade63f1e",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "手足口病快速诊断方法是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "病毒分离和鉴定",
+        "B": "查抗病毒IgG",
+        "C": "查抗病毒IgM",
+        "D": "病毒核酸检测",
+        "E": "血清学诊断\n【答案】D\n案例39\n4岁患儿，手足口皮疹、低热，后期昏睡、意识障碍，EV71核酸阳性。\n【问题】"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 506",
@@ -46482,7 +47286,15 @@
           "location": "段落 506",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-38",
+      "case_ids_in_raw": [
+        "case-38",
+        "case-39"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "158e40097d47",
@@ -46510,7 +47322,14 @@
           "location": "段落 540",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-39",
+      "case_ids_in_raw": [
+        "case-39"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "8c71f47f1391",
@@ -46532,7 +47351,14 @@
           "location": "段落 517",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-39",
+      "case_ids_in_raw": [
+        "case-39"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "df19b24a76fd",
@@ -46554,7 +47380,14 @@
           "location": "段落 519",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-39",
+      "case_ids_in_raw": [
+        "case-39"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "72e9169177eb",
@@ -46576,16 +47409,30 @@
           "location": "段落 520",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-39",
+      "case_ids_in_raw": [
+        "case-39",
+        "case-40"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "45e610b923b5",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "轮状病毒分组特异性抗原是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "VP1",
+        "B": "VP2",
+        "C": "VP4",
+        "D": "VP6",
+        "E": "VP7\n【答案】D"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 523",
@@ -46598,7 +47445,14 @@
           "location": "段落 523",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-40",
+      "case_ids_in_raw": [
+        "case-40"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "4460b1181776",
@@ -46620,7 +47474,15 @@
           "location": "段落 530",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-40",
+      "case_ids_in_raw": [
+        "case-40",
+        "case-41"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "1ed2db18e7ac",
@@ -46642,7 +47504,14 @@
           "location": "段落 541",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-41",
+      "case_ids_in_raw": [
+        "case-41"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "a9614bfc2251",
@@ -46664,7 +47533,14 @@
           "location": "段落 543",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-41",
+      "case_ids_in_raw": [
+        "case-41"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "dcab05d25f8d",
@@ -46686,16 +47562,30 @@
           "location": "段落 544",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-41",
+      "case_ids_in_raw": [
+        "case-41",
+        "case-42"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "dab788c76fda",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "确诊首选微生物学检查是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "分离培养",
+        "B": "涂片染色镜检",
+        "C": "血清学检测",
+        "D": "红细胞凝集试验",
+        "E": "动物试验\n【答案】C\n案例43\n患者，女性，30岁。发热、厌油、右上腹痛、黄疸，喜食海鲜，无输血史，抗HAV-IgM阳性。"
+      },
+      "answer": "C",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 554",
@@ -46708,16 +47598,30 @@
           "location": "段落 554",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-42",
+      "case_ids_in_raw": [
+        "case-42",
+        "case-43"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "cb34bbc48018",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "最可能的感染途径是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "血液传播",
+        "B": "呼吸道传播",
+        "C": "消化道传播",
+        "D": "蚊虫叮咬传播",
+        "E": "性接触传播\n【答案】C"
+      },
+      "answer": "C",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 570",
@@ -46730,16 +47634,29 @@
           "location": "段落 570",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-43",
+      "case_ids_in_raw": [
+        "case-43"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "fbeaf8fb6a52",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "该患者预后最可能为",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "暴发性肝炎",
+        "B": "慢性肝炎",
+        "C": "痊愈恢复",
+        "D": "肝硬化和肝癌",
+        "E": "迁延不愈、反复发作\n【答案】C\n案例44\n患者，女性，20岁。生食毛蚶后黄疸、肝功能异常，抗HAV-IgM阳性，其余肝炎标志物阴性。\n【问题】"
+      },
+      "answer": "C",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 577",
@@ -46752,7 +47669,15 @@
           "location": "段落 577",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-43",
+      "case_ids_in_raw": [
+        "case-43",
+        "case-44"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "b25310680a25",
@@ -46774,7 +47699,14 @@
           "location": "段落 587",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-44",
+      "case_ids_in_raw": [
+        "case-44"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "588cff4d875c",
@@ -46802,7 +47734,14 @@
           "location": "段落 600",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-44",
+      "case_ids_in_raw": [
+        "case-44"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "38fed7ae03f8",
@@ -46824,7 +47763,14 @@
           "location": "段落 589",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-44",
+      "case_ids_in_raw": [
+        "case-44"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "d41a6aa5eb19",
@@ -46846,7 +47792,14 @@
           "location": "段落 590",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-44",
+      "case_ids_in_raw": [
+        "case-44"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "f1f4bbc0ad54",
@@ -46868,7 +47821,14 @@
           "location": "段落 592",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-44",
+      "case_ids_in_raw": [
+        "case-44"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "9d0fb8e2a7de",
@@ -46890,7 +47850,14 @@
           "location": "段落 593",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-44",
+      "case_ids_in_raw": [
+        "case-44"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "9d2d02c939de",
@@ -46912,7 +47879,14 @@
           "location": "段落 594",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-44",
+      "case_ids_in_raw": [
+        "case-44"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "2854e3a89d29",
@@ -46934,7 +47908,15 @@
           "location": "段落 595",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-44",
+      "case_ids_in_raw": [
+        "case-44",
+        "case-45"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "9dfa2594dc6f",
@@ -46956,7 +47938,14 @@
           "location": "段落 599",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-45",
+      "case_ids_in_raw": [
+        "case-45"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "63f4f93b91ac",
@@ -46978,7 +47967,14 @@
           "location": "段落 601",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-45",
+      "case_ids_in_raw": [
+        "case-45"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "17cd8bb098aa",
@@ -47000,7 +47996,14 @@
           "location": "段落 602",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-45",
+      "case_ids_in_raw": [
+        "case-45"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "1cff45b4437d",
@@ -47022,7 +48025,14 @@
           "location": "段落 604",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-45",
+      "case_ids_in_raw": [
+        "case-45"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "f884e77c97ee",
@@ -47044,7 +48054,14 @@
           "location": "段落 605",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-45",
+      "case_ids_in_raw": [
+        "case-45"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "cea198b960d6",
@@ -47066,7 +48083,14 @@
           "location": "段落 606",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-45",
+      "case_ids_in_raw": [
+        "case-45"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "c607587f79ff",
@@ -47088,7 +48112,15 @@
           "location": "段落 607",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-45",
+      "case_ids_in_raw": [
+        "case-45",
+        "case-46"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "a5553fd45e5e",
@@ -47110,7 +48142,14 @@
           "location": "段落 611",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-46",
+      "case_ids_in_raw": [
+        "case-46"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "7fa138506e4c",
@@ -47132,7 +48171,14 @@
           "location": "段落 612",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-46",
+      "case_ids_in_raw": [
+        "case-46"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "ba3d17c22913",
@@ -47154,7 +48200,14 @@
           "location": "段落 613",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-46",
+      "case_ids_in_raw": [
+        "case-46"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "eb2bb77360c9",
@@ -47176,7 +48229,14 @@
           "location": "段落 615",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-46",
+      "case_ids_in_raw": [
+        "case-46"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "9cc6af6e20a9",
@@ -47198,7 +48258,14 @@
           "location": "段落 616",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-46",
+      "case_ids_in_raw": [
+        "case-46"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "4251021026ec",
@@ -47220,16 +48287,30 @@
           "location": "段落 617",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-46",
+      "case_ids_in_raw": [
+        "case-46",
+        "case-47"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "10041144dbe7",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "该病原体最主要传播途径是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "血液传播",
+        "B": "呼吸道传播",
+        "C": "消化道传播",
+        "D": "蚊虫叮咬传播",
+        "E": "垂直传播\n【答案】D\n案例48\n男性农民，秋冬发病，高热、颜面前胸潮红、头痛眼眶痛、皮肤出血点、蛋白尿、血小板减少。"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 627",
@@ -47242,16 +48323,30 @@
           "location": "段落 627",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-47",
+      "case_ids_in_raw": [
+        "case-47",
+        "case-48"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "1ab5f740fe4d",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "不属于该病原体传播方式的是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "呼吸道",
+        "B": "消化道",
+        "C": "蚊虫叮咬",
+        "D": "胎盘",
+        "E": "伤口\n【答案】C\n案例49\n50岁男性，熬夜劳累后胸背部针刺样疼痛，继而簇集水疱、带状分布。"
+      },
+      "answer": "C",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 643",
@@ -47264,16 +48359,30 @@
           "location": "段落 643",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-48",
+      "case_ids_in_raw": [
+        "case-48",
+        "case-49"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "469ad9ea43a2",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "HIV感染临床初筛实验是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "ELISA检测血清HIV抗体",
+        "B": "病毒分离培养",
+        "C": "ELISA检测逆转录酶",
+        "D": "Western Blot检测HIV抗体",
+        "E": "RT-PCR检测病毒核酸\n【答案】A"
+      },
+      "answer": "A",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 675",
@@ -47286,16 +48395,29 @@
           "location": "段落 675",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-49",
+      "case_ids_in_raw": [
+        "case-49"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "a34c89593e41",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "CD4/CD8比值下降的原因是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "CD8细胞数量增加",
+        "B": "HIV特异性破坏CD4⁺T淋巴细胞",
+        "C": "骨髓抑制",
+        "D": "胸腺微环境改变",
+        "E": "病变强化异常\n【答案】B"
+      },
+      "answer": "B",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 682",
@@ -47308,16 +48430,29 @@
           "location": "段落 682",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-49",
+      "case_ids_in_raw": [
+        "case-49"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "0ee4579df6b5",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "该患者所处感染阶段为",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "急性感染期",
+        "B": "无症状潜伏期",
+        "C": "AIDS相关综合征期",
+        "D": "免疫缺损期",
+        "E": "以上均可能\n【答案】C\n案例51\n45岁医护人员，HIV患者手术针刺暴露，未预防处置，后续发热咽痛乏力。"
+      },
+      "answer": "C",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 689",
@@ -47330,16 +48465,30 @@
           "location": "段落 689",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-49",
+      "case_ids_in_raw": [
+        "case-49",
+        "case-51"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "b65143666d54",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "首选检查是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "流感病毒分离培养",
+        "B": "结核菌素试验",
+        "C": "HIV抗体检查",
+        "D": "HIV p24抗原检查",
+        "E": "胸片检查\n【答案】C"
+      },
+      "answer": "C",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 698",
@@ -47352,16 +48501,29 @@
           "location": "段落 698",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-51",
+      "case_ids_in_raw": [
+        "case-51"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "773bbec1096d",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "窗口期阴性需复查的抗原是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "p24衣壳蛋白",
+        "B": "gp120表面糖蛋白",
+        "C": "gp41跨膜糖蛋白",
+        "D": "p7核衣壳蛋白",
+        "E": "p17基质蛋白\n【答案】A"
+      },
+      "answer": "A",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 705",
@@ -47374,16 +48536,29 @@
           "location": "段落 705",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-51",
+      "case_ids_in_raw": [
+        "case-51"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "3ac30b1a3940",
       "course": "医学微生物学",
       "chapter": "未分章",
-      "type": "未分类",
+      "type": "单选题",
       "question": "HIV错误传播途径是",
-      "options": {},
-      "answer": null,
+      "options": {
+        "A": "血及血制品传播",
+        "B": "不洁器械传播",
+        "C": "性分泌物传播",
+        "D": "呼吸道气溶胶传播",
+        "E": "胎盘、产道、母乳传播\n【答案】D\n案例52\n20岁男性，犬抓伤后6周，出现吞咽困难、呛咳、恐风恐水、畏光烦躁，最终呼吸心跳骤停。\n【问题】初步诊断？\n【答案解析】狂犬病病毒感染（狂犬病）。\n案例53\n21岁女性，阴道口菜花状、乳头状赘生物，渐进性增多。\n【问题】初步诊断？\n【答案解析】人乳头瘤病毒（HPV）感染，尖锐湿疣。\n案例54\n70岁男性，进行性痴呆、震颤、共济失调、肌阵挛、昏迷死亡，脑电图特征性波形，脑病理海绵状变性、无炎症浸润。"
+      },
+      "answer": "D",
       "explanation": null,
       "source": "案例分析.docx",
       "source_location": "段落 712",
@@ -47396,7 +48571,17 @@
           "location": "段落 712",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-51",
+      "case_ids_in_raw": [
+        "case-51",
+        "case-52",
+        "case-53",
+        "case-54"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "243433c0c456",
@@ -47418,7 +48603,24 @@
           "location": "段落 736",
           "original_answer": null
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "case_id": "case-54",
+      "case_ids_in_raw": [
+        "case-54",
+        "case-55",
+        "case-56",
+        "case-57",
+        "case-58",
+        "case-59",
+        "case-60",
+        "case-61",
+        "case-62",
+        "case-63",
+        "case-64"
+      ],
+      "case_group_source": "案例分析.docx 导出段落顺序"
     },
     {
       "id": "f2d6745b27f3",
@@ -50231,7 +51433,7 @@
       "explanation": "是 1000 倍",
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 1 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "普通光学显微镜能看清细菌的形态，其放大的最佳倍数是 400 倍\n\n答案：错误\n解析：是 1000 倍",
       "source_occurrences": [
         {
@@ -50240,7 +51442,9 @@
           "location": "第 1 页，第 1 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "71deabeac54c",
@@ -50253,7 +51457,7 @@
       "explanation": "是一个繁殖体",
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 2 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "芽胞发芽成无数个繁殖体\n\n答案：错误\n解析：是一个繁殖体",
       "source_occurrences": [
         {
@@ -50262,7 +51466,9 @@
           "location": "第 1 页，第 2 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "941ca27a00fb",
@@ -50275,7 +51481,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 3 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "细菌的中介体具有拟线粒体的功能.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -50284,7 +51490,9 @@
           "location": "第 1 页，第 3 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "47a833baafb6",
@@ -50297,7 +51505,7 @@
       "explanation": "是细胞壁 缺陷型",
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 4 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "细菌的 L 型是指细菌细胞膜缺陷型.\n\n答案：错误\n解析：是细胞壁 缺陷型",
       "source_occurrences": [
         {
@@ -50306,7 +51514,9 @@
           "location": "第 1 页，第 4 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "a1995503c45a",
@@ -50319,7 +51529,7 @@
       "explanation": "没有固醇类",
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 5 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "细菌细胞膜含有固醇类物质\n\n答案：错误\n解析：没有固醇类",
       "source_occurrences": [
         {
@@ -50328,7 +51538,9 @@
           "location": "第 1 页，第 5 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "79834b07952b",
@@ -50341,7 +51553,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 6 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "一般细菌约 20min 分裂一次.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -50350,7 +51562,9 @@
           "location": "第 1 页，第 6 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "7433a2eadd05",
@@ -50363,7 +51577,7 @@
       "explanation": "异养菌",
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 7 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "大多数致病菌属于自养菌\n\n答案：错误\n解析：异养菌",
       "source_occurrences": [
         {
@@ -50372,7 +51586,9 @@
           "location": "第 1 页，第 7 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "f953d554e004",
@@ -50385,7 +51601,7 @@
       "explanation": "分解代谢产物",
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 8 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "硫化氢属于细菌的合成代谢产物\n\n答案：错误\n解析：分解代谢产物",
       "source_occurrences": [
         {
@@ -50394,7 +51610,9 @@
           "location": "第 1 页，第 8 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "578d486768c2",
@@ -50407,7 +51625,7 @@
       "explanation": "需氧生长",
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 9 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "结核杆菌属于微需氧生长的细菌\n\n答案：错误\n解析：需氧生长",
       "source_occurrences": [
         {
@@ -50416,7 +51634,9 @@
           "location": "第 2 页，第 9 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "6a9650d5dd71",
@@ -50429,7 +51649,7 @@
       "explanation": "错。在稳定期",
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 10 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "外毒素的合成，芽胞的形成多在细菌的对数生长期\n\n答案：错误\n解析：错。在稳定期",
       "source_occurrences": [
         {
@@ -50438,7 +51658,9 @@
           "location": "第 2 页，第 10 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "a806d47804c2",
@@ -50451,7 +51673,7 @@
       "explanation": "错。是所有微生物",
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 11 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "灭菌是指杀死物体上病原微生物的方法.\n\n答案：错误\n解析：错。是所有微生物",
       "source_occurrences": [
         {
@@ -50460,7 +51682,9 @@
           "location": "第 2 页，第 11 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "29907a373bf9",
@@ -50473,7 +51697,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 12 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "巴斯德消毒法的温度加热至 61.1℃-62.8℃30min,或者 71.7℃,经 15s-30s.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -50482,7 +51706,9 @@
           "location": "第 2 页，第 12 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "5a4032d07868",
@@ -50495,7 +51721,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 13 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "噬菌体是感染细菌,真菌,放线菌或螺旋体等微生物的病毒.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -50504,7 +51730,9 @@
           "location": "第 2 页，第 13 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "c6a4f43f99d0",
@@ -50517,7 +51745,7 @@
       "explanation": "错。非细胞型",
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 14 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "噬菌体感染宿主菌具有高度特异性，是一种专性细胞内寄生的真核细胞型微生物.\n\n答案：错误\n解析：错。非细胞型",
       "source_occurrences": [
         {
@@ -50526,7 +51754,9 @@
           "location": "第 2 页，第 14 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "9a94b2b00db8",
@@ -50539,7 +51769,7 @@
       "explanation": "错。毒性噬菌体",
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 15 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "严格寄生在敏感宿主菌细胞内只有裂解期,而无溶原期的噬菌体称为溶原性噬菌体\n\n答案：错误\n解析：错。毒性噬菌体",
       "source_occurrences": [
         {
@@ -50548,7 +51778,9 @@
           "location": "第 2 页，第 15 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "179e1994d2c6",
@@ -50561,7 +51793,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 16 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "细茵的遗传性变异是指基因未发生改变的变异\n\n答案：错误",
       "source_occurrences": [
         {
@@ -50570,7 +51802,9 @@
           "location": "第 2 页，第 16 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "5a50fb161d6a",
@@ -50583,7 +51817,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 17 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "与耐药性形成有关的质粒为 F 质粒\n\n答案：错误",
       "source_occurrences": [
         {
@@ -50592,7 +51826,9 @@
           "location": "第 2 页，第 17 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "42b881c2f622",
@@ -50627,7 +51863,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 19 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "质粒是细菌必备的结构\n\n答案：错误",
       "source_occurrences": [
         {
@@ -50636,7 +51872,9 @@
           "location": "第 3 页，第 19 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "bb031ecb82e5",
@@ -50649,7 +51887,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 20 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "外毒素主要由革兰阴性菌合成\n\n答案：错误",
       "source_occurrences": [
         {
@@ -50658,7 +51896,9 @@
           "location": "第 3 页，第 20 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "d391be533981",
@@ -50671,7 +51911,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 21 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "不同的外毒素对机体的组织器官无选择特异性作用\n\n答案：错误",
       "source_occurrences": [
         {
@@ -50680,7 +51920,9 @@
           "location": "第 3 页，第 21 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "c4ef7eb79772",
@@ -50693,7 +51935,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 22 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "抗毒素能中和血液中游离的外毒素，并能够使已经与组织细胞结合的外毒素解离\n\n答案：错误",
       "source_occurrences": [
         {
@@ -50702,7 +51944,9 @@
           "location": "第 3 页，第 22 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "c2ef9ee90bf8",
@@ -50715,7 +51959,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 23 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "细菌侵入血流，大量生长繁殖，产生大量的毒素，引起全身的中毒症状，这类血症称为毒\n血症\n\n答案：错误",
       "source_occurrences": [
         {
@@ -50724,7 +51968,9 @@
           "location": "第 3 页，第 23 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "6aecdaafff36",
@@ -50737,7 +51983,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 24 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "类毒素是由内毒素经甲醛脱毒处理后制成的\n\n答案：错误",
       "source_occurrences": [
         {
@@ -50746,7 +51992,9 @@
           "location": "第 3 页，第 24 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "64802c4d148d",
@@ -50759,7 +52007,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 25 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "抗毒素是用类毒素多次免疫马匹后，从其血清中提取免疫球蛋白精制而成.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -50768,7 +52016,9 @@
           "location": "第 3 页，第 25 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "66515c3fe6fb",
@@ -50781,7 +52031,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 26 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "BCG 是一种减毒的死菌苗.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -50790,7 +52040,9 @@
           "location": "第 3 页，第 26 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "bd3f70f05a46",
@@ -50803,7 +52055,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 27 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "破伤风抗毒素具有双重性，既是抗原又是抗体，因此注射破伤风抗毒素时事先要做皮试.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -50812,7 +52064,9 @@
           "location": "第 3 页，第 27 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "342fbe71438a",
@@ -50825,7 +52079,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 28 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "甲型溶血性链球菌能致人类亚急性细菌性心内膜炎.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -50834,7 +52088,9 @@
           "location": "第 3 页，第 28 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "802e6dafc340",
@@ -50847,7 +52103,7 @@
       "explanation": "错,凝固酶试验阳性",
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 29 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "鉴定金黄色葡萄球菌的重要依据是血浆凝固酶试验呈阴性\n\n答案：错误\n解析：错,凝固酶试验阳性",
       "source_occurrences": [
         {
@@ -50856,7 +52112,9 @@
           "location": "第 4 页，第 29 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "661d1bbda08b",
@@ -50869,7 +52127,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 30 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "引起流行性脑膜炎的病原菌是乙型脑炎病毒.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -50878,7 +52136,9 @@
           "location": "第 4 页，第 30 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "c93859ef1d09",
@@ -50891,7 +52151,7 @@
       "explanation": "错,EMB 或 SS.",
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 31 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "分离培养致病性肠道杆菌常用的培养基是血平皿或基础固体培养基\n\n答案：错误\n解析：错,EMB 或 SS.",
       "source_occurrences": [
         {
@@ -50900,7 +52160,9 @@
           "location": "第 4 页，第 31 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "b39a5daa78e3",
@@ -50913,7 +52175,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 32 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "A 群1型痢疾志贺杆菌既产生内毒素，又产生外毒素致病.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -50922,7 +52184,9 @@
           "location": "第 4 页，第 32 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "d5d4d99e23f0",
@@ -50935,7 +52199,7 @@
       "explanation": "错，致病性肠道杆菌不发酵.",
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 33 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "非致病性肠道杆菌与致病性肠道杆菌都能分解乳糖.\n\n答案：错误\n解析：错，致病性肠道杆菌不发酵.",
       "source_occurrences": [
         {
@@ -50944,7 +52208,9 @@
           "location": "第 4 页，第 33 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "d031b89ee80d",
@@ -50957,7 +52223,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 34 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "肥达试验可作为伤寒与副伤寒的辅助诊断.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -50966,7 +52232,9 @@
           "location": "第 4 页，第 34 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "806e2aa23d26",
@@ -50979,7 +52247,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 35 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "测定病毒体大小最可靠的方法是超速离心法.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -50988,7 +52256,9 @@
           "location": "第 4 页，第 35 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "6f20e569563e",
@@ -51001,7 +52271,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 36 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "病毒核酸具有多样性，有的含 DNA 或 RNA,还有的既含 DNA,又含有 RNA.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -51010,7 +52280,9 @@
           "location": "第 4 页，第 36 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "05c800358628",
@@ -51023,7 +52295,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 37 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "病毒合成的蛋白主要包括结构蛋白和非结构蛋白两大类.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51032,7 +52304,9 @@
           "location": "第 4 页，第 37 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "1de9925baff7",
@@ -51045,7 +52319,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 38 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "病毒核酸之间通过互换而产生子代病毒的进程，称为重组.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51054,7 +52328,9 @@
           "location": "第 4 页，第 38 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "fc43bdf69492",
@@ -51067,7 +52343,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 39 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "病毒遗传变异的物质基础是 DNA.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -51076,7 +52352,9 @@
           "location": "第 5 页，第 39 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "98171866cb7d",
@@ -51089,7 +52367,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 40 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "慢性病毒感染患者可作为传染源\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51098,7 +52376,9 @@
           "location": "第 5 页，第 40 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "e01e5b1dabd8",
@@ -51111,7 +52391,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 41 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "疱疹病毒感染后，病毒可在三叉神经节中潜伏.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51120,7 +52400,9 @@
           "location": "第 5 页，第 41 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "9c1cd3064e6a",
@@ -51133,7 +52415,7 @@
       "explanation": "抗病毒感染的细胞免疫中主要的杀伤细胞为NK细胞，吞噬细胞和CTL.",
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 42 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "抗病毒感染的细胞免疫中主要的杀伤细胞为NK细胞，吞噬细胞和中性粒细胞.\n\n答案：错误\n解析：抗病毒感染的细胞免疫中主要的杀伤细胞为NK细胞，吞噬细胞和CTL.",
       "source_occurrences": [
         {
@@ -51142,7 +52424,9 @@
           "location": "第 5 页，第 42 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "8c7312f0e795",
@@ -51155,7 +52439,7 @@
       "explanation": "IgM辅助诊断",
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 43 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "抗病毒感染的中和抗体能用于诊断宫内感染.\n\n答案：错误\n解析：IgM辅助诊断",
       "source_occurrences": [
         {
@@ -51164,7 +52448,9 @@
           "location": "第 5 页，第 43 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "da43d402c3d2",
@@ -51205,7 +52491,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 46 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "发病初期或急性期采取标本易于分离出病毒.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51214,7 +52500,9 @@
           "location": "第 5 页，第 46 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "5430d0d4ec6f",
@@ -51227,7 +52515,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 47 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "病毒分离培养最常用的方法为动物接种.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -51236,7 +52524,9 @@
           "location": "第 5 页，第 47 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "a18e4c1f1333",
@@ -51271,7 +52561,7 @@
       "explanation": "虽然CPE的出现可能与病毒增殖有关，但并不能直接表明病毒增殖速度较快。",
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 49 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "病毒感染相应细胞立即出现 CPE,表明病毒增殖速度较快.\n\n答案：错误\n解析：虽然CPE的出现可能与病毒增殖有关，但并不能直接表明病毒增殖速度较快。",
       "source_occurrences": [
         {
@@ -51280,7 +52570,9 @@
           "location": "第 6 页，第 49 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "0eceeb6dfc93",
@@ -51293,7 +52585,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 50 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "直接检测病毒抗原可作为临床某些病毒的快速诊断.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51302,7 +52594,9 @@
           "location": "第 6 页，第 50 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "844958915a5c",
@@ -51315,7 +52609,7 @@
       "explanation": "接种疫苗实际上属于人工主动免疫，而非人工被动免疫。",
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 51 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "接种疫苗为人工被动免疫的主要方法.\n\n答案：错误\n解析：接种疫苗实际上属于人工主动免疫，而非人工被动免疫。",
       "source_occurrences": [
         {
@@ -51324,7 +52618,9 @@
           "location": "第 6 页，第 51 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "81ce7be41b2f",
@@ -51337,7 +52633,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 52 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "呼吸道病毒的核酸类型皆为 RNA\n\n答案：错误",
       "source_occurrences": [
         {
@@ -51346,7 +52642,9 @@
           "location": "第 6 页，第 52 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "8b6df7a68948",
@@ -51359,7 +52657,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 53 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "乙型流感病毒最易发生抗原变异,导致大流行.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -51368,7 +52666,9 @@
           "location": "第 6 页，第 53 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "d46c9284834e",
@@ -51381,7 +52681,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 54 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "甲型流感病毒抗原漂移的原因是型特异性抗原发生大变异\n\n答案：错误",
       "source_occurrences": [
         {
@@ -51390,7 +52690,9 @@
           "location": "第 6 页，第 54 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "8afb1dc389cf",
@@ -51403,7 +52705,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 55 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "亚急性硬化性全脑炎的病原是麻疹病毒.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51412,7 +52714,9 @@
           "location": "第 6 页，第 55 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "83395fc8acca",
@@ -51425,7 +52729,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 56 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "孕期风疹病毒感染可导致胎儿先天畸形.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51434,7 +52738,9 @@
           "location": "第 6 页，第 56 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "711a5d584001",
@@ -51447,7 +52753,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 57 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "腮腺炎病毒感染可导致病毒血症.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51456,7 +52762,9 @@
           "location": "第 6 页，第 57 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "5008126cbbcd",
@@ -51491,7 +52799,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 59 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "柯萨奇病毒感染可引起无菌性脑炎，心肌炎.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51500,7 +52808,9 @@
           "location": "第 7 页，第 59 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "b6e2ff81decd",
@@ -51513,7 +52823,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 60 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "脊髓灰质炎病毒感染后常可获得终生免疫.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51522,7 +52832,9 @@
           "location": "第 7 页，第 60 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "7587f8b784a7",
@@ -51535,7 +52847,7 @@
       "explanation": "错,dsRNA",
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 61 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "轮状病毒的核酸类型为正股单链的 RNA 病毒\n\n答案：错误\n解析：错,dsRNA",
       "source_occurrences": [
         {
@@ -51544,7 +52856,9 @@
           "location": "第 7 页，第 61 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "ccb33726ca1c",
@@ -51557,7 +52871,7 @@
       "explanation": "错,B 组",
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 62 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "引起成人急性胃肠炎的病毒为 C 组的轮状病毒.\n\n答案：错误\n解析：错,B 组",
       "source_occurrences": [
         {
@@ -51566,7 +52880,9 @@
           "location": "第 7 页，第 62 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "6bc814911aa3",
@@ -51579,7 +52895,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 63 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "轮状病毒的基因组分为 11 个节段.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51588,7 +52904,9 @@
           "location": "第 7 页，第 63 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "55fb958c6d15",
@@ -51601,7 +52919,7 @@
       "explanation": "错,单细胞",
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 64 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "新型隐球菌属于多细胞性真菌\n\n答案：错误\n解析：错,单细胞",
       "source_occurrences": [
         {
@@ -51610,7 +52928,9 @@
           "location": "第 7 页，第 64 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "7e0c41ada870",
@@ -51623,7 +52943,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 65 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "黄曲霉毒素与肝癌有关\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51632,7 +52952,9 @@
           "location": "第 7 页，第 65 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "fc524bf10935",
@@ -51645,7 +52967,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 66 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "菌群失调症中白色念珠菌是常引起内源性感染的病原菌\n\n答案：正确",
       "source_occurrences": [
         {
@@ -51654,7 +52976,9 @@
           "location": "第 7 页，第 66 题",
           "original_answer": "正确"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "95cddcde8311",
@@ -51667,7 +52991,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 67 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "原核细胞型微生物有完整的细胞器.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -51676,7 +53000,9 @@
           "location": "第 7 页，第 67 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     },
     {
       "id": "b6abda3c0e1d",
@@ -51711,7 +53037,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 8 页，第 69 题",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "非细胞型微生物含有两种类型核酸，既含 DNA,又含 RNA.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -51720,7 +53046,9 @@
           "location": "第 8 页，第 69 题",
           "original_answer": "错误"
         }
-      ]
+      ],
+      "needs_review": true,
+      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
     }
   ]
 }
