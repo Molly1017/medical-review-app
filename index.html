@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的医学复习室 ♡</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+      background: #fff1f5;
+      color: #573343;
+    }
+    header {
+      padding: 50px 20px 36px;
+      text-align: center;
+      background: linear-gradient(135deg, #ffdce9, #ffc2d6);
+      border-radius: 0 0 35px 35px;
+    }
+    h1 { margin: 10px 0; font-size: 30px; }
+    header p { color: #89566b; }
+    main {
+      max-width: 650px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h2 { font-size: 20px; }
+    .course {
+      background: white;
+      border: 1px solid #ffe0e9;
+      border-radius: 20px;
+      padding: 22px;
+      margin: 14px 0;
+      box-shadow: 0 5px 18px #f8c4d333;
+    }
+    .course h3 { margin: 0 0 8px; }
+    .course p { color: #927381; font-size: 14px; }
+    button {
+      background: #f05287;
+      color: white;
+      border: 0;
+      border-radius: 12px;
+      padding: 12px 22px;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:disabled {
+      background: #e5ccd5;
+      cursor: not-allowed;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #ae8294;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>🌸 MEDICAL REVIEW 🌸</div>
+    <h1>我的医学复习室 ♡</h1>
+    <p>每一天，都离梦想中的医生更近一点。</p>
+  </header>
+
+  <main>
+    <h2>🍓 我的课程</h2>
+
+    <div class="course">
+      <h3>🦠 医学微生物学</h3>
+      <p>选择题 · 判断题 · 名词解释 · 案例分析</p>
+      <button onclick="comingSoon()">开始复习</button>
+    </div>
+
+    <div class="course">
+      <h3>🧬 医学免疫学</h3>
+      <p>免疫系统 · 抗原 · 抗体 · 免疫应答</p>
+      <button onclick="comingSoon()">开始复习</button>
+    </div>
+
+    <div class="course">
+      <h3>🔬 医学细胞生物学</h3>
+      <p>细胞结构 · 细胞膜 · 细胞器 · 细胞周期</p>
+      <button onclick="comingSoon()">开始复习</button>
+    </div>
+
+    <div class="course">
+      <h3>❤️ 生理学</h3>
+      <p>题库后续导入</p>
+      <button disabled>即将开放</button>
+    </div>
+
+    <div class="course">
+      <h3>🪱 人体寄生虫学</h3>
+      <p>题库后续导入</p>
+      <button disabled>即将开放</button>
+    </div>
+  </main>
+
+  <footer>Made with ♡ | Molly's Medical Journey</footer>
+
+  <script>
+    function comingSoon() {
+      alert("课程题库即将接入，敬请期待！🌸");
+    }
+  </script>
+</body>
+</html>
