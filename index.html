@@ -1,111 +1,16 @@
-
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>我的医学复习室 ♡</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
-      background: #fff1f5;
-      color: #573343;
-    }
-    header {
-      padding: 50px 20px 36px;
-      text-align: center;
-      background: linear-gradient(135deg, #ffdce9, #ffc2d6);
-      border-radius: 0 0 35px 35px;
-    }
-    h1 { margin: 10px 0; font-size: 30px; }
-    header p { color: #89566b; }
-    main {
-      max-width: 650px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
-    h2 { font-size: 20px; }
-    .course {
-      background: white;
-      border: 1px solid #ffe0e9;
-      border-radius: 20px;
-      padding: 22px;
-      margin: 14px 0;
-      box-shadow: 0 5px 18px #f8c4d333;
-    }
-    .course h3 { margin: 0 0 8px; }
-    .course p { color: #927381; font-size: 14px; }
-    button {
-      background: #f05287;
-      color: white;
-      border: 0;
-      border-radius: 12px;
-      padding: 12px 22px;
-      font-size: 15px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    button:disabled {
-      background: #e5ccd5;
-      cursor: not-allowed;
-    }
-    footer {
-      text-align: center;
-      padding: 30px;
-      color: #ae8294;
-      font-size: 13px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div>🌸 MEDICAL REVIEW 🌸</div>
-    <h1>我的医学复习室 ♡</h1>
-    <p>每一天，都离梦想中的医生更近一点。</p>
-  </header>
-
-  <main>
-    <h2>🍓 我的课程</h2>
-
-    <div class="course">
-      <h3>🦠 医学微生物学</h3>
-      <p>选择题 · 判断题 · 名词解释 · 案例分析</p>
-      <button onclick="comingSoon()">开始复习</button>
-    </div>
-
-    <div class="course">
-      <h3>🧬 医学免疫学</h3>
-      <p>免疫系统 · 抗原 · 抗体 · 免疫应答</p>
-      <button onclick="comingSoon()">开始复习</button>
-    </div>
-
-    <div class="course">
-      <h3>🔬 医学细胞生物学</h3>
-      <p>细胞结构 · 细胞膜 · 细胞器 · 细胞周期</p>
-      <button onclick="comingSoon()">开始复习</button>
-    </div>
-
-    <div class="course">
-      <h3>❤️ 生理学</h3>
-      <p>题库后续导入</p>
-      <button disabled>即将开放</button>
-    </div>
-
-    <div class="course">
-      <h3>🪱 人体寄生虫学</h3>
-      <p>题库后续导入</p>
-      <button disabled>即将开放</button>
-    </div>
-  </main>
-
-  <footer>Made with ♡ | Molly's Medical Journey</footer>
-
-  <script>
-    function comingSoon() {
-      alert("课程题库即将接入，敬请期待！🌸");
-    }
-  </script>
-</body>
-</html>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>我的医学复习室 ♡</title><style>
+:root{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;color:#63384b;background:#fff2f6}*{box-sizing:border-box}body{margin:0}header{text-align:center;padding:35px 15px;background:linear-gradient(120deg,#ffe0ea,#ffc0d7);border-radius:0 0 28px 28px}h1{margin:8px 0}main{max-width:760px;margin:25px auto;padding:0 16px}.panel{background:white;border:1px solid #ffd7e4;border-radius:18px;padding:19px;margin:13px 0;box-shadow:0 5px 15px #efacc01c}.muted{color:#926d7e;font-size:14px}button,select{font:inherit;border-radius:11px;padding:11px 15px}button{border:0;background:#f04f88;color:white;font-weight:600;cursor:pointer}button.secondary{background:#fff0f5;color:#a52d5b;border:1px solid #f8c7d8}button:disabled{opacity:.45;cursor:default}select,textarea{width:100%;border:1px solid #efcbd7;background:white;color:#63384b}select{margin:6px 0 12px}textarea{padding:12px;border-radius:12px;min-height:115px}label.opt{display:block;border:1px solid #f4d4df;border-radius:12px;padding:12px;margin:8px 0;cursor:pointer}label.opt:has(input:checked){background:#ffe4ee;border-color:#f04f88}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.hidden{display:none}.pill{display:inline-block;background:#fff0f5;color:#a52d5b;padding:5px 10px;border-radius:30px;font-size:12px}#feedback{margin-top:12px;white-space:pre-wrap;line-height:1.7}.question{white-space:pre-wrap;line-height:1.75;font-size:18px}footer{text-align:center;color:#ad8194;padding:30px;font-size:13px}</style></head><body>
+<header><div>🌸 MEDICAL REVIEW 🌸</div><h1>我的医学复习室 ♡</h1><p>每天进步一点点，离梦想中的医生更近一点。</p></header><main>
+<section class="panel"><h2>🍓 选择课程</h2><label for="course">课程</label><select id="course"><option value="医学微生物学">🦠 医学微生物学</option><option value="医学免疫学">🧬 医学免疫学</option><option value="医学细胞生物学">🔬 医学细胞生物学</option></select><label for="chapter">章节</label><select id="chapter"><option value="">全部章节</option></select><label for="type">题型</label><select id="type"><option value="">全部题型</option></select><div class="actions"><button id="start">开始复习</button><button id="wrong" class="secondary">只看错题</button><button id="all" class="secondary">恢复全部题目</button></div><p id="stats" class="muted">正在加载题库…</p></section>
+<section id="quiz" class="panel hidden"><div id="meta" class="muted"></div><h2 id="title">练习题</h2><div id="question" class="question"></div><div id="answers"></div><div class="actions"><button id="check">提交答案</button><button id="reveal" class="secondary">查看参考答案</button><button id="next" class="secondary">下一题 →</button></div><div id="feedback"></div></section>
+<section class="panel"><strong>📖 使用说明</strong><p class="muted">选择题在答案完整且经过初步结构检查时提供自动判分；其他题型可先作答再查看参考答案。原始题库中的待审核记录不参与自动判分，不能将初步状态视为医学内容已全部核实。错题记录仅保存在当前浏览器中，清理浏览器数据可能丢失。</p></section>
+</main><footer>Made with ♡ · Medical Review</footer><script>
+let questions=[],pool=[],position=0,wrongOnly=false;const $=id=>document.getElementById(id);const course=$('course'),chapter=$('chapter'),type=$('type');const key='medical-review-wrong-v1';let wrong={};try{wrong=JSON.parse(localStorage.getItem(key)||'{}')}catch{};
+const text=(node,value)=>node.textContent=value==null?'':String(value);function uniq(a){return [...new Set(a.filter(Boolean))].sort()};function fill(el,items,first){el.replaceChildren(new Option(first,''));items.forEach(v=>el.add(new Option(v,v)))};
+function changeCourse(){let q=questions.filter(x=>x.course===course.value);fill(chapter,uniq(q.map(x=>x.chapter)),'全部章节');changeChapter()};function changeChapter(){let q=questions.filter(x=>x.course===course.value&&(!chapter.value||x.chapter===chapter.value));fill(type,uniq(q.map(x=>x.type)),'全部题型');updateStats()};function filtered(){return questions.filter(x=>x.course===course.value&&(!chapter.value||x.chapter===chapter.value)&&(!type.value||x.type===type.value)&&(!wrongOnly||wrong[x.id]))};function updateStats(){text($('stats'),`当前筛选：${filtered().length} 道题 · 本机记录错题 ${Object.keys(wrong).length} 道`)};
+function show(){if(!pool.length){$('quiz').classList.add('hidden');text($('stats'),'当前筛选下没有题目，请更换筛选条件。');return}let q=pool[position];$('quiz').classList.remove('hidden');text($('meta'),`${position+1} / ${pool.length} · ${q.course} · ${q.chapter||'未标注章节'} · ${q.type||'其他'} · ${q.status||'待审核'}`);text($('question'),q.question||'题干缺失');$('answers').replaceChildren();text($('feedback'),'');let opts=q.options&&typeof q.options==='object'?Object.entries(q.options).filter(([k,v])=>v):[];if(opts.length){opts.forEach(([k,v])=>{let l=document.createElement('label');l.className='opt';let input=document.createElement('input');input.type=q.type==='多选题'?'checkbox':'radio';input.name='choice';input.value=k;l.append(input,document.createTextNode(' '+k+'. '+v));$('answers').append(l)})}else{let a=document.createElement('textarea');a.id='free';a.placeholder='可以先在这里写下你的答案，再点击“查看参考答案”';$('answers').append(a)}$('check').disabled=!opts.length;$('check').hidden=!opts.length;window.scrollTo({top:$('quiz').offsetTop-15,behavior:'smooth'})}
+function start(){pool=filtered();position=0;show();updateStats()};function canGrade(q){return ['ready','externally_verified_correction'].includes(q.status)&&['单选题','多选题','判断题'].includes(q.type)&&q.answer!=null&&Object.keys(q.options||{}).length>0};function normalize(a){return String(a||'').toUpperCase().replace(/[^A-E]/g,'').split('').sort().join('')};function answerText(q){return q.answer==null||q.answer===''?'原始题库暂未提供可靠的参考答案。':String(q.answer)};
+$('check').onclick=()=>{let q=pool[position],picked=[...document.querySelectorAll('#answers input:checked')].map(x=>x.value).sort().join('');if(!picked){text($('feedback'),'请先选择答案。');return}if(!canGrade(q)){text($('feedback'),`本题暂不自动判分。\n原始答案：${answerText(q)}\n审核状态：${q.status||'未知'}`);return}let correct=normalize(picked)===normalize(q.answer);if(!correct){wrong[q.id]=true;try{localStorage.setItem(key,JSON.stringify(wrong))}catch{}}text($('feedback'),`${correct?'✅ 回答正确！':'❌ 回答不正确，已加入错题本。'}\n参考答案：${answerText(q)}${q.explanation?'\n解析：'+q.explanation:''}`);updateStats()};
+$('reveal').onclick=()=>{let q=pool[position];text($('feedback'),`参考答案：${answerText(q)}${q.explanation?'\n解析：'+q.explanation:''}\n审核状态：${q.status||'未知'}${q.status!=='ready'?'（请注意核实）':''}`)};$('next').onclick=()=>{position=(position+1)%pool.length;show()};$('start').onclick=()=>{wrongOnly=false;start()};$('wrong').onclick=()=>{wrongOnly=true;start()};$('all').onclick=()=>{wrongOnly=false;start()};course.onchange=changeCourse;chapter.onchange=changeChapter;type.onchange=updateStats;
+fetch('./medical_question_bank_deduplicated.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{questions=Array.isArray(data)?data:(data.questions||[]);changeCourse();text($('stats'),`题库已加载：${questions.length} 道记录。请选择课程开始复习。`)}).catch(e=>{text($('stats'),'题库加载失败：'+e.message+'。请检查 JSON 文件名是否正确、文件是否与 index.html 位于同一目录。')});
+</script></body></html>
