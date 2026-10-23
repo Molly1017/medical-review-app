@@ -36,11 +36,16 @@ def main() -> int:
             if not answer or not set(answer) <= LABELS:
                 errors.append(f"{prefix}: ready gradeable question has invalid answer")
         if q.get("source") == "案例分析.docx":
-            if not q.get("case_id") or q.get("status") != "needs_review" or q.get("needs_review") is not True:
-                errors.append(f"{prefix}: case records must retain case_id and needs_review")
+            if not q.get("case_id"):
+                errors.append(f"{prefix}: case records must retain case_id")
+            elif q.get("status") == "ready":
+                if q.get("source_verified") is not True or set(options) != LABELS or not q.get("answer"):
+                    errors.append(f"{prefix}: ready case record must be verified with complete options and answer")
+            elif q.get("needs_review") is not True:
+                errors.append(f"{prefix}: unresolved case records must retain needs_review")
         if q.get("chapter") in (None, ""):
             errors.append(f"{prefix}: missing chapter value")
-        if q.get("chapter") in ("未分章", "未分类") and q.get("needs_review") is not True:
+        if q.get("chapter") in ("未分章", "未分类") and q.get("source") != "案例分析.docx" and q.get("needs_review") is not True:
             # Existing non-case records retain their source label; they must be
             # review-only when no chapter source is available.
             errors.append(f"{prefix}: unresolved chapter must be marked needs_review")
