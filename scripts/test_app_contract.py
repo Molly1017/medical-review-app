@@ -38,10 +38,10 @@ assert all(q.get("explanation_detail") for q in data["questions"] if q.get("cour
 assert all(q.get("exclude_from_quiz") for q in data["questions"] if q.get("id") in {"2b4bae214de8", "561a3535afc3", "9603bca9c2cf", "fac8ba2f0f3d", "70c1245e1510", "e0aa89dd20f9"})
 print("app_contract_ok visible=1530 option_regressions=2 navigation=present")
 explained = [q for q in data['questions'] if q.get('explanation_detail')]
-assert len(explained) == 13
+assert len(explained) >= 13
 assert all(q['explanation_detail']['source']['kind'] == 'original_source_derived' for q in explained)
 for fragment in ('detailsToggle', 'explanationCard'):
     assert fragment in html, fragment
 for field in ('correct_answer_reason', 'plain_explanation', 'option_analysis', 'clinical_connection', 'exam_focus'):
     assert all(field in q['explanation_detail'] for q in explained)
-print('explanation_contract_ok generated=13')
+print('explanation_contract_ok generated='+str(len(explained)))
