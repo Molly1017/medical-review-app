@@ -1045,7 +1045,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 100",
-      "status": "provisionally_answered",
+      "status": "ready",
       "raw": "属于专职抗原提呈细胞的是\nA.中性粒细胞            B.树突状细胞               C.内皮细胞\nD.NK 细胞               E.肥大细胞",
       "source_occurrences": [
         {
@@ -4988,7 +4988,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 545",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "脂多糖可多克激话的免疫细胞类型是\nA. 人T细胞            B .小鼠B细胞               C人肥大细胞\nD.小鼠胸腺细胞         E.T细胞和DC 细胞",
       "source_occurrences": [
         {
@@ -4998,8 +4998,6 @@
           "original_answer": "B"
         }
       ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "source_verified": true,
       "source_paragraph": 554,
       "answer_source": "original_source",
@@ -7675,7 +7673,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 834",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "研究生邓某,实验操作过程中不小心被生锈的铁器割伤,迅速赶往医院注射抗破伤风免疫\n球蛋白。为提纯抗破伤风抗毒素,一般需经哪种处理\nA.胃蛋白酶水解             B木瓜蛋白酶水解    C.胰酶水解\nD.淀粉酶水解               E葡萄糖酶水解",
       "source_occurrences": [
         {
@@ -7685,8 +7683,6 @@
           "original_answer": "A"
         }
       ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "answer_source": "original_source",
       "answer_source_file": "医学免疫学题库.docx",
       "answer_source_location": "段落 834"
@@ -9295,7 +9291,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1019",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "产生补体的主要细胞是\nA.肝细胞和巨噬细胞          B.淋巴细胞和巨噬细胞\nC.肝细胞和淋巴细胞          D.胸腺细胞和淋巴细胞\nE胸腺细胞和肝细胞",
       "source_occurrences": [
         {
@@ -9305,8 +9301,6 @@
           "original_answer": "A"
         }
       ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "source_verified": true,
       "source_paragraph": 1041,
       "answer_source": "original_source",
@@ -10409,7 +10403,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1131",
-      "status": "provisionally_answered",
+      "status": "ready",
       "raw": "关于细胞因子的叙述，不正确的是\nA. 小分子可溶性蛋白质\nB.与细胞因子受体结合后才能发挥作用\nC.主要以内分泌方式发挥作用\nD.细胞之间相互交流的信使\nE.生物学效应具有多效性",
       "source_occurrences": [
         {
@@ -10442,7 +10436,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1137",
-      "status": "provisionally_answered",
+      "status": "ready",
       "raw": "关于细胞因子的叙述，不正确的是\nA. 由机体多种细胞在活化刺激后合成并分泌的生物活性物质 B. 是免疫细胞发育和分化所必需  C.能调节多种细胞生理功能  D.对机体是有利的  E.参与免疫应答的全过程",
       "source_occurrences": [
         {
@@ -10574,7 +10568,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1148",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "一种细胞因子可以对不同的细胞发挥不同作用,这种作用的特点称为细胞因子的\nA.多效性  B.重叠性  C协同性\nD.拮抗性  E.网络性",
       "source_occurrences": [
         {
@@ -10584,8 +10578,6 @@
           "original_answer": "A"
         }
       ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "source_verified": true,
       "source_paragraph": 1176,
       "answer_source": "original_source",
@@ -14228,7 +14220,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1557",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "下列关于MHCI类分子的叙述正确的是\nA.其肽链均为MHC编码\nB.可与辅助受体CD4结合\nC.由两条相同的重链和两条相同的轻链组成\nD.参与内源性抗原的提呈\nE仅表达在抗原提呈细胞表面",
       "source_occurrences": [
         {
@@ -14238,8 +14230,6 @@
           "original_answer": "D"
         }
       ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "source_verified": true,
       "source_paragraph": 1595,
       "answer_source": "original_source",
@@ -15055,7 +15045,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1665",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "进行器官移植时优先考虑的候选供者是\nA.患者的父母\tB.患者的妻子\tC，患者的子女\nD.患者的表兄弟姐妹\tE.患者的同胞兄弟姐妹",
       "source_occurrences": [
         {
@@ -15065,8 +15055,6 @@
           "original_answer": "E"
         }
       ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "source_verified": true,
       "source_paragraph": 1703,
       "answer_source": "original_source",
@@ -15354,7 +15342,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1698",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "既表达MHCI类分子,又表达MHCП类分子的细胞是\nA、红细胞\t    B.嗜碱性粒细脑\tC.B细胞\nD，中性粒细胞\tE.肥大细胞",
       "source_occurrences": [
         {
@@ -15364,8 +15352,6 @@
           "original_answer": "C"
         }
       ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "source_verified": true,
       "source_paragraph": 1736,
       "answer_source": "original_source",
@@ -17972,7 +17958,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 2024",
-      "status": "provisionally_answered",
+      "status": "ready",
       "raw": "以下对B细胞中枢免疫耐受的形成描述错误的是\nA.通过阴性选择获得免疫耐受\nB，识别自身抗原的未成熟B细胞通过组合多样性改变BCR的特异性。\nC.与自身抗原结合的未成熟B细胞发生细胞凋亡\nD.未成熟B细胞与自身抗原的结合可引起mIgM表达下调\nE.识别自身抗原的未成熟B细胞通过受体编辑改变BCR的特异性",
       "source_occurrences": [
         {
@@ -18767,7 +18753,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 2126",
-      "status": "provisionally_answered",
+      "status": "ready",
       "raw": "患者，女性，65岁，颈部淋巴结肿大，纵隔肿块，并伴有长期发热，其可能的诊断是\nA.甲状腺癌                     B.乳腺癌                   C.肺癌\nD淋巴结核                      E霍奇金淋巴瘤",
       "source_occurrences": [
         {
@@ -20272,7 +20258,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 2298",
-      "status": "provisionally_answered",
+      "status": "ready",
       "raw": "HIVgp120蛋白的受体是\nA.CD2                 B.CD3                   C.CD4\nD.CD8                 E.CD28",
       "source_occurrences": [
         {
@@ -21025,7 +21011,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 2368",
-      "status": "provisionally_answered",
+      "status": "ready",
       "raw": "分泌IL-17的细胞是\nA.Th1                        B.Th2                     C. Treg\nD.CTL                        E.Th17",
       "source_occurrences": [
         {
@@ -22425,7 +22411,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 2530",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "特异性免疫应答过程不包括\nA.T/B细胞在中中枢疫器官的分化成熟         B.APC对抗原的加工和提呈\nC.T/B细对抗原的特异性识别                 D.T/B细胞的活化、增殖和分化\nE效应细胞和效应分子的产生和作用",
       "source_occurrences": [
         {
@@ -22435,8 +22421,6 @@
           "original_answer": "A"
         }
       ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "source_verified": true,
       "source_paragraph": 2576,
       "answer_source": "original_source",
@@ -22460,7 +22444,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 2534",
-      "status": "provisionally_answered",
+      "status": "ready",
       "raw": "外周淋巴器官内未经抗原活化的成熟细胞,称为\nA.前T细胞                   B初始T细胞\t\tC.效应T细胞\nD.辅助T细胞                 E.记忆T细胞",
       "source_occurrences": [
         {
@@ -22592,7 +22576,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 2551",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "下列说法错误的是\nA.内源性抗原以抗原肽-MHCⅠ类分子复合物的形式提呈给CD8+T细\nB外源性抗原以抗原度MHCⅡ类分于复合物的形式提呈给CD4+T细胞\nC.内源性抗原可被非专职性APC提呈\nD.外源性抗原经专职APC提呈\nE.内源性和外源性抗均可直接被T细胞识别",
       "source_occurrences": [
         {
@@ -22602,8 +22586,6 @@
           "original_answer": "E"
         }
       ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "source_verified": true,
       "source_paragraph": 2597,
       "answer_source": "original_source",
@@ -23090,7 +23072,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 2640",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "Th细胞的主要功能是\nA调理作用                         B.中和作用                   C.分泌细胞因子\nD.激活补体\nE释放颗粒酶",
       "source_occurrences": [
         {
@@ -23100,8 +23082,6 @@
           "original_answer": "C"
         }
       ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "answer_source": "original_source",
       "answer_source_file": "医学免疫学题库.docx",
       "answer_source_location": "段落 2640"
@@ -31777,7 +31757,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 3641",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "下列可诱发血清病的因素是\nA.存在抗肾小球基底膜抗体\tB.大量IgE产生\nC.补体水平升高\tD.中等大小可溶性免疫复合物形成\nE巨噬细胞功能亢进",
       "source_occurrences": [
         {
@@ -31787,8 +31767,6 @@
           "original_answer": "D"
         }
       ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "source_verified": true,
       "source_paragraph": 3709,
       "answer_source": "original_source",
@@ -32172,7 +32150,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 3679",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "下列不属于免疫复合物病的是\nA.自身免疫性溶血性贫血\tB，链球菌感染后肾小球肾炎\nC.血清病\tD.血管炎\nE.Arthus 反应",
       "source_occurrences": [
         {
@@ -32182,8 +32160,6 @@
           "original_answer": "A"
         }
       ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "source_verified": true,
       "source_paragraph": 3748,
       "answer_source": "original_source",
@@ -32207,7 +32183,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 3683",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "与农民肺无关的是\nA.特异性IgG介导\tB.局部 Arthus 反应\nC，激活补体是炎症损伤的主要原因\tD.嗜热放线菌为常见的变应原\nE.注射局部可出现干酪性病变",
       "source_occurrences": [
         {
@@ -32217,8 +32193,6 @@
           "original_answer": "E"
         }
       ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "source_verified": true,
       "source_paragraph": 3752,
       "answer_source": "original_source",
@@ -33899,7 +33873,7 @@
       "explanation": null,
       "source": "医学免疫学题库.docx",
       "source_location": "段落 3873",
-      "status": "provisionally_answered",
+      "status": "ready",
       "raw": "用于肿瘤靶向治疗的免疫毒素是指\nA.抗肿瘤的单克隆抗体(单抗)               B.抗肿瘤单抗与放射性核素的交联物\nC.抗肿瘤单抗与抗癌化疗剂的交联物\nD抗肿瘤单抗与毒素的交联物               E.抗肿瘤单抗与酶的交联物",
       "source_occurrences": [
         {

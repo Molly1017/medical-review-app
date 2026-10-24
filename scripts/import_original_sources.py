@@ -306,6 +306,10 @@ def main() -> int:
             q["answer_source_location"] = q.get("source_location")
         if q.get("options"):
             q["options"] = {label: q["options"][label] for label in "ABCDE" if label in q["options"]}
+        if q.get("answer_source") == "original_source" and q.get("type") in {"单选题", "多选题"} and set(q.get("options", {})) == set("ABCDE") and q.get("answer"):
+            q["status"] = "ready"
+            q.pop("needs_review", None)
+            q.pop("needs_review_reason", None)
     for q in questions:
         if q.get("type") == "判断题" and q.get("source") == "判断题.pdf":
             answers = {str(o.get("original_answer")) for o in q.get("source_occurrences", []) if o.get("original_answer")}
