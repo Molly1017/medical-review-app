@@ -1126,7 +1126,10 @@
     ],
     "chapter1_reliability_downgraded": 6,
     "micro_ch1_fill_answers_restored": 10,
-    "cell_intro_explanations_generated": 29
+    "cell_intro_explanations_generated": 29,
+    "term_original_answers": 160,
+    "term_generated_references": 47,
+    "term_needs_review": 71
   },
   "questions": [
     {
@@ -1151,7 +1154,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 4
+      "source_paragraph": 4,
+      "reference_answer": "研究免疫系统组成、功能及其与疾病关系的学科。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "研究免疫系统组成、功能及其与疾病关系的学科。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "医学免疫学：掌握定义、作用或临床意义。",
+        "memory_points": "医学免疫学：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "fa377db4ccfb",
@@ -1175,7 +1193,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 5
+      "source_paragraph": 5,
+      "reference_answer": "机体识别和清除病原体及其有害产物，保护机体免受感染的功能。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "机体识别和清除病原体及其有害产物，保护机体免受感染的功能。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "免疫防御：掌握定义、作用或临床意义。",
+        "memory_points": "免疫防御：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "576cd2a42882",
@@ -1199,7 +1232,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 6
+      "source_paragraph": 6,
+      "reference_answer": "机体识别和清除体内突变、衰老或异常细胞的功能。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "机体识别和清除体内突变、衰老或异常细胞的功能。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "免疫监视：掌握定义、作用或临床意义。",
+        "memory_points": "免疫监视：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "e11f87ed71d9",
@@ -1223,7 +1271,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 7
+      "source_paragraph": 7,
+      "reference_answer": "免疫系统通过调节维持自身内环境稳定和免疫耐受的状态。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "免疫系统通过调节维持自身内环境稳定和免疫耐受的状态。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "免疫自稳：掌握定义、作用或临床意义。",
+        "memory_points": "免疫自稳：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "c28115a96020",
@@ -1247,7 +1310,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 8
+      "source_paragraph": 8,
+      "reference_answer": "免疫系统接受抗原刺激后，免疫细胞被活化并产生效应和记忆的过程。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "免疫系统接受抗原刺激后，免疫细胞被活化并产生效应和记忆的过程。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "免疫应答：掌握定义、作用或临床意义。",
+        "memory_points": "免疫应答：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "fdcbab86a100",
@@ -4786,7 +4864,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 387
+      "source_paragraph": 387,
+      "reference_answer": "有抗原性但通常没有免疫原性，需与载体结合后才能诱导免疫应答的小分子物质。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "有抗原性但通常没有免疫原性，需与载体结合后才能诱导免疫应答的小分子物质。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "半抗原：掌握定义、作用或临床意义。",
+        "memory_points": "半抗原：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "ff6203a33f5d",
@@ -4810,7 +4903,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 388
+      "source_paragraph": 388,
+      "reference_answer": "抗原分子中能被抗体或免疫受体特异性识别和结合的局部结构。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "抗原分子中能被抗体或免疫受体特异性识别和结合的局部结构。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "抗原表位：掌握定义、作用或临床意义。",
+        "memory_points": "抗原表位：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "c504e6eb05fe",
@@ -6993,7 +7101,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 655
+      "source_paragraph": 655,
+      "reference_answer": "免疫球蛋白或TCR可变区中直接与抗原结合、决定特异性的高变区域。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "免疫球蛋白或TCR可变区中直接与抗原结合、决定特异性的高变区域。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "互补决定区：掌握定义、作用或临床意义。",
+        "memory_points": "互补决定区：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "b21f3fa0498a",
@@ -7017,7 +7140,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 656
+      "source_paragraph": 656,
+      "reference_answer": "抗体依赖的细胞介导的细胞毒作用，效应细胞通过抗体Fc段识别并杀伤被抗体包被的靶细胞。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "抗体依赖的细胞介导的细胞毒作用，效应细胞通过抗体Fc段识别并杀伤被抗体包被的靶细胞。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "ADCC：掌握定义、作用或临床意义。",
+        "memory_points": "ADCC：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "dc2fcfb2614d",
@@ -7041,7 +7179,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 657
+      "source_paragraph": 657,
+      "reference_answer": "由多个B细胞克隆产生、可识别同一抗原多个表位的抗体。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "由多个B细胞克隆产生、可识别同一抗原多个表位的抗体。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "多克隆抗体：掌握定义、作用或临床意义。",
+        "memory_points": "多克隆抗体：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "c37802785a90",
@@ -7065,7 +7218,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 658
+      "source_paragraph": 658,
+      "reference_answer": "由同一B细胞克隆产生、只识别一种抗原表位的抗体。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "由同一B细胞克隆产生、只识别一种抗原表位的抗体。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "单克隆抗体：掌握定义、作用或临床意义。",
+        "memory_points": "单克隆抗体：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "30461331cf24",
@@ -7095,7 +7263,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 659
+      "source_paragraph": 659,
+      "reference_answer": "抗体或补体包被病原体后，促进吞噬细胞识别、吞噬和清除的作用。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "抗体或补体包被病原体后，促进吞噬细胞识别、吞噬和清除的作用。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "调理作用：掌握定义、作用或临床意义。",
+        "memory_points": "调理作用：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "1114a0231fc0",
@@ -11657,7 +11840,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1131
+      "source_paragraph": 1131,
+      "reference_answer": "由免疫细胞或其他细胞分泌、以低浓度调节免疫、炎症、造血和细胞生长的可溶性蛋白。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "由免疫细胞或其他细胞分泌、以低浓度调节免疫、炎症、造血和细胞生长的可溶性蛋白。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "细胞因子：掌握定义、作用或临床意义。",
+        "memory_points": "细胞因子：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "ec8a6365b8a7",
@@ -11681,7 +11879,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1137
+      "source_paragraph": 1137,
+      "reference_answer": "主要由白细胞产生并作用于白细胞或其他细胞、调节免疫和炎症反应的一类细胞因子。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "主要由白细胞产生并作用于白细胞或其他细胞、调节免疫和炎症反应的一类细胞因子。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "白细胞介素：掌握定义、作用或临床意义。",
+        "memory_points": "白细胞介素：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "1b23ff204070",
@@ -11753,7 +11966,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1140
+      "source_paragraph": 1140,
+      "reference_answer": "能诱导细胞定向迁移的一类细胞因子。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "能诱导细胞定向迁移的一类细胞因子。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "趋化因子：掌握定义、作用或临床意义。",
+        "memory_points": "趋化因子：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "ca281bd4e46a",
@@ -11849,7 +12077,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1144
+      "source_paragraph": 1144,
+      "reference_answer": "感染或免疫激活时多种细胞因子大量释放，造成全身炎症和组织损伤的失控状态。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "感染或免疫激活时多种细胞因子大量释放，造成全身炎症和组织损伤的失控状态。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "细胞因子风暴：掌握定义、作用或临床意义。",
+        "memory_points": "细胞因子风暴：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "51492ae39169",
@@ -15853,7 +16096,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1565
+      "source_paragraph": 1565,
+      "reference_answer": "编码主要组织相容性抗原、参与抗原提呈和T细胞识别的一组基因复合体。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "编码主要组织相容性抗原、参与抗原提呈和T细胞识别的一组基因复合体。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "主要组织相容性复合体：掌握定义、作用或临床意义。",
+        "memory_points": "主要组织相容性复合体：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "e25801095088",
@@ -15877,7 +16135,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1568
+      "source_paragraph": 1568,
+      "reference_answer": "人类主要组织相容性复合体编码的抗原分子，负责向T细胞提呈抗原肽。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "人类主要组织相容性复合体编码的抗原分子，负责向T细胞提呈抗原肽。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "人类白细胞抗原：掌握定义、作用或临床意义。",
+        "memory_points": "人类白细胞抗原：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "0cceede7379c",
@@ -15901,7 +16174,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1569
+      "source_paragraph": 1569,
+      "reference_answer": "T细胞只有在识别抗原肽的同时识别相应MHC分子时才能被激活的特性。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "T细胞只有在识别抗原肽的同时识别相应MHC分子时才能被激活的特性。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "MHC限制性：掌握定义、作用或临床意义。",
+        "memory_points": "MHC限制性：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "9826adca33cd",
@@ -18849,7 +19137,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1920
+      "source_paragraph": 1920,
+      "reference_answer": "表达于B细胞表面的膜型免疫球蛋白及其信号复合物，负责特异性识别抗原。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "表达于B细胞表面的膜型免疫球蛋白及其信号复合物，负责特异性识别抗原。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "B细胞抗原受体(BCR)：掌握定义、作用或临床意义。",
+        "memory_points": "B细胞抗原受体(BCR)：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "027c4bbc52b1",
@@ -22019,7 +22322,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 2280
+      "source_paragraph": 2280,
+      "reference_answer": "T细胞抗原受体，通常识别由MHC分子提呈的抗原肽。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "T细胞抗原受体，通常识别由MHC分子提呈的抗原肽。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "TCR：掌握定义、作用或临床意义。",
+        "memory_points": "TCR：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "c49ad142b3da",
@@ -22043,7 +22361,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 2281
+      "source_paragraph": 2281,
+      "reference_answer": "胸腺内筛选能适度识别自身MHC的未成熟T细胞，使其存活并继续分化的过程。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "胸腺内筛选能适度识别自身MHC的未成熟T细胞，使其存活并继续分化的过程。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "阳性选择：掌握定义、作用或临床意义。",
+        "memory_points": "阳性选择：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "2975c64fea87",
@@ -24827,7 +25160,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 2565
+      "source_paragraph": 2565,
+      "reference_answer": "T细胞与抗原提呈细胞或靶细胞接触后形成的有序受体和黏附分子聚集界面。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "T细胞与抗原提呈细胞或靶细胞接触后形成的有序受体和黏附分子聚集界面。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "免疫突触：掌握定义、作用或临床意义。",
+        "memory_points": "免疫突触：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "66e1e0cba969",
@@ -27028,7 +27376,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 2885
+      "source_paragraph": 2885,
+      "reference_answer": "B细胞在抗原和细胞因子等信号作用下保持抗原特异性不变而改变抗体重链恒定区和类别的过程。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "B细胞在抗原和细胞因子等信号作用下保持抗原特异性不变而改变抗体重链恒定区和类别的过程。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "Ig类别转换：掌握定义、作用或临床意义。",
+        "memory_points": "Ig类别转换：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "0296fbc2e956",
@@ -27052,7 +27415,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 2886
+      "source_paragraph": 2886,
+      "reference_answer": "活化B细胞免疫球蛋白可变区基因发生高频点突变的过程。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "活化B细胞免疫球蛋白可变区基因发生高频点突变的过程。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "体细胞高频突变：掌握定义、作用或临床意义。",
+        "memory_points": "体细胞高频突变：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "4ff489696ab1",
@@ -27076,7 +27454,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 2887
+      "source_paragraph": 2887,
+      "reference_answer": "免疫应答过程中B细胞经选择产生与抗原结合能力逐渐增强的抗体的过程。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "免疫应答过程中B细胞经选择产生与抗原结合能力逐渐增强的抗体的过程。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "抗体亲和力成熟：掌握定义、作用或临床意义。",
+        "memory_points": "抗体亲和力成熟：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "ce9626d44830",
@@ -27100,7 +27493,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 2888
+      "source_paragraph": 2888,
+      "reference_answer": "机体首次接触某抗原后产生的免疫应答，潜伏期较长、强度较弱。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "机体首次接触某抗原后产生的免疫应答，潜伏期较长、强度较弱。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "初次应答：掌握定义、作用或临床意义。",
+        "memory_points": "初次应答：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "6bdbd1765d98",
@@ -27124,7 +27532,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 2889
+      "source_paragraph": 2889,
+      "reference_answer": "机体再次接触同一抗原时由记忆细胞介导的应答，反应更快、更强、持续更久。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "机体再次接触同一抗原时由记忆细胞介导的应答，反应更快、更强、持续更久。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "再次应答：掌握定义、作用或临床意义。",
+        "memory_points": "再次应答：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "e7b91e9a4db7",
@@ -30460,7 +30883,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 3255
+      "source_paragraph": 3255,
+      "reference_answer": "机体出生即具有、由屏障、吞噬细胞、NK细胞和补体等介导的快速非特异性免疫应答。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "机体出生即具有、由屏障、吞噬细胞、NK细胞和补体等介导的快速非特异性免疫应答。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "固有免疫应答：掌握定义、作用或临床意义。",
+        "memory_points": "固有免疫应答：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "8ea55c5ad385",
@@ -30484,7 +30922,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 3256
+      "source_paragraph": 3256,
+      "reference_answer": "能识别病原相关模式分子或损伤相关模式分子的宿主受体。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "能识别病原相关模式分子或损伤相关模式分子的宿主受体。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "模式识别受体：掌握定义、作用或临床意义。",
+        "memory_points": "模式识别受体：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "35b7ed420441",
@@ -30508,7 +30961,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 3257
+      "source_paragraph": 3257,
+      "reference_answer": "病原体共有的、可被宿主模式识别受体识别的保守分子结构。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "病原体共有的、可被宿主模式识别受体识别的保守分子结构。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "病原相关模式分子：掌握定义、作用或临床意义。",
+        "memory_points": "病原相关模式分子：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "4949e7e346aa",
@@ -33572,7 +34040,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 3573
+      "source_paragraph": 3573,
+      "reference_answer": "机体对再次进入的抗原发生过强或异常免疫应答，导致组织损伤或功能紊乱的现象。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "机体对再次进入的抗原发生过强或异常免疫应答，导致组织损伤或功能紊乱的现象。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "超敏反应：掌握定义、作用或临床意义。",
+        "memory_points": "超敏反应：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "98d268d582d0",
@@ -33596,7 +34079,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 3576
+      "source_paragraph": 3576,
+      "reference_answer": "能诱发过敏性超敏反应的抗原性物质。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "能诱发过敏性超敏反应的抗原性物质。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "变应原：掌握定义、作用或临床意义。",
+        "memory_points": "变应原：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "60a040eaec55",
@@ -33668,7 +34166,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 3579
+      "source_paragraph": 3579,
+      "reference_answer": "抗原与相应抗体结合形成的复合物。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "抗原与相应抗体结合形成的复合物。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "免疫复合物：掌握定义、作用或临床意义。",
+        "memory_points": "免疫复合物：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "c9e58a93f9a5",
@@ -33692,7 +34205,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 3580
+      "source_paragraph": 3580,
+      "reference_answer": "由抗原特异性T细胞和巨噬细胞等介导，通常在再次接触抗原后数十小时出现的细胞免疫反应。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "由抗原特异性T细胞和巨噬细胞等介导，通常在再次接触抗原后数十小时出现的细胞免疫反应。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "迟发型超敏反应(DTH)：掌握定义、作用或临床意义。",
+        "memory_points": "迟发型超敏反应(DTH)：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "b41e4489d8a1",
@@ -36322,7 +36850,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 3876
+      "source_paragraph": 3876,
+      "reference_answer": "给机体接种疫苗或类毒素，使其主动产生特异性免疫和免疫记忆。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "给机体接种疫苗或类毒素，使其主动产生特异性免疫和免疫记忆。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "人工主动免疫：掌握定义、作用或临床意义。",
+        "memory_points": "人工主动免疫：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "57cce48bfd7d",
@@ -36346,7 +36889,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 3877
+      "source_paragraph": 3877,
+      "reference_answer": "给机体输入抗体或免疫血清，使其立即获得短期特异性保护。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "给机体输入抗体或免疫血清，使其立即获得短期特异性保护。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "人工被动免疫：掌握定义、作用或临床意义。",
+        "memory_points": "人工被动免疫：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "2188e960162f",
@@ -36490,7 +37048,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 3883
+      "source_paragraph": 3883,
+      "reference_answer": "细菌外毒素经脱毒处理后失去毒性但保留免疫原性的制剂。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "细菌外毒素经脱毒处理后失去毒性但保留免疫原性的制剂。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "类毒素：掌握定义、作用或临床意义。",
+        "memory_points": "类毒素：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "56da38beafe0",
@@ -41134,7 +41707,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 2 页，第 5 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "即菌毛，指许多革兰阴性菌和少数革兰阳性菌的菌体表面存在着一种比鞭毛细、短 而直的纤丝状蛋白质结构，只 有用电子显微镜才能观察到，与细菌运动无关，而与细菌黏附有关。"
     },
     {
       "id": "158161dfecfe",
@@ -41166,7 +41740,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 2 页，第 6 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "即芽胞，是某些革兰阳性菌在一定的环境条件下，胞浆及核质集中并逐渐脱水浓缩， 在菌体内形成一个 遮光性很强的圆形或卵圆形小体，是细菌的休眠形式。"
     },
     {
       "id": "ae0464d3d2f7",
@@ -41198,7 +41773,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 2 页，第 7 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "即性菌毛，仅见于少数革兰阴性菌，比普通菌毛长而粗，数量少(1～10根),与细 菌遗传物质的转移有 关。"
     },
     {
       "id": "f585ccb164b9",
@@ -41230,7 +41806,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 3 页，第 8 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是革兰阳性菌的特有成分，由核糖醇或甘油残基经磷酸二酯键互相连接而成的长 链多聚体，穿插于肽聚 糖中。按其结合部位不同，分为壁磷壁酸和膜磷壁酸两种。"
     },
     {
       "id": "028cc1e34c93",
@@ -41262,7 +41839,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 3 页，第 9 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是原核细胞型微生物细胞壁的特有成分，主要由聚糖骨架、四肽侧链及肽链或肽键 间交联桥构成。"
     },
     {
       "id": "a321e9616dbd",
@@ -41294,7 +41872,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 3 页，第 10 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "也称细菌细胞壁缺陷型，正常细菌受理化或生物因素影响，其细胞壁(肽聚糖) 被破坏或合成被抑制，产 生细胞壁部分或完全缺失的细菌株。"
     },
     {
       "id": "d137fdc43f1c",
@@ -43205,7 +43784,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 13 页，第 46 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "不论在宿主体内或体外，都只能在活细胞内生长繁殖的细菌。"
     },
     {
       "id": "662792e367b6",
@@ -43263,7 +43843,11 @@
           "location": "第 36 页，第 130 题",
           "original_answer": "病毒进入机体不引起临床症状的感染，又称亚临床感染。隐性感染者虽不表现 临床症状，但仍可获得免 疫力而终止感染或成为病毒携带者。"
         }
-      ]
+      ],
+      "reference_answer": "当宿主体的抗感染免疫力较强，或侵入的病菌数量不多，毒力较弱，感染后 对机体损伤较轻，不出现或 出现不明显的临床症状，是为隐性感染，或称亚临床感染(subclinical infection)。",
+      "answer_source": "original_source",
+      "answer_source_file": "名词解释.pdf",
+      "answer_source_location": "第 14 页，第 50 题"
     },
     {
       "id": "3d5fc9e831d8",
@@ -43319,7 +43903,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 15 页，第 53 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "也称天然免疫，是人类在长期的种系发育和进化过程中，逐渐建立起来的一系 列防御致病菌等抗原的功 能。"
     },
     {
       "id": "2b82ec0d89ff",
@@ -43351,7 +43936,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 15 页，第 54 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "指致病菌由局部侵入血流，但未在血流中生长繁殖，只是经血循环到达体内适宜 部位后再进行繁殖而致 病。"
     },
     {
       "id": "ed7d60b91dbb",
@@ -43383,7 +43969,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 15 页，第 55 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "又称医院感染或医院获得性感染，主要是指患者在住院期间发生的感染和在 医院内获得而在出院后发生 的感染，或患者入院时已经发生的直接与前次住院有关的感染。医院 工作人员在医院内获得的感染也属医院 感染。"
     },
     {
       "id": "6c8ae419dcb3",
@@ -43417,7 +44004,11 @@
           "location": "第 18 页，第 64 题",
           "original_answer": "是经0.3%～0.4%甲醛处理后，失去了毒性但仍保持免疫原性的外毒素制成的生 物制品。常用的有破伤风 类毒素、白喉类毒素。"
         }
-      ]
+      ],
+      "reference_answer": "是经0.3%～0.4%甲醛处理后，失去了毒性但仍保持免疫原性的外毒素制成的生 物制品。常用的有破伤风 类毒素、白喉类毒素。",
+      "answer_source": "original_source",
+      "answer_source_file": "名词解释.pdf",
+      "answer_source_location": "第 18 页，第 64 题"
     },
     {
       "id": "303d2910e9a6",
@@ -45055,7 +45646,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 18 页，第 65 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "葡萄球菌A 蛋白， 90%以上金黄色葡萄球菌细胞壁表面存在 SPA 蛋白质。能与人及 多种哺乳动物的IgG1 、IgG2和 IgG4 分子Fc 段非特异性结合，结合后的IgG 分 子Fab 段仍能与抗 原特异结合，利用此原理建立 的协同凝集试验已广泛应用于多种微生物抗原检测。在体内，SPA 与IgG 结合后所形成的复合物还具有抗吞 噬、促细胞分裂、引起超敏反应、损伤血小板等多种生物 活性。"
     },
     {
       "id": "73b86236368e",
@@ -45087,7 +45679,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 18 页，第 66 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "致病性金黄色葡萄球菌菌株大多能产生此酶，有两种类型，①游离凝固酶，作 用类似凝血酶原物质，使 液态纤维蛋白原变为固态纤维蛋白，使血浆凝固。②结合凝固酶，在菌体 表面并不释放，充当纤维蛋白原受 体作用，能与纤维蛋白原结合使细菌凝聚。与细菌的毒力有密 切关系，具有保护细菌、抵抗吞噬和杀菌物质 的破坏、使感染局限化和形成血栓的作用。"
     },
     {
       "id": "16119887cff8",
@@ -45111,7 +45704,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 380
+      "source_paragraph": 380,
+      "reference_answer": "耐甲氧西林金黄色葡萄球菌，指对甲氧西林及多数β内酰胺类抗生素耐药的金黄色葡萄球菌。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "耐甲氧西林金黄色葡萄球菌，指对甲氧西林及多数β内酰胺类抗生素耐药的金黄色葡萄球菌。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "MRSA：掌握定义、作用或临床意义。",
+        "memory_points": "MRSA：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "28921efc957d",
@@ -45143,7 +45751,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 19 页，第 68 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "A 群链球菌产生的一种有溶解红细胞、破坏白细胞和血小板的作用的毒素。 根据对O 的稳定性，可以分 为两种。链球菌溶素O(SLO) 对 O 敏感，对哺乳动物中性粒细胞、血 小板、巨噬细胞、神经细胞及心肌等有 毒性作用，活动性风湿热病人中的血清SLO抗体显著增高。 链球菌溶素S(SLS) 对 O 稳定。链球菌在血琼脂 平板上菌落周围的β溶血环是由SLS 所致，对白 细胞和多种组织细胞有破坏作用。"
     },
     {
       "id": "7b963e3c31bb",
@@ -45175,7 +45784,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 19 页，第 69 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "即致热外毒素，又称猩红热毒素，是人类猩红热的主要毒性物质。由携带溶原性 噬菌体的A 群链球菌产生。化学 组成为蛋白质，有A 、B 、C3个血清型。致热外毒素抗原性强，具 有超抗原作用，对兔有致热性和致死性。"
     },
     {
       "id": "3848871f46b3",
@@ -45207,7 +45817,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 19 页，第 70 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "抗链球菌溶素O 试验，简称抗O 试验，常用于风湿热的辅助诊断。风湿热患者"
     },
     {
       "id": "680fc8ea09cb",
@@ -45239,7 +45850,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 20 页，第 71 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是溶血性链球菌主要致病因子，具有抗吞噬与黏附上皮细胞的作用，与心肌组织、 肾小球基底膜等组织有交叉抗 原，可引起风湿热、急性肾小球肾炎等超敏反应性疾病。"
     },
     {
       "id": "8924b9446dc1",
@@ -50620,7 +51232,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 22 页，第 79 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "分枝杆菌属细菌细胞壁中含有大量脂质，难以用一般染料染色，需用助染剂并加 温使之着色，着色后又 不易以含有3% HCl的乙醇脱色，故称为抗酸杆菌。"
     },
     {
       "id": "58ab51d4492e",
@@ -50652,7 +51265,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 22 页，第 80 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是结核分枝杆菌细胞壁中的一种脂质组分，即海藻糖6,6’-二分枝菌酸，因可 导致细菌在液体培养基中 紧密黏成索状的物质，故也称为索状因子，是结核分枝杆菌重要的致病 因子。"
     },
     {
       "id": "707c82f110db",
@@ -50684,7 +51298,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 23 页，第 81 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "结核分枝杆菌进入肺部，在巨噬细胞内大量生长繁殖，最终导致细胞死亡崩 解；释放出的结核分枝杆菌在 细胞外繁殖或再被细胞吞噬，重复上述过程，如此反复引起渗出性炎 症病灶，称为原发灶。原发灶内的结核 分枝杆菌可经淋巴管扩散至肺门淋巴结，引起淋巴管炎和 淋巴结肿大，X 线胸片显示哑铃状阴影，称为原发 综合征。"
     },
     {
       "id": "aa381e7055af",
@@ -50716,7 +51331,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 23 页，第 82 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "1908 年 Calmette和 Guerin将有毒的牛分枝杆菌培养于含胆汁、甘油、马铃薯的培养 基中，经 230次传 代，历时13年，使其毒力发生变异，成为对人无致病性，而仍保持良好免疫原性 的疫苗株，称为BCG (BacilleCalmette-Guerin),即卡介苗。"
     },
     {
       "id": "7f851d6af16d",
@@ -51476,7 +52092,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1062
+      "source_paragraph": 1062,
+      "reference_answer": "结构完整、具有感染性的成熟病毒颗粒。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "结构完整、具有感染性的成熟病毒颗粒。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "病毒体：掌握定义、作用或临床意义。",
+        "memory_points": "病毒体：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "25fbc728c8a5",
@@ -51508,7 +52139,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 32 页，第 114 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "核衣壳是病毒的基本结构，即病毒的核心和衣壳。"
     },
     {
       "id": "b008fb50a177",
@@ -51540,7 +52172,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 32 页，第 115 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "有些病毒经化学方法除去衣壳蛋白所获得的核酸，仍具有感染性，进入宿主细 胞后能引起感染。这种病 毒核酸称为感染性核酸。"
     },
     {
       "id": "c646180f15af",
@@ -51572,7 +52205,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 33 页，第 117 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "病毒缺乏增殖所需的酶系统，只能在有易感性的活细胞内进行增殖。方式是以 其基因组为模板进行复制， 人和动物病毒的复制周期依次包括吸附、穿入、脱壳、生物合成及组装、 成熟和释放等步骤。"
     },
     {
       "id": "2f6d8d0c46a5",
@@ -51604,7 +52238,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 33 页，第 118 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "病毒进入宿主细胞后，如细胞不能为病毒增殖提供所需要的酶、能量及必要的成 分，则病毒就不能合成 本身的成分，或者虽合成部分或合成全部病毒成分，但不能组装和释放出有 感染性的病毒颗粒，称为顿挫感 染。"
     },
     {
       "id": "18d6d20e7e90",
@@ -51636,7 +52271,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 33 页，第 119 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "因病毒基因组不完整或者因某一基因位点改变，不能进行正常增殖，复制不出完 整的有感染性病毒颗粒， 此病毒称为缺陷病毒。但当与另一种病毒共同培养时，若后者能为前者 提供所缺乏的物质，就能使缺陷病毒完 成正常的增殖。HDV 就是缺陷病毒，与HBV 一起感染时， 才能完成正常的增殖。"
     },
     {
       "id": "1789bc1867c1",
@@ -51668,7 +52304,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 33 页，第 120 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "它与缺陷病毒共同培养时，能为缺陷病毒提供所缺乏的物质，从而使缺陷病毒完 成正常的增殖，这种有 辅助作用的病毒被称为辅助病毒。"
     },
     {
       "id": "a2c8b8dce3c3",
@@ -51700,7 +52337,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 34 页，第 121 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "两种病毒感染同一细胞时，可发生一种病毒抑制另一种病毒增殖的现象称为干 扰现象。可发生在异种病 毒之间，也可发生在同种异型之间。"
     },
     {
       "id": "79660bd19aed",
@@ -51732,7 +52370,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 34 页，第 122 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "只能在某种条件下增殖，而在另一种条件下则不能增殖的病毒株。"
     },
     {
       "id": "06ad3d23a1dc",
@@ -51764,7 +52403,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 34 页，第 123 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "已灭活的病毒在基因重组中可成为具有感染性的病毒，如经紫外线灭活的病毒 与另一近缘的活病毒感染同一 宿主细胞时，经基因重组而使灭活病毒复活，称为交叉复活。"
     },
     {
       "id": "69faf8e14d75",
@@ -51792,7 +52432,22 @@
           "location": "第 34 页，第 124 题",
           "original_answer": ""
         }
-      ]
+      ],
+      "reference_answer": "两种不同病毒共同感染细胞时，子代病毒核酸与外壳来源不一致的现象。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "两种不同病毒共同感染细胞时，子代病毒核酸与外壳来源不一致的现象。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "表型混合：掌握定义、作用或临床意义。",
+        "memory_points": "表型混合：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "629fd4ba8c86",
@@ -51824,7 +52479,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 35 页，第 125 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是指两种病毒感染同一细胞时，其中一种病毒的基因产物(如结构蛋白和代谢 酶等)促使另一病毒增殖的 现象。"
     },
     {
       "id": "530bd5e86917",
@@ -53172,7 +53828,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 30 页，第 109 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "衣原体在宿主细胞内增殖后形成的网状体和子代原体的空泡，经染色后可在光镜下观察到，被称为包涵体。"
     },
     {
       "id": "28e930284584",
@@ -53204,7 +53861,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 37 页，第 135 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "部分病毒隐性感染者不能产生有效的免疫力，病毒可在体内增殖不被清除， 并可长期向外界播散，这种 隐性感染者称为病毒携带者，是重要的传染源，在流行病学上具有重要 意义。"
     },
     {
       "id": "a7ca4076526f",
@@ -53236,7 +53894,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 38 页，第 136 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "由病毒或其他IFN诱生剂诱使人或动物细胞产生的一类糖蛋白。它作用于机体 细胞可表现出抗病 毒、抗肿瘤及免疫调节等多种生物学活性。"
     },
     {
       "id": "bc5a4a8f9486",
@@ -53268,7 +53927,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 38 页，第 137 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "指针对病毒某些表面抗原的抗体。能与细胞外游离的病毒结合从而消除 病毒的感染能力。其作用 机制主要是阻止病毒吸附、侵入易感细胞。"
     },
     {
       "id": "519f48758976",
@@ -54671,7 +55331,22 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1372
+      "source_paragraph": 1372,
+      "reference_answer": "流感病毒包膜上的糖蛋白，参与病毒从宿主细胞释放和扩散。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "流感病毒包膜上的糖蛋白，参与病毒从宿主细胞释放和扩散。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "神经氨酸酶：掌握定义、作用或临床意义。",
+        "memory_points": "神经氨酸酶：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "30ecaa54d639",
@@ -54703,7 +55378,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 41 页，第 147 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是指孕妇感染风疹病毒后，病毒可通过胎盘感染胎儿，引起胎儿畸形、 死亡、流产或产后死亡。胎儿畸 形的主要表现为先天性心脏病、白内障和耳聋3大主症。在女性 怀孕的前三个月感染风疹病毒风险最高。"
     },
     {
       "id": "2040f385dab4",
@@ -55721,7 +56397,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 47 页，第 171 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "为 HIV 包膜表面刺突糖蛋白。当HIV 感染CDT 细胞时，gp120 可与细胞表面的 CD4 分子结合，与HIV 的 吸附易感宿主细胞有关，gp120可刺激机体产生中和抗体，但其抗原性易发生变异。"
     },
     {
       "id": "085bb7b7a28d",
@@ -55753,7 +56430,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 48 页，第 172 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "当HIV 感染后，随着HIV 的大量复制并造成机体免疫系统进行性损伤， 出现各种症状如发热、盗汗、慢 性腹泻及全身淋巴结肿大等，并呈进行性加重。"
     },
     {
       "id": "bc2384605d78",
@@ -55785,7 +56463,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 48 页，第 173 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "获得性免疫缺陷综合征(acquired immunodeficiency syndrome的英文缩写)。AIDS 由 HIV 感染引起， 通过性接触、输血、注射、母-婴等方式传播。HIV 可感染CD4+T 细胞及单核巨 噬细胞，损伤机体免疫系统 导致免疫功能严重缺陷，引起致死性机会感染或恶性肿瘤。"
     },
     {
       "id": "7e414f936d3a",
@@ -55817,7 +56496,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 48 页，第 174 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "HAART是highly active antiretroviral therapy的英文缩写， 俗称“鸡尾酒”疗法，其本质是多种不同作用机制 的抗病毒药物联合使用，一般是联合应用2种核 苷类药物+1种非核苷类药物或蛋白酶抑制剂，能有效抑制HIV 复 制，控制病情发展。"
     },
     {
       "id": "dc0cbb98cfc0",
@@ -61280,7 +61960,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 1 页，第 1 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "即脂多糖，是革兰阴性菌细胞壁外膜伸出的特殊结构，即细菌内毒素，由脂质A、核心 多糖和特异多糖三 部分组成。"
     },
     {
       "id": "e911da782e16",
@@ -61306,7 +61987,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 1 页，第 2 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "即荚膜，是某些细菌在生长过程中分泌至细胞壁外的一层黏稠胶性物质，与菌体界 限分明、不易着色，为 多糖或多肽的多聚体。"
     },
     {
       "id": "b7e03e7f6e6c",
@@ -61332,7 +62014,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 3 页，第 11 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "由人工方法配制而成的，专供微生物生长繁殖使用的混合营养物制品称为培养基。 又称细菌生长繁殖所 需的饲料，具有一定的湿度和 pH 值。"
     },
     {
       "id": "e7dfce0f7ed9",
@@ -61358,7 +62041,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 4 页，第 12 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "又称致热原，是细菌合成的一种极微量的注入人体或动物体内能引起发热反应的 物质。其化学成分为多 糖，耐高温。"
     },
     {
       "id": "a8322d6032f8",
@@ -61384,7 +62068,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 4 页，第 14 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "某些细菌菌株产生的一类对近缘菌具有抗菌作用的蛋白质称为细菌素。"
     },
     {
       "id": "06b0e99de774",
@@ -61406,7 +62091,22 @@
           "location": "第 5 页，第 18 题",
           "original_answer": ""
         }
-      ]
+      ],
+      "reference_answer": "在不破坏食品主要品质的条件下，用适度加热杀灭或减少致病菌的消毒方法。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "在不破坏食品主要品质的条件下，用适度加热杀灭或减少致病菌的消毒方法。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "巴氏消毒法：掌握定义、作用或临床意义。",
+        "memory_points": "巴氏消毒法：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "50ca7b7b2c0c",
@@ -61432,7 +62132,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 6 页，第 20 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "用于防止微生物进入人体组织或其他无菌范围的操作技术。"
     },
     {
       "id": "6cd17e0a2fc6",
@@ -61458,7 +62159,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 6 页，第 21 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是感染细菌、真菌、放线菌或螺旋体等微生物的病毒。"
     },
     {
       "id": "d86aec9d7c46",
@@ -61484,7 +62186,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 6 页，第 22 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "能在宿主菌细胞内复制增殖，产生许多子代噬菌体，并最终裂解细菌，称为毒 性噬菌体。"
     },
     {
       "id": "2c6dc30ba846",
@@ -61510,7 +62213,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 7 页，第 23 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "噬菌体基因组整合于宿主菌染色体中，不产生子代噬菌体，也不引起细菌裂 解，但噬菌体DNA随细菌基 因组的复制而复制，并随细菌的分裂而分配至子代细菌的基因组中， 称为温和噬菌体。"
     },
     {
       "id": "fc880cab028d",
@@ -61536,7 +62240,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 7 页，第 24 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "整合在细菌染色体上的噬菌体基因组称为前噬菌体。"
     },
     {
       "id": "d595561aa174",
@@ -61562,7 +62267,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 7 页，第 25 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "带有前噬菌体的细菌称为溶原性细菌。"
     },
     {
       "id": "4f951b80713d",
@@ -61588,7 +62294,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 7 页，第 26 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "某些前噬菌体可导致细菌基因型和性状发生改变，称为溶原性转换。"
     },
     {
       "id": "d8844e6843fc",
@@ -61614,7 +62321,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 8 页，第 28 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是细菌中最简单的一类转座元件，其长度为数百个到两千核苷酸对，不携带任何与转位功能无关的已 知基因，可双向插入，通过正、反向整合到基因组上。IS 是细菌染色体、质粒 和某些噬菌 体基因组的正常组分，其共同特征为：两侧末端有反向重复序列，编码一种参与转位作 用 的转位酶，识别反向重复序列，催化转座元件自基因组中解离。"
     },
     {
       "id": "ea5888904459",
@@ -61640,7 +62348,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 9 页，第 32 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "由耐药传递因子(resistance transfer factor,RTF) 和 耐 药 决 定 子(resistance determinant,r- det)组成。RTF的功能与F质粒相似，编码性菌毛，决定质粒的复制、接合及转移；r-det 则决定菌株的耐药 性。"
     },
     {
       "id": "beab23e736b2",
@@ -61666,7 +62375,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 9 页，第 33 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是指具有抑菌或杀菌活性，用于治疗和预防细菌性感染的 药物，包括抗生素和人工合成的药物。"
     },
     {
       "id": "04c91cf2d5c6",
@@ -61692,7 +62402,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 10 页，第 34 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是指对特定微生物有抑制或杀灭作用的各种微生物包括细菌、真菌和( 放线菌属)产物，分子量较低，低 浓度时就能发挥其生物活性，有天然和人工半合成两类。"
     },
     {
       "id": "8533eeca5d2e",
@@ -61718,7 +62429,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 10 页，第 35 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是指细菌对抗菌药物的相对不敏感性 和抵抗性。耐药性的程度通常用药物对细菌的最小抑菌浓度表示。"
     },
     {
       "id": "ad06ed3a05f3",
@@ -61744,7 +62456,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 10 页，第 36 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是指细菌对某些抗菌药物的天然不敏感。来源于细菌染 色体上的耐药基因或天然缺乏药物作用的靶位， 可代代相传，具有典型的种属特异性，且始终如一 可以预测。"
     },
     {
       "id": "a061897d9e27",
@@ -61770,7 +62483,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 10 页，第 37 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是指细菌 DNA的改变导致其获得了耐药性表型。来源于 基因突变或获得新基因。"
     },
     {
       "id": "7d1819bae8f7",
@@ -61796,7 +62510,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 11 页，第 38 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "由细菌产生的具有破坏或灭活抗菌药物活性的一类酶。通过水 解或修饰，使药物在作用于细菌之前即被 破坏而失去抗菌作用。"
     },
     {
       "id": "12bb120fbef5",
@@ -61822,7 +62537,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 11 页，第 40 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "自然界中广泛存在着大量的，多种多样的微生物。人类与自然环境接触密切，因 而正常人的体表和同外 界相通的口腔、鼻咽腔、肠道、泌尿生殖道等腔道中都寄居着不同种类和数 量的微生物。当人体免疫功能正 常时，这些微生物对宿主无害，有些对人还有利，是为正常微生物 群，通称正常菌群。"
     },
     {
       "id": "4a503d43f0fc",
@@ -61844,7 +62560,22 @@
           "location": "第 11 页，第 41 题",
           "original_answer": ""
         }
-      ]
+      ],
+      "reference_answer": "在正常情况下不致病、当宿主免疫力下降或寄居部位改变时引起感染的微生物。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "在正常情况下不致病、当宿主免疫力下降或寄居部位改变时引起感染的微生物。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "机会致病菌：掌握定义、作用或临床意义。",
+        "memory_points": "机会致病菌：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "865de5c681b9",
@@ -61870,7 +62601,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 12 页，第 42 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是宿主某部位正常菌群中各菌种间的比例发生较大幅度变化而超出正常范围的 状态。"
     },
     {
       "id": "9dd8ea43a55f",
@@ -61896,7 +62628,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 12 页，第 43 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "即在规定时间内，通过指定的感染途径，能使一定体重或年龄的某种动物半数 死亡需要的最小细菌数或 毒素量。"
     },
     {
       "id": "110dfe8050e0",
@@ -61922,7 +62655,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 12 页，第 44 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "即在规定时间内，通过指定的感染途径，能使一定体重或年龄的某种动物半数 感染需要的最小细菌数或 毒素量。"
     },
     {
       "id": "deb8a64e2db7",
@@ -61948,7 +62682,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 13 页，第 47 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "致病菌侵入宿主体后，只能在机体局部生长繁殖，病菌不进入血液循环，但其产生 的外毒素入血。外毒 素经血到达易感的组织和细胞，引起特殊的毒性症状。如白喉、破伤风等。"
     },
     {
       "id": "ceac44a6f8d9",
@@ -61974,7 +62709,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 13 页，第 48 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "致病菌侵入血流后，在其中大量繁殖并产生毒性产物，引起全身性中毒症状，例如 高热、皮肤和黏膜瘀 斑、肝脾大等。鼠疫耶尔森菌、炭疽芽胞杆菌等可引起败血症。"
     },
     {
       "id": "556ea1ed504d",
@@ -62000,7 +62736,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 14 页，第 51 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "也称自身感染，由病人自己体内正常菌群引起的感染。"
     },
     {
       "id": "1413a654d5f7",
@@ -62026,7 +62763,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 14 页，第 52 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "有些健康人携带有某种致病菌但不产生临床症状，也有些传染病患者恢复后在一 段时间内仍继续排菌。"
     },
     {
       "id": "5ac8164bbbc4",
@@ -62052,7 +62790,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 16 页，第 57 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "指用人工的方法给机体注射或服用某种病原微生物抗原或注射特异性抗体， 从而达到防治感染性疾病的目的。人 工免疫可分为人工主动免疫和人工被动免疫。"
     },
     {
       "id": "d8760b05197a",
@@ -62078,7 +62817,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 16 页，第 58 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "将抗原性物质接种于人体，刺激机体免疫系统产生特异性免疫应答，从而特 异性预防相应病原体感染的 措施。"
     },
     {
       "id": "9ac98d3ce26c",
@@ -62104,7 +62844,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 16 页，第 59 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "亦称死疫苗，是用物理和(或)化学方法处理后，感染性被破坏而仍保持其免疫原 性的病原微生物制备而 成的一种生物制剂。常用的有预防伤寒、霍乱、百日咳、钩端螺旋体病等灭 活疫苗。"
     },
     {
       "id": "74da7ab1bbc0",
@@ -62126,7 +62867,22 @@
           "location": "第 16 页，第 60 题",
           "original_answer": ""
         }
-      ]
+      ],
+      "reference_answer": "使用毒力减弱但仍能诱导免疫反应的活病原体制成的疫苗。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "使用毒力减弱但仍能诱导免疫反应的活病原体制成的疫苗。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "减毒活疫苗：掌握定义、作用或临床意义。",
+        "memory_points": "减毒活疫苗：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "b6d63f70eeb1",
@@ -62152,7 +62908,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 17 页，第 61 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是将细菌的聚糖共价连接到适当的蛋白载体上制备而成。能使多糖抗原由 胸腺非依赖性抗原(TI-Ag) 转变为胸腺 依赖性抗原(TD-Ag), 刺激机体产生IgG为主的抗体，亲和 力更强，效价更高，持续时间也更长。如：b 型流感嗜 血杆菌多糖结合疫苗、脑膜炎球菌多糖结合疫苗和肺炎球菌多糖结合疫苗等。"
     },
     {
       "id": "6d8c62e9eb6e",
@@ -62178,7 +62935,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 17 页，第 62 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "将类毒素或外毒素给马进行多次免疫后，待马产生高效价抗毒素后采血，分离血 清，提取其免疫球蛋白 即可精制成抗毒素制剂。抗毒素主要用于外毒素所致疾病的治疗和紧急预 防。临床常用的有精制破伤风、白 喉和肉毒抗毒素以及多价精制气性坏疽抗毒素等。"
     },
     {
       "id": "e0bf2abcd493",
@@ -62204,7 +62962,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 17 页，第 63 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "简称药敏试验。是测定抗菌药物在体外对病原微生物有无抑菌或杀菌作用 的方法，对指导临床选择用 药，及时控制感染有重要意义。"
     },
     {
       "id": "124199545592",
@@ -62230,7 +62989,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 20 页，第 72 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "肥达试验是用已知伤寒沙门菌菌体O 抗原和鞭毛H 抗原，以及引起副伤寒的甲型 副伤寒沙门菌、肖氏沙 门菌和希氏沙门菌鞭毛H 抗原的诊断菌液与受检血清作试管或微孔板定量 凝集试验，测定受检血清中有无 相应抗体及其效价的试验。可作为肠热症的辅助诊断。"
     },
     {
       "id": "b04cac3b3a5d",
@@ -62256,7 +63016,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 20 页，第 73 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "95%从腹泻病人中分离到的副溶血 性弧菌在含高盐 (7%)的人O 型血或兔血及 以 D- 甘露醇作为碳源的我 妻琼脂平板上可产生完全透亮的β溶血，称为神奈川现象(KP),KP+ 菌 株为致病性菌株。"
     },
     {
       "id": "21765c53d510",
@@ -62282,7 +63043,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 21 页，第 74 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "tetanus antitoxin,破伤风抗毒素，是用破伤风类毒素免疫马所获得的马血清纯化制剂， 可中和破伤风痉 挛毒素，用于破伤风的治疗和紧急预防。"
     },
     {
       "id": "37f9e98e0adf",
@@ -62308,7 +63070,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 21 页，第 75 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "tetanospasmin,破伤风梭菌在细菌裂解时释放产生的外毒素，是引起破伤风的主 要致病物质，该毒素入 血经血液循环达到神经肌肉接点处而致病。破伤风痉挛毒素属神经毒素， 毒性极强，对人的致死量小于 1 μ g 。因化学性质为蛋白质，不耐热， 65℃30分钟即被破坏；亦可被 肠道中存在的蛋白酶所破坏。抗原性强可 刺激机体产生抗毒素。经甲醛脱毒可制成类毒素，用于 预防破伤风。"
     },
     {
       "id": "225e609d2bbc",
@@ -62334,7 +63097,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 21 页，第 76 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "stormy fermentation,产气荚膜梭菌在乳培养基中能分解乳糖产酸，使其中酪蛋白 凝固；同时产生大量 气体，可将凝固的酪蛋白冲成蜂窝状，将液面封固的凡士林层上推、气势凶猛 的现象。"
     },
     {
       "id": "4efb1f227828",
@@ -62356,7 +63120,22 @@
           "location": "第 21 页，第 77 题",
           "original_answer": ""
         }
-      ]
+      ],
+      "reference_answer": "肉毒梭菌产生的神经毒素，阻断神经肌肉接头乙酰胆碱释放，引起弛缓性麻痹。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "肉毒梭菌产生的神经毒素，阻断神经肌肉接头乙酰胆碱释放，引起弛缓性麻痹。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "肉毒毒素：掌握定义、作用或临床意义。",
+        "memory_points": "肉毒毒素：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "3ef2e3e8025b",
@@ -62382,7 +63161,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 22 页，第 78 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "Clostridium,是指一群厌氧、革兰染色阳性、能形成芽胞的大杆菌，由于芽胞直径比 菌体宽，使菌体膨大呈梭 形，故此得名。主要分布于土壤，人和动物肠道及粪便中；多数为腐生菌， 仅少数为病原菌；在人类主要引起破 伤风、气性坏疽和肉毒中毒等严重疾病。此外，还与皮肤、软 组织感染，医源性腹泻和肠炎等有关。"
     },
     {
       "id": "99179020cfd7",
@@ -62408,7 +63188,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 23 页，第 83 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "卫星现象：流感嗜血杆菌生长时需要X因子和V因子，将其与金黄色葡萄球菌共同培养于血 平板时，金黄 色葡萄球菌能合成较多的V因子，并弥散到培养基里，可促进流感嗜血杆菌生长。因 此，在金黄色葡萄球菌菌 落周围的流感嗜血杆菌菌落较大，离金黄色葡萄球菌菌落越远的菌落越 小，此现象称为“卫星现象”。"
     },
     {
       "id": "58d0a5acab1f",
@@ -62434,7 +63215,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 23 页，第 84 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "以动物作为传染源，能引起动物和人类发生人畜共患病的病原菌称为动物"
     },
     {
       "id": "aead72dd2bda",
@@ -62460,7 +63242,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 24 页，第 85 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "：布鲁菌侵入机体后进入血流，出现菌血症，患者发热。随后细菌进入肝、脾、骨髓和 淋巴结等脏器细胞，发 热也渐消退。细菌在细胞内繁殖到一定程度可再度入血，又出现菌血症而 致体温升高。如此反复形成的菌血症，使 患者的热型呈波浪式，临床上称为波浪热。"
     },
     {
       "id": "680d58f27d28",
@@ -62486,7 +63269,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 24 页，第 86 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "黑死病：由鼠疫耶尔森菌引起的肺鼠疫患者出现高热寒战，咳嗽、胸痛、咯血、病人多因呼吸 困难或心力衰竭 而死亡。死亡病人的皮肤常呈黑紫色，故称“黑死病”。"
     },
     {
       "id": "ac9c586acaa0",
@@ -62512,7 +63296,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 25 页，第 88 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "由汉塞巴通体感染引起的。患者大多有被猫或狗咬伤、抓伤或接触史，局部皮肤出 现脓疱，淋巴结肿大，发热、 厌食、肌痛和脾肿大等临床综合征。常合并结膜炎伴耳前淋巴结肿大， 称为帕里诺(Parinaud) 眼淋巴结综合征，为 “猫抓病”的重要特征之一。"
     },
     {
       "id": "ffd83f3a218e",
@@ -62538,7 +63323,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 25 页，第 89 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "：F1 抗原是鼠疫耶尔森菌的荚膜抗原，不耐热的糖蛋白，具有抗吞噬的作用，故与其 毒力相关。抗原性强，其 相应抗体具有免疫保护作用，100℃加热15分钟，即失去抗原性。"
     },
     {
       "id": "7aa808511634",
@@ -62564,7 +63350,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 25 页，第 90 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "棒状杆菌属细菌用 Neisser或 Albert等法染色时，菌体内出现节段浓染或深染的 颗粒，与菌体着染颜色 不同，称为异染颗粒。主要成分为核糖核酸和多磷酸盐，嗜碱性强。异染颗 粒是白喉棒状杆菌形态上的主要 特征，有重要的鉴别意义。"
     },
     {
       "id": "f51fdd603a0b",
@@ -62586,7 +63373,22 @@
           "location": "第 25 页，第 91 题",
           "original_answer": ""
         }
-      ]
+      ],
+      "reference_answer": "含有抗白喉毒素抗体、用于中和体内游离白喉毒素的免疫制剂。",
+      "answer_source": "generated_reference",
+      "reference_generated": true,
+      "explanation_detail": {
+        "correct_answer_reason": "含有抗白喉毒素抗体、用于中和体内游离白喉毒素的免疫制剂。",
+        "plain_explanation": "这是该术语在本科医学课程中的核心含义。",
+        "option_analysis": {},
+        "clinical_connection": "结合对应章节理解其医学意义。",
+        "exam_focus": "白喉抗毒素：掌握定义、作用或临床意义。",
+        "memory_points": "白喉抗毒素：掌握定义、作用或临床意义。",
+        "source": {
+          "kind": "generated_reference",
+          "basis": "医学本科教材基础定义"
+        }
+      }
     },
     {
       "id": "1f593556aaab",
@@ -62612,7 +63414,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 26 页，第 93 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "由白喉类毒素、百日咳菌苗和破伤风类毒素组成的混合制剂疫苗， 可用于预防白喉、百日咳和破伤风。"
     },
     {
       "id": "d26cdccb4de7",
@@ -62638,7 +63441,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 26 页，第 94 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是白喉棒状杆菌的主要致病物质，由β-棒状杆菌噬菌体基因编码产生的一种 毒性较强的外毒素。完整的 白喉毒素是一条大量含精氨酸的 多肽链，经蛋白酶水解后，分为 A 和 B 两个片段。 B 链与心肌细胞、神经细 胞上受体结合，协助A 链进入易感细胞，使EF2 失活，抑制 宿主细胞蛋白质合成。白喉毒素是具有强烈的细 胞毒作用，能抑制敏感细胞正常合成蛋白质，引 起组织细胞变性坏死。"
     },
     {
       "id": "8b58b63748cc",
@@ -62664,7 +63468,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 27 页，第 96 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "由嗜肺军团菌引起，经飞沫传播进入下呼吸道引起以肺为主的全身性感染，临床表 现可分为流感样型、肺炎型和肺 外感染型。"
     },
     {
       "id": "4a13ff4fac38",
@@ -62690,7 +63495,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 27 页，第 97 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "由嗜肺军团菌引起的一种轻型、自限性疾病，临床表现为发热、 寒战、肌肉酸痛等类似流感症状。因1968年流行于 美国庞蒂亚克市而得名。"
     },
     {
       "id": "dc44ab28c528",
@@ -62738,7 +63544,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 28 页，第 99 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "放线菌病是一种软组织的化脓性炎症，若无继发感染则多呈慢性肉芽肿，常伴有 多发性瘘管形 成，脓汁中可找到特征性的硫黄样颗粒。"
     },
     {
       "id": "1a0023da5f59",
@@ -62764,7 +63571,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 28 页，第 100 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "巴西诺卡菌可侵入皮下组织引起慢性化脓性肉芽肿，表现为肿胀、脓肿及多发 性瘘管。感染好发 于腿部和足，称足分枝菌病。"
     },
     {
       "id": "284e2f426623",
@@ -62790,7 +63598,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 28 页，第 101 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是一类缺乏细胞壁、呈高度多形性、能通过滤菌器、在无生命培养基中能生长繁殖 的最小原核细胞型微 生物。"
     },
     {
       "id": "81d751a48294",
@@ -62816,7 +63625,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 29 页，第 103 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "将支原体接种在一个含有抗血清与酚红的葡萄糖培养基中，若抗体与支原 体相对应，则支原体的生长、代 谢受到抑制，酚红不变颜色，该试验特异性和敏感性较高，可用于支原体的血清学分型和鉴定。"
     },
     {
       "id": "ab1633ebd73b",
@@ -62842,7 +63652,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 29 页，第 104 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "立克次体，是一类严格活细胞内寄生，以节肢动物为传播媒介，引起斑疹伤寒、恙 虫病等传染病的革兰 阴性小杆菌。"
     },
     {
       "id": "d65e35c30c75",
@@ -62868,7 +63679,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 29 页，第 105 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "外斐反应，是用变形杆菌 OX9、OX 、OXk 菌株的抗原代替立克次体抗 原，检测患者血清中有无立克次体抗 体及其效价的非特异性交叉凝集试验，用于辅助诊断立克次 体病。"
     },
     {
       "id": "af118726257b",
@@ -62894,7 +63706,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 30 页，第 106 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是一类严格真核细胞内寄生，具有独特发育周期，并能通过细菌滤器的原核细胞型 微生物，归属于细菌学范畴。"
     },
     {
       "id": "2f9a7719e5e5",
@@ -62920,7 +63733,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 31 页，第 110 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "螺旋体的鞭毛位于外膜和柱形原生质体之间，紧紧缠绕在柱形原生质体表面呈螺 旋状，与细菌鞭毛伸展 于菌体外膜外表面明显不同，故称为内鞭毛。"
     },
     {
       "id": "92b408d488e7",
@@ -62946,7 +63760,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 31 页，第 111 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "梅毒螺旋体感染后约3周，病人外生殖器皮下出现质地较硬的软骨样无痛性病灶， 称为硬性下疳，其溃疡 渗出物中含大量梅毒螺旋体，传染性极强。"
     },
     {
       "id": "bfd7d6082764",
@@ -62972,7 +63787,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 31 页，第 112 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "病人被携带莱姆病病原体的疫蜱叮咬后，在叮咬部位可出现红色斑疹 或丘疹，继而扩大为圆形皮损，直 径5～50cm, 边缘鲜红，中央呈退行性变，称为慢性移行性红斑 (erythema chronicum migrans,ECM),多个ECM 重叠在一起可形成枪靶形。"
     },
     {
       "id": "2e8005ce5ec0",
@@ -62998,7 +63814,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 35 页，第 126 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "病毒在人群不同个体之间的传播，包括人-人和动物-人之间(包括通过媒介) 的传播。病毒可经破损皮 肤、黏膜、呼吸道、消化道、血液、泌尿生殖道等途径感染。"
     },
     {
       "id": "58625334d956",
@@ -63024,7 +63841,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 35 页，第 127 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "病毒由亲代宿主传给子代，人类主要通过胎盘或产道传播，或产后哺乳及密切接 触等形式传播。如风疹 病毒、巨细胞病毒、HIV、HBV及 HCV 等。"
     },
     {
       "id": "42336e69ebe8",
@@ -63050,7 +63868,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 36 页，第 129 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "病毒的致细胞病变作用。把病毒接种于培养细胞上，孵育1～3天后，可见到细胞肿 胀变圆、聚集、融 合、裂解、坏死，并从瓶壁脱落等现象，称CPE。"
     },
     {
       "id": "f55f75e9cc00",
@@ -63076,7 +63895,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 36 页，第 131 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "又称病原消灭型感染，病毒侵入机体后，在细胞内增殖，经数日乃至数周的潜伏 期后发病，除死亡病例 外，宿主一般能在出现症状后的一段时间内，将病毒清除掉而进入恢复期。 其特点为潜伏期短，发病急，病 程数日至数周，病后常获得特异性免疫。"
     },
     {
       "id": "a9f08518a78b",
@@ -63102,7 +63922,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 37 页，第 132 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "病毒可在机体持续存在数月至数年，甚至数十年。可出现症状，也可不出现症 状而长期携带病毒，成为 重要的传染源。包括潜伏感染、慢性感染及慢发病毒感染3种类型："
     },
     {
       "id": "5fb35e1b66c7",
@@ -63128,7 +63949,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 37 页，第 133 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "某些病毒在显性或隐性感染后，潜伏于某些组织器官内而不复制，在一定 条件下，病毒被激活又开始复 制，使疾病复发。潜伏期查不出病毒。"
     },
     {
       "id": "8a610b8bc2ab",
@@ -63154,7 +63976,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 37 页，第 134 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "显性或隐性感染后，病毒潜伏期很长，可达数月，数年甚至数十年。在症状 出现后呈进行性加重，最终 导致死亡。如麻疹病毒引起的亚急性硬化性全脑炎(SSPE)。"
     },
     {
       "id": "5538b94f2013",
@@ -63180,7 +64003,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 38 页，第 138 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "部分病毒在敏感细胞内增殖时可引起特有的细胞病变，可作为病 毒增殖的指标。常见的病变有细胞变 圆、胞质颗粒增多、细胞聚集、融合、坏死、溶解或脱落，形成 包涵体或多核巨细胞等，不同病毒的CPE 特 征不同。"
     },
     {
       "id": "c915fb69f8dc",
@@ -63206,7 +64030,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 39 页，第 140 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "具有血凝素的病毒能凝集鸡、豚鼠和人等的红细胞，称血凝现象。这种现象 能被相应抗体抑制，称血凝 抑制。其原理是相应抗体与病毒结合后，阻抑了病毒表面的血凝素与 红细胞的结合，常用于黏病毒、乙型脑 炎病毒感染的辅助诊断及流行病学调查，也可鉴定病毒的型 与亚型。"
     },
     {
       "id": "0e287c79c8ff",
@@ -63232,7 +64057,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 39 页，第 141 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "将适当稀释浓度的病毒液定量接种于敏感的单层 细胞中，经一定时间培养后，覆盖薄层未凝固的琼脂于 细胞上，待其凝固后继续培养，由于病毒的 增殖使感染的单层细胞病变脱落，可形成肉眼可见的空斑，一个 空斑即一个空斑形成单位(PFU), 通常由一个感染病毒增殖所致，计数平板中空斑数可推算出样品中活病毒的 数量，通常以PFU/ml 表示。"
     },
     {
       "id": "c6d2cce4c798",
@@ -63258,7 +64084,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 39 页，第 142 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "即50%组织细胞感染量测定，将待测病毒液进行10倍系列稀释，分别接种于单层 细胞，经培养后观察CPE 等病毒增殖指标，以感染 50%细胞的最 高病毒稀释度为判定终点，经统 计学处理计算出TCIDs。此方法是以 CPE 作指标，判断病毒的感染性和毒力。"
     },
     {
       "id": "a2760e75803c",
@@ -63284,7 +64111,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 40 页，第 143 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "流感病毒株表面抗原结构一种或两种发生变异，变异幅度大，形成新亚型，属 于质变。由于与前一次流行 株抗原结构相异，人们缺少对变异病毒株的免疫力，从而引起大流行。"
     },
     {
       "id": "5946c8bb38cd",
@@ -63310,7 +64138,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 40 页，第 144 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "成分是糖蛋白，易变异，和NA 一起作为甲型流感病毒划分亚型的依据。主要功 能有：①凝集红细胞， 能使多种动物或人的红细胞发生凝集，这种血凝现象可以被特异性抗体所抑 制；②吸附宿主细胞，使病毒进 入机体细胞；③具有抗原性刺激机体可产生保护性抗体。"
     },
     {
       "id": "46a0fd0c2ca8",
@@ -63336,7 +64165,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 40 页，第 145 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "流感病毒毒株表面抗原结构发生了点突变，变异幅度小或连续变异，部分人群 对新毒株没有免疫力，引 起小规模流行。一般认为是属于量变，即亚型内变异。"
     },
     {
       "id": "3a3834a73b95",
@@ -63362,7 +64192,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 41 页，第 148 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是指经消化道感染和传播、能在肠道中复制、并引起人类相关疾病 的胃肠道感染病毒，归类于小RNA病毒科。这类 病毒虽然主要经消化道传播和感染，但引起的主 要疾病却在肠道外，如脊髓灰质炎、心肌炎、手足口病等。"
     },
     {
       "id": "2e15ba2f48a7",
@@ -63388,7 +64219,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 41 页，第 149 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是指 1969年以后陆续分离到的肠道病毒，目前包括有 68、69、70、71等多种血清型。新型肠道病 毒主要经粪-口途径传播，可引起多种神经系统疾病以 及其他部位的疾病，如手足口病。"
     },
     {
       "id": "dcaf36526cdf",
@@ -63414,7 +64246,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 42 页，第 150 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是肠道病毒的典型代表，基因组为单正链 RNA,病毒体呈球 形，直径24～30nm。经粪-口途径传播 后，主要侵犯脊髓前角运动神经细胞，导致小儿麻痹症。"
     },
     {
       "id": "d69bb3c365b6",
@@ -63440,7 +64273,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 42 页，第 151 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是三型脊髓灰质炎病毒的混合疫苗，口服免疫类似自 然感染，可诱发血清抗体和肠道局部sIgA,阻 止野毒株在肠道的增殖和人群中的流行，保护效果较 好，但安全性弱于灭活脊髓灰质炎疫苗。"
     },
     {
       "id": "9b9812453d3f",
@@ -63466,7 +64300,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 42 页，第 152 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "亦称人肠道致细胞病变孤儿病毒，是肠道病毒的一类，生物学性状与 柯萨奇病毒相似，主要通过 粪-口途径传播， 可引起严重的心肌炎等疾病，也可只引起轻微的呼吸 道感染症状。"
     },
     {
       "id": "95e8e9939c33",
@@ -63492,7 +64327,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 42 页，第 153 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是指经消化道感染和传播、主要引起急性肠道 内感染性疾病的胃肠道感染病毒，也是人类食源性疾病的 主要病原体。"
     },
     {
       "id": "90d26479bcb5",
@@ -63518,7 +64354,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 43 页，第 154 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "归属于呼肠病毒科，病毒基因组为双链RNA, 无包膜，其双层衣壳排 列的形状极像车轮，故命名为轮状病毒，是引 起婴幼儿腹泻的主要病原体。"
     },
     {
       "id": "49182e7e41df",
@@ -63544,7 +64381,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 43 页，第 155 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "归属于杯状病毒科，病毒基因组为单正链RNA, 衣壳呈二十面体立体 对称，无包膜，是全球引起急性病 毒性胃肠炎暴发流行的主要病原体。"
     },
     {
       "id": "259e2cc0a96f",
@@ -63570,7 +64408,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 43 页，第 156 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "形态学特点是表面结构呈星形，有5～6个角，基因组为单正链 RNA, 无包膜，是引起人类急性胃肠炎的 病毒之一，占病毒性腹泻的2.8%左右。"
     },
     {
       "id": "ab30fc49d0d2",
@@ -63618,7 +64457,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 44 页，第 158 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "存在于HBV 感染者血液中的结构完整、有感染性的HBV 颗粒。由Dane 首先 发现，故又称Dane 颗粒。"
     },
     {
       "id": "9ae7bd0e48d3",
@@ -63644,7 +64484,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 44 页，第 159 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "乙肝病毒的主要表面抗原，可存在于 Dane 颗粒的外衣壳、小球形颗粒、管形颗粒以 及肝细胞表面，是 HBV 感染的主要标志，是制备疫苗的主要成分，其相应抗体具有中和作用。"
     },
     {
       "id": "5fdbd9f12c58",
@@ -63670,7 +64511,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 44 页，第 160 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "由 HBV 的 Pre-C 和 C 基因编码产生Pre-C 蛋白 ，Pre-C蛋白经加工切割后形成 HBeAg, 并分泌到血循 环中，是一种可溶性蛋白，为非结构蛋白，HBeAg阳性表示HBV 在体内复 制，血液传染性强。"
     },
     {
       "id": "3a604e205914",
@@ -63696,7 +64538,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 45 页，第 162 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是指通过吸血的节肢动物叮咬易感的脊椎动物而传播疾病的病毒，节肢动物既 是病毒传播媒介，又是储存宿主， 多数虫媒病毒病是自然疫源性疾病，也是人畜共患病，具有明显 的地方性和季节性。"
     },
     {
       "id": "41bb1cca0247",
@@ -63722,7 +64565,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 45 页，第 163 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是指登革病毒再次感染所致的一种严重疾病， 初期为典型登革热，而后迅速进展为多器官出血和 (或)休克，死亡 率高。其有发生机制被认为与抗体依赖的增强作用有关，主要通过免疫病理作用所致。"
     },
     {
       "id": "6c555204e577",
@@ -63748,7 +64592,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 45 页，第 164 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "初次感染登革病毒后机体可产生非中和性或亚中和浓度的 IgG 抗体，当再次感染同型或异型登革病毒时，病毒与 这些抗体形成免疫复合物，通过单核吞噬细 胞表面的Fc 受体与单核吞噬细胞结合，从而增强了病毒对细胞的吸附和感 染作用。"
     },
     {
       "id": "bb89f922d994",
@@ -63774,7 +64619,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 46 页，第 165 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是我国在2009年首次从发热伴血小板减少综合 征的病人中分离到的一种新的布尼亚病毒，蜱可能为其传播媒介， 临床主要表现为发热、白细胞减 少、血小板减少和多器官功能损害等，严重者可因多器官衰竭而死亡。"
     },
     {
       "id": "44c01377b939",
@@ -63800,7 +64646,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 46 页，第 166 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是由病毒引起的以发热、出血和不同脏器的损害为主要特征的一大类疾 病的统称。引起出血热的病毒种类 较多，这些病毒分属于不同的病毒科、属，在我国已发现的主 要有汉坦病毒、克里米亚 -刚果出血热病毒和登 革病毒，分别引起肾综合征出血热、新疆出血热、 登革热/登革出血热。"
     },
     {
       "id": "6e5463cbe185",
@@ -63826,7 +64673,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 46 页，第 167 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "即肾综合征出血热。该病由汉坦病毒科的多种病毒引起；主要的传染源为啮齿动物； 动物源性传播为主要 传播方式；疾病的发生和流行具有明显的地区性和季节性。 HFRS 在临床上 以发热、出血、急性肾功能损害和 免疫功能紊乱为突出表现，病后可获稳定而持久的免疫力。"
     },
     {
       "id": "5911b63853d2",
@@ -63852,7 +64700,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 47 页，第 169 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "指易在青春期感染大量EB 病毒后引起的一种全身淋巴细胞增 生性疾病。"
     },
     {
       "id": "f4546b80960e",
@@ -63878,7 +64727,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 47 页，第 170 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "病毒颗粒中含有逆转录酶，在病毒基因组复制中出现RNA→DNA→RNA 过程。人类致病性的逆转录病毒主要有HIV,HT LV 和 HBV。"
     },
     {
       "id": "75c9f199cfce",
@@ -63904,7 +64754,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 49 页，第 176 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "野毒株或称街毒株是指从自然感染的动物体内分离到的毒力强的狂犬 病病毒。"
     },
     {
       "id": "87c8e619ac46",
@@ -63930,7 +64781,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 49 页，第 177 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "即狂犬病。由于病毒感染引起迷走神经核、舌咽神经核和舌下神经 核受损患者可以发生呼吸肌、吞咽肌 痉挛，临床上出现恐水、吞咽困难等症状。其中，特殊的恐水 症状表现在饮水、见水、流水声或谈及饮水 时，均可引起严重咽喉肌痉挛，故也称狂犬病为恐水症。"
     },
     {
       "id": "cb76e602c226",
@@ -63956,7 +64808,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 49 页，第 178 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "将野毒株在家兔脑内连续传代后，病毒对家兔致病的潜伏期逐渐缩 短，50代左右时，潜伏期可由原来的4 周左右缩短为4～6天；但继续进行传代，潜伏期不再缩短。 这种毒力变异的狂犬病病毒被称为固定毒株，其 重要特点是对家兔的致病性增强，对人或犬的致 病性明显减弱；并且从脑外途径对犬进行接种时，不能侵入 脑神经组织引起狂犬病。"
     },
     {
       "id": "d368e2a6e751",
@@ -63982,7 +64835,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 50 页，第 179 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "狂犬病病毒在动物或人的中枢神经细胞中增殖时，在细胞质内形成 的嗜酸性包涵体，叫内基小体，可作 为诊断狂犬病的指标。"
     },
     {
       "id": "82256a0eea49",
@@ -64008,7 +64862,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 50 页，第 180 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "由细小病毒B19 引起，常发生于学龄前儿童，呈流感样表现，随之出现皮疹面 颊部可出现典型的掌击样 面容。"
     },
     {
       "id": "878621bb1151",
@@ -64034,7 +64889,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 50 页，第 182 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "由朊粒引起的人类最常见的传染性海绵状脑病，因由Creutzfeld和 Jakob 两位神 经病理学家分别于1920 年和1921年首先报道，故名为克-雅病。"
     },
     {
       "id": "2a76e7a45ba9",
@@ -64060,7 +64916,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 51 页，第 183 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "为正常人和动物组织细胞中存在的结构正常的朊蛋白，由PrP 基因编码，对蛋 白酶K 敏感，不具有致病 性和传染性。"
     },
     {
       "id": "ca44af9b5ce5",
@@ -64086,7 +64943,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 52 页，第 187 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "类酵母型真菌的母细胞以芽生方式繁殖，出芽产生的芽生孢子持续延长，但不断 裂、不与母细胞脱离， 产生相互连接成藕节状较长的细胞链，可伸入培养基内，称假菌丝。"
     },
     {
       "id": "a7b801f1f030",
@@ -64112,7 +64970,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 52 页，第 188 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是单细胞真菌的菌落形式。菌落柔软、致密、光滑、湿润。显微镜下观察可见 芽生孢子，无菌丝。新生 隐球菌的菌落属于此型。"
     },
     {
       "id": "cb0b1c0b5382",
@@ -64138,7 +64997,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 52 页，第 189 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "亦称酵母样菌落，是单细胞真菌的菌落形式。外观上与酵母型菌落相似，但 显微镜下可见呈藕节状细胞 链的假菌丝，由菌落向下生长，伸入培养基中。白假丝酵母的菌落属 此型。"
     },
     {
       "id": "e437071ab52e",
@@ -64188,7 +65048,11 @@
           "location": "第 56 页，第 203 题",
           "original_answer": "对环境温度敏感可发生形态转换的一类真菌，在宿主体内或37℃培养时呈 酵母型，而在25℃培养时变为 菌丝型。"
         }
-      ]
+      ],
+      "reference_answer": "有些真菌可因环境条件 (如不 同成分的培养基和不同温度 )的改变，发生两种 形态的互变，称为双相型真 菌，即在宿主体内或 37℃培养时呈酵母型，而在25℃培养时则呈菌丝 型，如球孢子菌、组织胞浆菌、孢子丝 菌等。",
+      "answer_source": "original_source",
+      "answer_source_file": "名词解释.pdf",
+      "answer_source_location": "第 53 页，第 191 题"
     },
     {
       "id": "d01944a00627",
@@ -64214,7 +65078,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 53 页，第 192 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "由致病性真菌和机会致病性真菌引起感染，并表现临床症状者称为真菌病。"
     },
     {
       "id": "d76ccadaf0f8",
@@ -64240,7 +65105,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 53 页，第 193 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "是指寄生或腐生于角蛋白组织(表皮角质层、毛发、甲板)的真菌。可分为皮 肤癣菌和角层癣菌两类。"
     },
     {
       "id": "d6ead17b6132",
@@ -64266,7 +65132,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 54 页，第 195 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "人类可通过有创伤的皮肤接触染有孢子丝菌的土壤、植物或污染物，引起皮 肤、皮下组织及相邻淋巴系 统的慢性感染。"
     },
     {
       "id": "33053c239e3b",
@@ -64292,7 +65159,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 54 页，第 196 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "着色真菌可由外伤侵入人体，引起颜面、下肢及臀部等暴露部位感染，病损皮 肤呈境界鲜明的暗红色或 黑色区，故称着色真菌病。"
     },
     {
       "id": "87b740662c73",
@@ -64318,7 +65186,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 54 页，第 197 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "侵犯表皮及其附属器以外的组织和器官的病原性真菌或机会致病性真菌。"
     },
     {
       "id": "48fc315ae644",
@@ -64344,7 +65213,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 55 页，第 198 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "假丝酵母引起的皮肤、黏膜和内脏的急、慢性感染。"
     },
     {
       "id": "ce40311f7f5f",
@@ -64370,7 +65240,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 55 页，第 199 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "白假丝酵母培养后在菌丝顶端、侧缘或中间可见较大、厚壁的圆形或梨形细胞。"
     },
     {
       "id": "5958a881a046",
@@ -64396,7 +65267,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 55 页，第 200 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "可侵犯人和动物引起机会致病性感染。最易侵犯的是中枢神经系统，引起慢性 脑膜炎。"
     },
     {
       "id": "e0f789fbf13a",
@@ -64422,7 +65294,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 55 页，第 201 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "曲霉的分生孢子梗顶端膨大形成半球形或椭圆形的顶囊；在顶囊上以 辐射方式长出一、二层杆状小梗； 小梗顶端生长呈链状排列的分生孢子，形成一个菊花样的头状 结构。"
     },
     {
       "id": "0df16dba39fe",
@@ -64448,7 +65321,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 56 页，第 202 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "曲霉能侵犯机体许多组织器官，引起肺曲霉病、全身性曲霉病、中毒及肿瘤。"
     },
     {
       "id": "747036a6b501",
@@ -64474,7 +65348,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 56 页，第 204 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "肺孢子菌经呼吸道吸入肺内，可引起免疫缺陷或免疫功能低下者的机会性 感染。"
     },
     {
       "id": "4b5f47ec95d5",
@@ -64500,7 +65375,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 56 页，第 205 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "医学微生物学是基础医学中的一门重要学科，主要研究与医学有关的病原 微生物的生物学特性、致病机 制、机体的抗感染免疫、特异性检测方法以及相关感染性疾病的防治 措施等，以控制和消灭感染性疾病，达 到保障和提高人类健康水平的目的。"
     },
     {
       "id": "e94495952bb8",
@@ -64526,7 +65402,8 @@
       "answer_source": "original_source",
       "answer_source_file": "名词解释.pdf",
       "answer_source_location": "第 57 页，第 206 题",
-      "answer_match_method": "source_occurrence_exact"
+      "answer_match_method": "source_occurrence_exact",
+      "reference_answer": "有些微生物在正常情况下不致病，只是在特定情况下导致疾病，这类微 生物称为机会致病性微生物。"
     },
     {
       "id": "9774d66b0325",

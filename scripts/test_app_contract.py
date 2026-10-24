@@ -39,9 +39,15 @@ assert all(q.get("exclude_from_quiz") for q in data["questions"] if q.get("id") 
 print("app_contract_ok visible=1530 option_regressions=2 navigation=present")
 explained = [q for q in data['questions'] if q.get('explanation_detail')]
 assert len(explained) >= 13
-assert all(q['explanation_detail']['source']['kind'] == 'original_source_derived' for q in explained)
+assert all(q['explanation_detail']['source']['kind'] in {'original_source_derived','generated_reference'} for q in explained)
 for fragment in ('detailsToggle', 'explanationCard'):
     assert fragment in html, fragment
 for field in ('correct_answer_reason', 'plain_explanation', 'option_analysis', 'clinical_connection', 'exam_focus'):
     assert all(field in q['explanation_detail'] for q in explained)
 print('explanation_contract_ok generated='+str(len(explained)))
+terms = [q for q in data['questions'] if q.get('type') == '名词解释']
+assert len(terms) == 278
+assert sum(bool(q.get('answer')) for q in terms) == 160
+assert sum(q.get('answer_source') == 'generated_reference' for q in terms) == 47
+assert 'reference_answer' in html or 'answerText(q)' in html
+print('term_contract_ok total=278 original=160 generated=47 pending=71')
