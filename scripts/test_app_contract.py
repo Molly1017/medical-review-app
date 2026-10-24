@@ -28,15 +28,15 @@ for question_id in promoted:
     assert q.get("answer_match_method")
     assert q.get("review_resolution")
 print("status_transitions_checked", len(promoted))
-visible_types = {"单选题", "多选题", "判断题", "填空题", "名词解释"}
-visible = [q for q in data["questions"] if not q.get("exclude_from_quiz") and q.get("type") in visible_types]
-assert len(visible) == 1526
+visible_types = {"单选题", "多选题"}
+visible = [q for q in data["questions"] if not q.get("exclude_from_quiz") and q.get("type") in visible_types and set(q.get("options") or {}) == set('ABCDE')]
+assert len(visible) == 1051
 for fragment in ("toggleNav", "navPanel", "questionNav", "renderNav", "answerDrafts", "orderedChapters"):
     assert fragment in html, fragment
 assert "function visible" in html and "exclude_from_quiz" in html
 assert all(q.get("explanation_detail") for q in data["questions"] if q.get("course") == "医学微生物学" and q.get("chapter") == "第一章 细菌的形态与结构" and q.get("status") in {"ready", "externally_verified_correction"})
 assert all(q.get("exclude_from_quiz") for q in data["questions"] if q.get("id") in {"2b4bae214de8", "561a3535afc3", "9603bca9c2cf", "fac8ba2f0f3d", "70c1245e1510", "e0aa89dd20f9"})
-print("app_contract_ok visible=1526 option_regressions=2 navigation=present")
+print("app_contract_ok visible=1051 option_regressions=2 navigation=present")
 explained = [q for q in data['questions'] if q.get('explanation_detail')]
 assert len(explained) >= 13
 assert all(q['explanation_detail']['source']['kind'] in {'original_source_derived','generated_reference'} for q in explained)

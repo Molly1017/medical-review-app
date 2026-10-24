@@ -1,0 +1,34 @@
+{
+  "json_choice_counts": {
+    "医学免疫学": 709,
+    "医学细胞生物学": 90,
+    "医学微生物学": 293
+  },
+  "source_scans": [
+    {
+      "file": "1-医学免疫学题库.docx",
+      "course": "医学免疫学",
+      "paragraph_choice_candidates": 26
+    },
+    {
+      "file": "2-医学细胞生物学题库B.docx",
+      "course": "医学细胞生物学",
+      "paragraph_choice_candidates": 134
+    },
+    {
+      "file": "8.docx",
+      "course": "医学微生物学",
+      "paragraph_choice_candidates": 146
+    },
+    {
+      "file": "0.docx",
+      "course": "医学微生物学",
+      "paragraph_choice_candidates": 0
+    }
+  ],
+  "notes": [
+    "paragraph_choice_candidates are conservative source-level candidates, not a claim of exact deduplicated question count.",
+    "Original source files are external attachments and are not copied into the repository.",
+    "Case questions require source-level grouping review."
+  ]
+}
