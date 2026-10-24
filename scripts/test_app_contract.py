@@ -30,8 +30,16 @@ for question_id in promoted:
 print("status_transitions_checked", len(promoted))
 visible_types = {"单选题", "多选题", "判断题", "填空题", "名词解释"}
 visible = [q for q in data["questions"] if not q.get("exclude_from_quiz") and q.get("type") in visible_types]
-assert len(visible) == 1507
+assert len(visible) == 1536
 for fragment in ("toggleNav", "navPanel", "questionNav", "renderNav", "answerDrafts", "orderedChapters"):
     assert fragment in html, fragment
 assert "function visible" in html and "exclude_from_quiz" in html
-print("app_contract_ok visible=1507 option_regressions=2 navigation=present")
+print("app_contract_ok visible=1536 option_regressions=2 navigation=present")
+explained = [q for q in data['questions'] if q.get('explanation_detail')]
+assert len(explained) == 13
+assert all(q['explanation_detail']['source']['kind'] == 'original_source_derived' for q in explained)
+for fragment in ('detailsToggle', 'explanationCard'):
+    assert fragment in html, fragment
+for field in ('correct_answer_reason', 'plain_explanation', 'option_analysis', 'clinical_connection', 'exam_focus'):
+    assert all(field in q['explanation_detail'] for q in explained)
+print('explanation_contract_ok generated=13')
