@@ -11,23 +11,35 @@ import re
 import sys
 from pathlib import Path
 
-OPTION_RE = re.compile(r"(?:^|[\s])([A-E])(?:\s*[.．、:：)]|(?=[\u4e00-\u9fff]))")
+OPTION_PATTERNS = [
+    re.compile(r"(?<![A-Za-z-])([A-E])\s*[.．:：)]"),
+    re.compile(r"(?:^|[\s])([A-E])\s*[、,，]"),
+    re.compile(r"(?<=[\u4e00-\u9fff])([A-E])\s*[,，]"),
+    re.compile(r"(?:^|[\s])([A-E])(?=[\u4e00-\u9fff])"),
+]
 ANSWER_RE = re.compile(r"(?:【\s*答案\s*】|答案\s*[:：]?)[\s]*([A-E](?:\s*[,、和及/]\s*[A-E])*)", re.I)
 CASE_RE = re.compile(r"案例\s*(\d+)")
 
 
 def parse_options(raw: str) -> dict[str, str] | None:
     """Return one complete A-E option set, or None when the text is ambiguous."""
-    matches = list(OPTION_RE.finditer(raw))
-    if len(matches) != 5 or [m.group(1) for m in matches] != list("ABCDE"):
+    matches = []
+    for pattern in OPTION_PATTERNS:
+        for match in pattern.finditer(raw):
+            label = match.group(1)
+            start = match.start(1)
+            if not any(existing[0] == start for existing in matches):
+                matches.append((start, label, match.end()))
+    matches.sort()
+    if len(matches) != 5 or [m[1] for m in matches] != list("ABCDE"):
         return None
     options: dict[str, str] = {}
-    for i, match in enumerate(matches):
-        end = matches[i + 1].start() if i + 1 < len(matches) else len(raw)
-        value = raw[match.end() : end].strip(" \t\r\n;；")
-        if not value:
+    for i, (start, label, end_marker) in enumerate(matches):
+        end = matches[i + 1][0] if i + 1 < len(matches) else len(raw)
+        value = raw[end_marker:end].strip(" \t\r\n;；")
+        if not value or label in options:
             return None
-        options[match.group(1)] = value
+        options[label] = value
     return options
 
 
@@ -59,9 +71,14 @@ def main() -> int:
         parsed = parse_options(raw)
         existing = question.get("options") or {}
         malformed = any(k not in "ABCDE" or not str(v).strip() or re.search(r"(?:^|\s)[A-E][.．、:：)]", str(v)) for k, v in existing.items())
-        if parsed and (not existing or malformed):
+        if parsed and (not existing or malformed or existing != parsed):
             question["options"] = parsed
             repaired_options += 1
+        elif question.get("type") in {"单选题", "多选题"} and malformed:
+            question["status"] = "needs_review"
+            question["needs_review"] = True
+            question["exclude_from_quiz"] = True
+            question["needs_review_reason"] = "选项边界无法从原始记录唯一恢复，暂不进入刷题。"
         if parsed and question.get("type") == "未分类":
             question["type"] = "单选题"
             repaired_types += 1
