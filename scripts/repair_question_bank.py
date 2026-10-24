@@ -93,6 +93,13 @@ def main() -> int:
             question["status"] = "needs_review"
             question["needs_review"] = True
             question["needs_review_reason"] = "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。"
+        if question.get("options"):
+            question["options"] = {label: question["options"][label] for label in "ABCDE" if label in question["options"]}
+        if question.get("type") in {"单选题", "多选题"} and set(question.get("options", {})) != set("ABCDE"):
+            question["status"] = "needs_review"
+            question["needs_review"] = True
+            question["exclude_from_quiz"] = True
+            question["needs_review_reason"] = "选择题缺少完整 A-E 选项，暂不进入刷题。"
 
         # A record marked ready must be safe for the browser's automatic
         # grader. Downgrade any incomplete/corrupted option set instead of

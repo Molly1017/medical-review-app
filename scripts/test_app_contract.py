@@ -18,8 +18,8 @@ assert questions["1ae60f3f131d"]["options"] == {
 }
 visible_types = {"单选题", "多选题", "判断题", "填空题", "名词解释"}
 visible = [q for q in data["questions"] if not q.get("exclude_from_quiz") and q.get("type") in visible_types]
-assert len(visible) == 1538
+assert len(visible) == 1507
 for fragment in ("toggleNav", "navPanel", "questionNav", "renderNav", "answerDrafts", "orderedChapters"):
     assert fragment in html, fragment
 assert "function visible" in html and "exclude_from_quiz" in html
-print("app_contract_ok visible=1538 option_regressions=2 navigation=present")
+print("app_contract_ok visible=1507 option_regressions=2 navigation=present")

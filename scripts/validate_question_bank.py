@@ -29,6 +29,10 @@ def main() -> int:
             errors.append(f"{prefix}: duplicate id")
         ids.add(q.get("id"))
         options = q.get("options") or {}
+        if options and list(options) != sorted(options, key="ABCDE".index):
+            errors.append(f"{prefix}: options are not ordered A-E")
+        if q.get("answer_source") == "original_source" and (not q.get("answer_source_file") or not q.get("answer_source_location")):
+            errors.append(f"{prefix}: original answer is missing source provenance")
         if not set(options) <= LABELS:
             errors.append(f"{prefix}: invalid option label")
         for label, value in options.items():
@@ -44,6 +48,8 @@ def main() -> int:
                     errors.append(f"{prefix}: ready choice question must have A-E options")
                 if not answer or not set(answer) <= LABELS:
                     errors.append(f"{prefix}: ready choice question has invalid answer")
+        if q.get("type") in {"单选题", "多选题"} and not q.get("exclude_from_quiz") and q.get("answer") and set(str(q["answer"]).upper()) - set(options):
+            errors.append(f"{prefix}: answer points outside its option set")
         if q.get("source") == "案例分析.docx":
             if not q.get("case_id"):
                 errors.append(f"{prefix}: case records must retain case_id")
