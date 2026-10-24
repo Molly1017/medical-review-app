@@ -3,7 +3,7 @@ import json,re
 from collections import Counter,defaultdict
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
-MARKER=re.compile(r'(?:答案|参考答案|正确答案)\s*[:：]',re.I); NUMBERED=re.compile(r'(?:^|\n)\s*\d+\s*[.、)]')
+MARKER=re.compile(r'(?:答案|参考答案|正确答案)\s*[:：]',re.I); NUMBERED=re.compile(r'(?:^|\n)\s*\d+\s*[.、)]\s+')
 def main():
  p=Path('medical_question_bank_deduplicated.json');d=json.loads(p.read_text());qs=d['questions'];issues=[];seen=defaultdict(list)
  def add(q,k,s,detail,suggest):issues.append({'id':q.get('id'),'course':q.get('course'),'chapter':q.get('chapter'),'source':q.get('source'),'source_location':q.get('source_location'),'type':q.get('type'),'severity':s,'kind':k,'detail':detail,'suggestion':suggest})

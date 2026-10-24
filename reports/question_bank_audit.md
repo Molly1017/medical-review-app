@@ -1,16 +1,14 @@
 # 题库质量审计报告
 
 - 扫描记录：2071
-- 问题总数：168
+- 问题总数：158
 
 ## 问题分类
 
 - `source_unmatched`：97
 - `option_incomplete`：31
 - `answer_outside_options`：15
-- `next_question_in_option`：13
-- `duplicate_stem`：10
-- `term_merge_suspected`：2
+- `duplicate_stem`：15
 
 ## 数据概况
 
@@ -26,6 +24,6 @@
 
 机器清单见 `reports/question_bank_audit.json`。
 
-## 原始资料清单
+## 第二批修复说明
 
-本次审计使用仓库已导入记录及当前任务提供的原始资料：`医学免疫学题库.docx`、`医学细胞生物学题库B.docx`、`医学微生物学题库.docx`、`案例分析.docx`、`名词解释.pdf`、`判断题.pdf`。原始文件不写入仓库，题目记录保留 `source`、`source_location` 和 `source_occurrences`。
+本批将同一原始记录中“术语：定义”形式的 17 条名词解释拆分为 `question` 与 `reference_answer`，保留原始来源位置。原审计中的 `next_question_in_option` 项经复核属于小数/编号误报，已收紧检测规则；真正的选项不完整、答案指向异常、来源未匹配和重复候选仍保留在机器清单中。
