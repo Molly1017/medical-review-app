@@ -24,6 +24,7 @@
       "已根据用户提供的原始 Word 文档恢复章节、病例背景及小题索引；无法解析的记录仍需审核。",
       "已根据用户提供的原始 Word 文档恢复章节、病例背景及小题索引；无法解析的记录仍需审核。",
       "已根据用户提供的原始 Word 文档恢复章节、病例背景及小题索引；无法解析的记录仍需审核。",
+      "已根据用户提供的原始 Word 文档恢复章节、病例背景及小题索引；无法解析的记录仍需审核。",
       "已根据用户提供的原始 Word 文档恢复章节、病例背景及小题索引；无法解析的记录仍需审核。"
     ],
     "repaired_option_sets": 56,
@@ -54975,7 +54976,7 @@
       "explanation": "是 1000 倍",
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 1 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "普通光学显微镜能看清细菌的形态，其放大的最佳倍数是 400 倍\n\n答案：错误\n解析：是 1000 倍",
       "source_occurrences": [
         {
@@ -54984,9 +54985,7 @@
           "location": "第 1 页，第 1 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "71deabeac54c",
@@ -54999,7 +54998,7 @@
       "explanation": "是一个繁殖体",
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 2 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "芽胞发芽成无数个繁殖体\n\n答案：错误\n解析：是一个繁殖体",
       "source_occurrences": [
         {
@@ -55008,9 +55007,7 @@
           "location": "第 1 页，第 2 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "941ca27a00fb",
@@ -55023,7 +55020,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 3 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "细菌的中介体具有拟线粒体的功能.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -55032,9 +55029,7 @@
           "location": "第 1 页，第 3 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "47a833baafb6",
@@ -55047,7 +55042,7 @@
       "explanation": "是细胞壁 缺陷型",
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 4 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "细菌的 L 型是指细菌细胞膜缺陷型.\n\n答案：错误\n解析：是细胞壁 缺陷型",
       "source_occurrences": [
         {
@@ -55056,9 +55051,7 @@
           "location": "第 1 页，第 4 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "a1995503c45a",
@@ -55071,7 +55064,7 @@
       "explanation": "没有固醇类",
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 5 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "细菌细胞膜含有固醇类物质\n\n答案：错误\n解析：没有固醇类",
       "source_occurrences": [
         {
@@ -55080,9 +55073,7 @@
           "location": "第 1 页，第 5 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "79834b07952b",
@@ -55095,7 +55086,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 6 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "一般细菌约 20min 分裂一次.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -55104,9 +55095,7 @@
           "location": "第 1 页，第 6 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "7433a2eadd05",
@@ -55119,7 +55108,7 @@
       "explanation": "异养菌",
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 7 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "大多数致病菌属于自养菌\n\n答案：错误\n解析：异养菌",
       "source_occurrences": [
         {
@@ -55128,9 +55117,7 @@
           "location": "第 1 页，第 7 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "f953d554e004",
@@ -55143,7 +55130,7 @@
       "explanation": "分解代谢产物",
       "source": "判断题.pdf",
       "source_location": "第 1 页，第 8 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "硫化氢属于细菌的合成代谢产物\n\n答案：错误\n解析：分解代谢产物",
       "source_occurrences": [
         {
@@ -55152,9 +55139,7 @@
           "location": "第 1 页，第 8 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "578d486768c2",
@@ -55167,7 +55152,7 @@
       "explanation": "需氧生长",
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 9 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "结核杆菌属于微需氧生长的细菌\n\n答案：错误\n解析：需氧生长",
       "source_occurrences": [
         {
@@ -55176,9 +55161,7 @@
           "location": "第 2 页，第 9 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "6a9650d5dd71",
@@ -55191,7 +55174,7 @@
       "explanation": "错。在稳定期",
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 10 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "外毒素的合成，芽胞的形成多在细菌的对数生长期\n\n答案：错误\n解析：错。在稳定期",
       "source_occurrences": [
         {
@@ -55200,9 +55183,7 @@
           "location": "第 2 页，第 10 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "a806d47804c2",
@@ -55215,7 +55196,7 @@
       "explanation": "错。是所有微生物",
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 11 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "灭菌是指杀死物体上病原微生物的方法.\n\n答案：错误\n解析：错。是所有微生物",
       "source_occurrences": [
         {
@@ -55224,9 +55205,7 @@
           "location": "第 2 页，第 11 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "29907a373bf9",
@@ -55239,7 +55218,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 12 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "巴斯德消毒法的温度加热至 61.1℃-62.8℃30min,或者 71.7℃,经 15s-30s.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -55248,9 +55227,7 @@
           "location": "第 2 页，第 12 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "5a4032d07868",
@@ -55263,7 +55240,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 13 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "噬菌体是感染细菌,真菌,放线菌或螺旋体等微生物的病毒.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -55272,9 +55249,7 @@
           "location": "第 2 页，第 13 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "c6a4f43f99d0",
@@ -55287,7 +55262,7 @@
       "explanation": "错。非细胞型",
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 14 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "噬菌体感染宿主菌具有高度特异性，是一种专性细胞内寄生的真核细胞型微生物.\n\n答案：错误\n解析：错。非细胞型",
       "source_occurrences": [
         {
@@ -55296,9 +55271,7 @@
           "location": "第 2 页，第 14 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "9a94b2b00db8",
@@ -55311,7 +55284,7 @@
       "explanation": "错。毒性噬菌体",
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 15 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "严格寄生在敏感宿主菌细胞内只有裂解期,而无溶原期的噬菌体称为溶原性噬菌体\n\n答案：错误\n解析：错。毒性噬菌体",
       "source_occurrences": [
         {
@@ -55320,9 +55293,7 @@
           "location": "第 2 页，第 15 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "179e1994d2c6",
@@ -55335,7 +55306,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 16 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "细茵的遗传性变异是指基因未发生改变的变异\n\n答案：错误",
       "source_occurrences": [
         {
@@ -55344,9 +55315,7 @@
           "location": "第 2 页，第 16 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "5a50fb161d6a",
@@ -55359,7 +55328,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 2 页，第 17 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "与耐药性形成有关的质粒为 F 质粒\n\n答案：错误",
       "source_occurrences": [
         {
@@ -55368,9 +55337,7 @@
           "location": "第 2 页，第 17 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "42b881c2f622",
@@ -55405,7 +55372,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 19 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "质粒是细菌必备的结构\n\n答案：错误",
       "source_occurrences": [
         {
@@ -55414,9 +55381,7 @@
           "location": "第 3 页，第 19 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "bb031ecb82e5",
@@ -55429,7 +55394,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 20 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "外毒素主要由革兰阴性菌合成\n\n答案：错误",
       "source_occurrences": [
         {
@@ -55438,9 +55403,7 @@
           "location": "第 3 页，第 20 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "d391be533981",
@@ -55453,7 +55416,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 21 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "不同的外毒素对机体的组织器官无选择特异性作用\n\n答案：错误",
       "source_occurrences": [
         {
@@ -55462,9 +55425,7 @@
           "location": "第 3 页，第 21 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "c4ef7eb79772",
@@ -55477,7 +55438,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 22 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "抗毒素能中和血液中游离的外毒素，并能够使已经与组织细胞结合的外毒素解离\n\n答案：错误",
       "source_occurrences": [
         {
@@ -55486,9 +55447,7 @@
           "location": "第 3 页，第 22 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "c2ef9ee90bf8",
@@ -55501,7 +55460,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 23 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "细菌侵入血流，大量生长繁殖，产生大量的毒素，引起全身的中毒症状，这类血症称为毒\n血症\n\n答案：错误",
       "source_occurrences": [
         {
@@ -55510,9 +55469,7 @@
           "location": "第 3 页，第 23 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "6aecdaafff36",
@@ -55525,7 +55482,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 24 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "类毒素是由内毒素经甲醛脱毒处理后制成的\n\n答案：错误",
       "source_occurrences": [
         {
@@ -55534,9 +55491,7 @@
           "location": "第 3 页，第 24 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "64802c4d148d",
@@ -55549,7 +55504,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 25 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "抗毒素是用类毒素多次免疫马匹后，从其血清中提取免疫球蛋白精制而成.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -55558,9 +55513,7 @@
           "location": "第 3 页，第 25 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "66515c3fe6fb",
@@ -55573,7 +55526,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 26 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "BCG 是一种减毒的死菌苗.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -55582,9 +55535,7 @@
           "location": "第 3 页，第 26 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "bd3f70f05a46",
@@ -55597,7 +55548,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 27 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "破伤风抗毒素具有双重性，既是抗原又是抗体，因此注射破伤风抗毒素时事先要做皮试.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -55606,9 +55557,7 @@
           "location": "第 3 页，第 27 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "342fbe71438a",
@@ -55621,7 +55570,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 3 页，第 28 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "甲型溶血性链球菌能致人类亚急性细菌性心内膜炎.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -55630,9 +55579,7 @@
           "location": "第 3 页，第 28 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "802e6dafc340",
@@ -55645,7 +55592,7 @@
       "explanation": "错,凝固酶试验阳性",
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 29 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "鉴定金黄色葡萄球菌的重要依据是血浆凝固酶试验呈阴性\n\n答案：错误\n解析：错,凝固酶试验阳性",
       "source_occurrences": [
         {
@@ -55654,9 +55601,7 @@
           "location": "第 4 页，第 29 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "661d1bbda08b",
@@ -55669,7 +55614,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 30 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "引起流行性脑膜炎的病原菌是乙型脑炎病毒.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -55678,9 +55623,7 @@
           "location": "第 4 页，第 30 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "c93859ef1d09",
@@ -55693,7 +55636,7 @@
       "explanation": "错,EMB 或 SS.",
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 31 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "分离培养致病性肠道杆菌常用的培养基是血平皿或基础固体培养基\n\n答案：错误\n解析：错,EMB 或 SS.",
       "source_occurrences": [
         {
@@ -55702,9 +55645,7 @@
           "location": "第 4 页，第 31 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "b39a5daa78e3",
@@ -55717,7 +55658,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 32 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "A 群1型痢疾志贺杆菌既产生内毒素，又产生外毒素致病.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -55726,9 +55667,7 @@
           "location": "第 4 页，第 32 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "d5d4d99e23f0",
@@ -55741,7 +55680,7 @@
       "explanation": "错，致病性肠道杆菌不发酵.",
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 33 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "非致病性肠道杆菌与致病性肠道杆菌都能分解乳糖.\n\n答案：错误\n解析：错，致病性肠道杆菌不发酵.",
       "source_occurrences": [
         {
@@ -55750,9 +55689,7 @@
           "location": "第 4 页，第 33 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "d031b89ee80d",
@@ -55765,7 +55702,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 34 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "肥达试验可作为伤寒与副伤寒的辅助诊断.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -55774,9 +55711,7 @@
           "location": "第 4 页，第 34 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "806e2aa23d26",
@@ -55789,7 +55724,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 35 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "测定病毒体大小最可靠的方法是超速离心法.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -55798,9 +55733,7 @@
           "location": "第 4 页，第 35 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "6f20e569563e",
@@ -55813,7 +55746,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 36 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "病毒核酸具有多样性，有的含 DNA 或 RNA,还有的既含 DNA,又含有 RNA.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -55822,9 +55755,7 @@
           "location": "第 4 页，第 36 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "05c800358628",
@@ -55837,7 +55768,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 37 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "病毒合成的蛋白主要包括结构蛋白和非结构蛋白两大类.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -55846,9 +55777,7 @@
           "location": "第 4 页，第 37 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "1de9925baff7",
@@ -55861,7 +55790,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 4 页，第 38 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "病毒核酸之间通过互换而产生子代病毒的进程，称为重组.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -55870,9 +55799,7 @@
           "location": "第 4 页，第 38 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "fc43bdf69492",
@@ -55885,7 +55812,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 39 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "病毒遗传变异的物质基础是 DNA.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -55894,9 +55821,7 @@
           "location": "第 5 页，第 39 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "98171866cb7d",
@@ -55909,7 +55834,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 40 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "慢性病毒感染患者可作为传染源\n\n答案：正确",
       "source_occurrences": [
         {
@@ -55918,9 +55843,7 @@
           "location": "第 5 页，第 40 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "e01e5b1dabd8",
@@ -55933,7 +55856,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 41 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "疱疹病毒感染后，病毒可在三叉神经节中潜伏.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -55942,9 +55865,7 @@
           "location": "第 5 页，第 41 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "9c1cd3064e6a",
@@ -55957,7 +55878,7 @@
       "explanation": "抗病毒感染的细胞免疫中主要的杀伤细胞为NK细胞，吞噬细胞和CTL.",
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 42 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "抗病毒感染的细胞免疫中主要的杀伤细胞为NK细胞，吞噬细胞和中性粒细胞.\n\n答案：错误\n解析：抗病毒感染的细胞免疫中主要的杀伤细胞为NK细胞，吞噬细胞和CTL.",
       "source_occurrences": [
         {
@@ -55966,9 +55887,7 @@
           "location": "第 5 页，第 42 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "8c7312f0e795",
@@ -55981,7 +55900,7 @@
       "explanation": "IgM辅助诊断",
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 43 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "抗病毒感染的中和抗体能用于诊断宫内感染.\n\n答案：错误\n解析：IgM辅助诊断",
       "source_occurrences": [
         {
@@ -55990,9 +55909,7 @@
           "location": "第 5 页，第 43 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "da43d402c3d2",
@@ -56033,7 +55950,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 46 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "发病初期或急性期采取标本易于分离出病毒.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -56042,9 +55959,7 @@
           "location": "第 5 页，第 46 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "5430d0d4ec6f",
@@ -56057,7 +55972,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 5 页，第 47 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "病毒分离培养最常用的方法为动物接种.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -56066,9 +55981,7 @@
           "location": "第 5 页，第 47 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "a18e4c1f1333",
@@ -56103,7 +56016,7 @@
       "explanation": "虽然CPE的出现可能与病毒增殖有关，但并不能直接表明病毒增殖速度较快。",
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 49 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "病毒感染相应细胞立即出现 CPE,表明病毒增殖速度较快.\n\n答案：错误\n解析：虽然CPE的出现可能与病毒增殖有关，但并不能直接表明病毒增殖速度较快。",
       "source_occurrences": [
         {
@@ -56112,9 +56025,7 @@
           "location": "第 6 页，第 49 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "0eceeb6dfc93",
@@ -56127,7 +56038,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 50 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "直接检测病毒抗原可作为临床某些病毒的快速诊断.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -56136,9 +56047,7 @@
           "location": "第 6 页，第 50 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "844958915a5c",
@@ -56151,7 +56060,7 @@
       "explanation": "接种疫苗实际上属于人工主动免疫，而非人工被动免疫。",
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 51 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "接种疫苗为人工被动免疫的主要方法.\n\n答案：错误\n解析：接种疫苗实际上属于人工主动免疫，而非人工被动免疫。",
       "source_occurrences": [
         {
@@ -56160,9 +56069,7 @@
           "location": "第 6 页，第 51 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "81ce7be41b2f",
@@ -56175,7 +56082,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 52 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "呼吸道病毒的核酸类型皆为 RNA\n\n答案：错误",
       "source_occurrences": [
         {
@@ -56184,9 +56091,7 @@
           "location": "第 6 页，第 52 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "8b6df7a68948",
@@ -56199,7 +56104,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 53 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "乙型流感病毒最易发生抗原变异,导致大流行.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -56208,9 +56113,7 @@
           "location": "第 6 页，第 53 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "d46c9284834e",
@@ -56223,7 +56126,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 54 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "甲型流感病毒抗原漂移的原因是型特异性抗原发生大变异\n\n答案：错误",
       "source_occurrences": [
         {
@@ -56232,9 +56135,7 @@
           "location": "第 6 页，第 54 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "8afb1dc389cf",
@@ -56247,7 +56148,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 55 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "亚急性硬化性全脑炎的病原是麻疹病毒.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -56256,9 +56157,7 @@
           "location": "第 6 页，第 55 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "83395fc8acca",
@@ -56271,7 +56170,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 56 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "孕期风疹病毒感染可导致胎儿先天畸形.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -56280,9 +56179,7 @@
           "location": "第 6 页，第 56 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "711a5d584001",
@@ -56295,7 +56192,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 6 页，第 57 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "腮腺炎病毒感染可导致病毒血症.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -56304,9 +56201,7 @@
           "location": "第 6 页，第 57 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "5008126cbbcd",
@@ -56341,7 +56236,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 59 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "柯萨奇病毒感染可引起无菌性脑炎，心肌炎.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -56350,9 +56245,7 @@
           "location": "第 7 页，第 59 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "b6e2ff81decd",
@@ -56365,7 +56258,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 60 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "脊髓灰质炎病毒感染后常可获得终生免疫.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -56374,9 +56267,7 @@
           "location": "第 7 页，第 60 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "7587f8b784a7",
@@ -56389,7 +56280,7 @@
       "explanation": "错,dsRNA",
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 61 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "轮状病毒的核酸类型为正股单链的 RNA 病毒\n\n答案：错误\n解析：错,dsRNA",
       "source_occurrences": [
         {
@@ -56398,9 +56289,7 @@
           "location": "第 7 页，第 61 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "ccb33726ca1c",
@@ -56413,7 +56302,7 @@
       "explanation": "错,B 组",
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 62 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "引起成人急性胃肠炎的病毒为 C 组的轮状病毒.\n\n答案：错误\n解析：错,B 组",
       "source_occurrences": [
         {
@@ -56422,9 +56311,7 @@
           "location": "第 7 页，第 62 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "6bc814911aa3",
@@ -56437,7 +56324,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 63 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "轮状病毒的基因组分为 11 个节段.\n\n答案：正确",
       "source_occurrences": [
         {
@@ -56446,9 +56333,7 @@
           "location": "第 7 页，第 63 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "55fb958c6d15",
@@ -56461,7 +56346,7 @@
       "explanation": "错,单细胞",
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 64 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "新型隐球菌属于多细胞性真菌\n\n答案：错误\n解析：错,单细胞",
       "source_occurrences": [
         {
@@ -56470,9 +56355,7 @@
           "location": "第 7 页，第 64 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "7e0c41ada870",
@@ -56485,7 +56368,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 65 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "黄曲霉毒素与肝癌有关\n\n答案：正确",
       "source_occurrences": [
         {
@@ -56494,9 +56377,7 @@
           "location": "第 7 页，第 65 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "fc524bf10935",
@@ -56509,7 +56390,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 66 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "菌群失调症中白色念珠菌是常引起内源性感染的病原菌\n\n答案：正确",
       "source_occurrences": [
         {
@@ -56518,9 +56399,7 @@
           "location": "第 7 页，第 66 题",
           "original_answer": "正确"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "95cddcde8311",
@@ -56533,7 +56412,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 7 页，第 67 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "原核细胞型微生物有完整的细胞器.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -56542,9 +56421,7 @@
           "location": "第 7 页，第 67 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     },
     {
       "id": "b6abda3c0e1d",
@@ -56579,7 +56456,7 @@
       "explanation": null,
       "source": "判断题.pdf",
       "source_location": "第 8 页，第 69 题",
-      "status": "needs_review",
+      "status": "ready",
       "raw": "非细胞型微生物含有两种类型核酸，既含 DNA,又含 RNA.\n\n答案：错误",
       "source_occurrences": [
         {
@@ -56588,9 +56465,7 @@
           "location": "第 8 页，第 69 题",
           "original_answer": "错误"
         }
-      ],
-      "needs_review": true,
-      "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。"
+      ]
     }
   ],
   "cases": {

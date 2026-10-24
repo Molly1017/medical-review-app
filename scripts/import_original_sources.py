@@ -250,6 +250,13 @@ def main() -> int:
         data["cases"] = cases
         data["summary"]["original_case_source"] = args.cases.name
         data["summary"]["case_records_imported"] = len(cases)
+    for q in questions:
+        if q.get("type") == "判断题" and q.get("source") == "判断题.pdf":
+            answers = {str(o.get("original_answer")) for o in q.get("source_occurrences", []) if o.get("original_answer")}
+            if str(q.get("answer")) in {"正确", "错误"} and answers <= {str(q.get("answer"))}:
+                q["status"] = "ready"
+                q.pop("needs_review", None)
+                q.pop("needs_review_reason", None)
     data["version"] = "0.4-original-source-import"
     data["summary"].setdefault("repair_notes", []).append("已根据用户提供的原始 Word 文档恢复章节、病例背景及小题索引；无法解析的记录仍需审核。")
     args.output.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
