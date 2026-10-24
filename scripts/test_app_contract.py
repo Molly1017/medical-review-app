@@ -16,6 +16,18 @@ assert questions["24f2f0a95691"]["options"] == {
 assert questions["1ae60f3f131d"]["options"] == {
     "A": "细胞壁", "B": "细胞膜", "C": "鞭毛", "D": "核质", "E": "荚膜"
 }
+assert questions["6058b28d01d2"]["answer"] == "D"
+assert questions["6058b28d01d2"]["options"]["D"] == "内毒素"
+assert questions["6058b28d01d2"]["answer_source"] == "original_source"
+promoted = data.get("summary", {}).get("promoted_to_ready", [])
+assert promoted
+for question_id in promoted:
+    q = questions[question_id]
+    assert q["status"] == "ready"
+    assert q.get("answer_source") == "original_source"
+    assert q.get("answer_match_method")
+    assert q.get("review_resolution")
+print("status_transitions_checked", len(promoted))
 visible_types = {"单选题", "多选题", "判断题", "填空题", "名词解释"}
 visible = [q for q in data["questions"] if not q.get("exclude_from_quiz") and q.get("type") in visible_types]
 assert len(visible) == 1507

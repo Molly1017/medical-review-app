@@ -33,6 +33,8 @@ def main() -> int:
             errors.append(f"{prefix}: options are not ordered A-E")
         if q.get("answer_source") == "original_source" and (not q.get("answer_source_file") or not q.get("answer_source_location")):
             errors.append(f"{prefix}: original answer is missing source provenance")
+        if q.get("status") == "ready" and q.get("type") in GRADEABLE and q.get("answer_source") == "original_source" and not q.get("answer_match_method"):
+            errors.append(f"{prefix}: ready original answer lacks same-record/table match evidence")
         if not set(options) <= LABELS:
             errors.append(f"{prefix}: invalid option label")
         for label, value in options.items():
