@@ -218,7 +218,6 @@
       "2acdc4125ce3",
       "2ad686d0665d",
       "2adc823432bb",
-      "2b4bae214de8",
       "2b4dccc428aa",
       "2b64653a46e2",
       "2b7f45ecf9f4",
@@ -403,7 +402,6 @@
       "55651d26e9f8",
       "55d3b314cd05",
       "55fb958c6d15",
-      "561a3535afc3",
       "56b120fab29f",
       "572dee732692",
       "57403c58a78f",
@@ -515,7 +513,6 @@
       "707e0b5f0105",
       "708cf170e688",
       "70a00ce7bc6f",
-      "70c1245e1510",
       "711a5d584001",
       "71deabeac54c",
       "72025fc93ff5",
@@ -668,7 +665,6 @@
       "95b661441496",
       "95bd7e9f8cb6",
       "95cddcde8311",
-      "9603bca9c2cf",
       "9634109b4e36",
       "968e342a8e8c",
       "96d09119d157",
@@ -969,7 +965,6 @@
       "e01e5b1dabd8",
       "e073d96b3e7e",
       "e0787e958a0e",
-      "e0aa89dd20f9",
       "e0b2f8986c1b",
       "e1295396f5a0",
       "e1311a8afea7",
@@ -1070,7 +1065,6 @@
       "fa44852749bd",
       "faad58bb4195",
       "fab8662e6a80",
-      "fac8ba2f0f3d",
       "fb5284ab2be7",
       "fb8dfd6811a3",
       "fbeaf8fb6a52",
@@ -1129,7 +1123,10 @@
       "f803427cb07f",
       "f884fd5840a4",
       "ffbd04d7274d"
-    ]
+    ],
+    "chapter1_reliability_downgraded": 6,
+    "micro_ch1_fill_answers_restored": 10,
+    "cell_intro_explanations_generated": 29
   },
   "questions": [
     {
@@ -41306,7 +41303,7 @@
       "type": "填空题",
       "question": "在自然界及人和动物体内,绝大多数细菌黏附在无生命或有生命的物体表面，以 _的形式存在。",
       "options": {},
-      "answer": null,
+      "answer": "生物被膜",
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 12",
@@ -41321,7 +41318,12 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 12
+      "source_paragraph": 12,
+      "answer_source": "original_source",
+      "answer_source_file": "8.docx",
+      "answer_source_location": "段落 111",
+      "answer_match_method": "chapter_answer_section",
+      "reference_answer": "生物被膜"
     },
     {
       "id": "f05e4ff819e1",
@@ -41330,7 +41332,7 @@
       "type": "填空题",
       "question": "细菌的基本结构有 ， ， ， 。",
       "options": {},
-      "answer": null,
+      "answer": "细胞壁，细胞膜，细胞质，核质",
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 13",
@@ -41345,7 +41347,12 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 13
+      "source_paragraph": 13,
+      "answer_source": "original_source",
+      "answer_source_file": "8.docx",
+      "answer_source_location": "段落 112",
+      "answer_match_method": "chapter_answer_section",
+      "reference_answer": "细胞壁，细胞膜，细胞质，核质"
     },
     {
       "id": "dd0a11b7ec6d",
@@ -41354,7 +41361,7 @@
       "type": "填空题",
       "question": "细菌的特殊结构有 ， ， ， 。",
       "options": {},
-      "answer": null,
+      "answer": "荚膜，鞭毛，菌毛，芽孢",
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 14",
@@ -41369,7 +41376,12 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 14
+      "source_paragraph": 14,
+      "answer_source": "original_source",
+      "answer_source_file": "8.docx",
+      "answer_source_location": "段落 113",
+      "answer_match_method": "chapter_answer_section",
+      "reference_answer": "荚膜，鞭毛，菌毛，芽孢"
     },
     {
       "id": "61b9c51c5c6d",
@@ -41378,7 +41390,7 @@
       "type": "填空题",
       "question": "G+菌的肽聚糖由 ， ， 组成;",
       "options": {},
-      "answer": null,
+      "answer": "聚糖骨架，四肽侧链，五肽交联桥，聚糖骨架，四肽侧链",
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 15",
@@ -41393,7 +41405,12 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 15
+      "source_paragraph": 15,
+      "answer_source": "original_source",
+      "answer_source_file": "8.docx",
+      "answer_source_location": "段落 114",
+      "answer_match_method": "chapter_answer_section",
+      "reference_answer": "聚糖骨架，四肽侧链，五肽交联桥，聚糖骨架，四肽侧链"
     },
     {
       "id": "43bb32713778",
@@ -41402,7 +41419,7 @@
       "type": "填空题",
       "question": "肽聚糖聚糖骨架由 和 交替间隔排列,经 联结而成。",
       "options": {},
-      "answer": null,
+      "answer": "N-乙酰葡糖胺 N-乙酰胞壁酸 β-1,4糖苷键",
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 17",
@@ -41417,7 +41434,12 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 17
+      "source_paragraph": 17,
+      "answer_source": "original_source",
+      "answer_source_file": "8.docx",
+      "answer_source_location": "段落 115",
+      "answer_match_method": "chapter_answer_section",
+      "reference_answer": "N-乙酰葡糖胺 N-乙酰胞壁酸 β-1,4糖苷键"
     },
     {
       "id": "f1dd5a03a9c0",
@@ -41426,7 +41448,7 @@
       "type": "填空题",
       "question": "G菌外膜由 ， 和 三部分组成。",
       "options": {},
-      "answer": null,
+      "answer": "脂蛋白，脂多糖，脂双层",
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 18",
@@ -41441,7 +41463,12 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 18
+      "source_paragraph": 18,
+      "answer_source": "original_source",
+      "answer_source_file": "8.docx",
+      "answer_source_location": "段落 116",
+      "answer_match_method": "chapter_answer_section",
+      "reference_answer": "脂蛋白，脂多糖，脂双层"
     },
     {
       "id": "725289c7dc75",
@@ -41450,7 +41477,7 @@
       "type": "填空题",
       "question": "G菌外模由脂质双层的外层及其向细胞外伸出的部分是 即LPS,其由 ， 和 三部分组成。",
       "options": {},
-      "answer": null,
+      "answer": "脂多糖，脂质A，核心多糖，特异多糖",
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 19",
@@ -41465,7 +41492,12 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 19
+      "source_paragraph": 19,
+      "answer_source": "original_source",
+      "answer_source_file": "8.docx",
+      "answer_source_location": "段落 117",
+      "answer_match_method": "chapter_answer_section",
+      "reference_answer": "脂多糖，脂质A，核心多糖，特异多糖"
     },
     {
       "id": "254768909b59",
@@ -41474,7 +41506,7 @@
       "type": "填空题",
       "question": "G+菌细胞壁缺失后，原生质仅被一层细胞膜包住，称为 ;G-菌肽聚糖层受损后尚有外膜保护，称为 。",
       "options": {},
-      "answer": null,
+      "answer": "原生质体，原生质球",
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 20",
@@ -41489,7 +41521,12 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 20
+      "source_paragraph": 20,
+      "answer_source": "original_source",
+      "answer_source_file": "8.docx",
+      "answer_source_location": "段落 118",
+      "answer_match_method": "chapter_answer_section",
+      "reference_answer": "原生质体，原生质球"
     },
     {
       "id": "cce72e5c4636",
@@ -41498,7 +41535,7 @@
       "type": "填空题",
       "question": "根据功能不同，菌毛可分为 和 两类。",
       "options": {},
-      "answer": null,
+      "answer": "普通菌毛，性菌毛",
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 21",
@@ -41513,7 +41550,12 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 21
+      "source_paragraph": 21,
+      "answer_source": "original_source",
+      "answer_source_file": "8.docx",
+      "answer_source_location": "段落 119",
+      "answer_match_method": "chapter_answer_section",
+      "reference_answer": "普通菌毛，性菌毛"
     },
     {
       "id": "23967baaa7ce",
@@ -41522,7 +41564,7 @@
       "type": "填空题",
       "question": "细菌的遗传物质有 和 两种，其中 不是细菌生命活动所必需的。",
       "options": {},
-      "answer": null,
+      "answer": "染色体，质粒，质粒",
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 22",
@@ -41537,7 +41579,12 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 22
+      "source_paragraph": 22,
+      "answer_source": "original_source",
+      "answer_source_file": "8.docx",
+      "answer_source_location": "段落 120",
+      "answer_match_method": "chapter_answer_section",
+      "reference_answer": "染色体，质粒，质粒"
     },
     {
       "id": "24f2f0a95691",
@@ -41934,7 +41981,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 34",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "细菌细胞壁肽聚糖主要成分为\nA.脂多糖、聚糖骨架和四肽侧链\nB.脂质双层、四肽侧链和五肽交联桥\nC.特异性多糖、核心多糖和脂质\n聚糖骨架、四肽侧链和五肽交联桥\n脂蛋白、脂质双层和脂多糖\n10.有关质粒，错误的描述是\nA.细菌生命活动不可缺少的基因  B.细菌染色体以外的遗传物质\nC.具有自我复制的特点          D.可在细菌间转移\nE.可自行丢失\n11.细菌的测量单位是\nA.厘米(cm) B.微米(μm) C.毫米(mm) D.纳米(nm) E.米(m)\n12.缺乏细胞壁结构的原核细胞型微生物是\nA.螺旋体  B.衣原体  C.L型细菌 D.真菌 E.立克次体",
       "source_occurrences": [
         {
@@ -41950,8 +41997,10 @@
       "answer_source_file": "8.docx",
       "answer_source_location": "答案表题号 9",
       "answer_match_method": "micro_answer_table_question_number",
-      "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "needs_review": true,
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "exclude_from_quiz": true,
+      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
     },
     {
       "id": "e320c641689f",
@@ -42024,7 +42073,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 40",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "关于G+菌细胞壁，不正确的叙述是\nA.主要成分是黏肽 B.含有磷壁酸 C.对青霉素敏感\nD.含有大量脂多糖 E.易被溶菌酶破坏\n15.普通菌毛的作用是\nA.吸附宿主细胞 B.与运动性有关 C.介导接合作用\nD.抗吞噬作用   E.有丝分裂\n16.不属于G﹣菌细胞壁成分的是\nA.黏膜B.磷壁酸 C.脂蛋白 D.脂多糖 E.外膜\n17.畑菌“核质以外的遗传物质”是指\nA.核糖体 B.mRNA  C.性菌毛 D.质粒 E.异染顆粒\n18.细菌的运动器官是\nA.菌毛B.鞭毛 C,荚膜D.芽胞E.质粒\n19.芽胞是细菌的\nA.生长状态B.耐药状态C.发育状态D.休眠状杰E.繁殖状杰\n20.磷壁酸是\nA.细菌细胞膜的主要成分B.细菌荚膜的主要成分\nc.细菌芽胞中耐热性成分D.革兰阴性菌细胞壁成分\nE.革兰阳性菌细胞壁成分\n21.检验圧力蒸汽灭菌是否合格常用的指示菌是\nA.大肠埃希菌  B.沙门菌 C.芽胞杆菌\nD.葡萄球菌    E.结核分枝杆菌",
       "source_occurrences": [
         {
@@ -42040,8 +42089,10 @@
       "answer_source_file": "8.docx",
       "answer_source_location": "答案表题号 21",
       "answer_match_method": "micro_answer_table_question_number",
-      "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "needs_review": true,
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "exclude_from_quiz": true,
+      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
     },
     {
       "id": "9603bca9c2cf",
@@ -42060,7 +42111,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 41",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "青霉素的作用机制是\nA.水解细胞壁磷壁酸 B.溶解细胞壁细胞膜\nC.破坏细菌外膜結枸 D.抑制肽聚糖合成\nE.水解肽聚糖β-1,4糖苷键\n23.不属于细菌特殊结构的是\nA.荚膜B.鞭毛C.质粒D.芽胞E.菌毛",
       "source_occurrences": [
         {
@@ -42076,8 +42127,10 @@
       "answer_source_file": "8.docx",
       "answer_source_location": "答案表题号 23",
       "answer_match_method": "micro_answer_table_question_number",
-      "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "needs_review": true,
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "exclude_from_quiz": true,
+      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
     },
     {
       "id": "fac8ba2f0f3d",
@@ -42096,7 +42149,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 42",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "与内毒素有关的细菌结构是\nA.外膜B.核膜c.线粒体膜D.荚膜E.细胞膜\n25.关于内毒素脂质A,不正确的描述是\nA.为内毒素主要毒性成分 B.为内毒素主要生物活性组分\nC.无种属特昇性         D.由革兰阳性菌产生\nE.高温不易破坏\n26.与细菌L型形成无关的诱发因素是\nA.溶酶菌B.溶葡萄球菌素C.透明质酸酶 D.胆汁E.青霉素",
       "source_occurrences": [
         {
@@ -42112,8 +42165,10 @@
       "answer_source_file": "8.docx",
       "answer_source_location": "答案表题号 25",
       "answer_match_method": "micro_answer_table_question_number",
-      "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "needs_review": true,
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "exclude_from_quiz": true,
+      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
     },
     {
       "id": "70c1245e1510",
@@ -42132,7 +42187,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 44",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "可用于鉴别细菌的结构是\nA.原生质体B,异染顆粒 C.包涵体D.线粒体E.中介体\n28.与细菌侵袭力有关的表面结构是\nA.芽胞B.荚膜 C.质粒 D.线粒体E.包涵体\n29.红霉素的杀菌机制为\nA.破坏细菌细胞膜结构  B.抑制细菌蛋白质的合成\nC.抑制细菌的核酸代谢  D.干扰细胞壁脂多糖合成\nE.干扰细胞壁肽聚糖合成\n[A2型题]\n30.男性,22岁 ,因高热咳嗽5天急诊人院。患者5天前洗澡受凉后出现寒战，体温高达40℃，伴咳嗽、咳痰,痰少呈铁锈色，无痰中带血，无胸痛。口服抗生素及止咳退热剂3天后不见好转,体温仍波动于38.5-40℃。 急性热病容,神志清楚，无皮疹，浅表淋巴结无肿大,巩膜无黄染,咽(-),，气管居中。左中上肺叩浊音，语颤增强，可闻湿性哕音，叩诊心界不大,心率100次1分,律齐,无杂音。腹平软,肝脾未及,病理反射未引出。实验室检查:Hb140g/L WBC12x109L,N 82%,L18%，PLT180x109;尿常规(-);粪便常规(-),初步诊断为大叶性肺炎。该病原体的主要致病物质是\nA.荚膜B.脂质C.鞭毛\nD.内毒素E.菌毛",
       "source_occurrences": [
         {
@@ -42148,8 +42203,10 @@
       "answer_source_file": "8.docx",
       "answer_source_location": "答案表题号 28",
       "answer_match_method": "micro_answer_table_question_number",
-      "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "needs_review": true,
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "exclude_from_quiz": true,
+      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
     },
     {
       "id": "db2848c8944a",
@@ -42438,7 +42495,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 60",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "某幼儿园3岁小朋友，以发热咽痛、呼吸困难人院。查体；体温38.5C.口腔黏膜上散在白色玩点，明部及扁桃体有一层灰白色膜，疑是白喉。请问该传染病的病原菌经奈瑟染色后,有助于诊断的细菌结构是\nA.质粒  B.异染颗粒  C.荚膜\nD.芽胞  E.鞭毛\n[B1型題]\n(37-38題共用备选答案)\nA.磷壁酸 B.SPA  C.脂质 D.多糖 E.多偏磷酸盐\n37.白喉棒状杆菌异染颗粒的主要成分是",
       "source_occurrences": [
         {
@@ -42454,8 +42511,10 @@
       "answer_source_file": "8.docx",
       "answer_source_location": "答案表题号 36",
       "answer_match_method": "micro_answer_table_question_number",
-      "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "needs_review": true,
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "exclude_from_quiz": true,
+      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
     },
     {
       "id": "33f38f694d2f",
@@ -66444,7 +66503,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 7",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 A，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 7"
+        }
+      }
     },
     {
       "id": "8c905624ec38",
@@ -66478,7 +66555,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 8",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 C，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "正确选项。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 8"
+        }
+      }
     },
     {
       "id": "3745a6af64ac",
@@ -66512,7 +66607,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 10",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 ABC，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "正确选项。",
+          "C": "正确选项。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 10"
+        }
+      }
     },
     {
       "id": "e2937c1aaf98",
@@ -66546,7 +66659,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 11",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 ABCDE，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "正确选项。",
+          "C": "正确选项。",
+          "D": "正确选项。",
+          "E": "正确选项。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 11"
+        }
+      }
     },
     {
       "id": "5a30a3569f84",
@@ -66580,7 +66711,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 12",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 ACDE，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "正确选项。",
+          "D": "正确选项。",
+          "E": "正确选项。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 12"
+        }
+      }
     },
     {
       "id": "e07f21d192d5",
@@ -66614,7 +66763,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 13",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 ABCDE，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "正确选项。",
+          "C": "正确选项。",
+          "D": "正确选项。",
+          "E": "正确选项。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 13"
+        }
+      }
     },
     {
       "id": "e3644ca8e006",
@@ -66648,7 +66815,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 14",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 BC，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "正确选项。",
+          "C": "正确选项。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 14"
+        }
+      }
     },
     {
       "id": "06cc7ce3a24b",
@@ -66682,7 +66867,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 27",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 E，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "正确选项。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 27"
+        }
+      }
     },
     {
       "id": "8b019f521940",
@@ -66716,7 +66919,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 28",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 D，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "正确选项。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 28"
+        }
+      }
     },
     {
       "id": "25802a5ab43b",
@@ -66750,7 +66971,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 29",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 C，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "正确选项。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 29"
+        }
+      }
     },
     {
       "id": "ad53f5a5bc0f",
@@ -66784,7 +67023,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 30",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 C，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "正确选项。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 30"
+        }
+      }
     },
     {
       "id": "02db7261b08e",
@@ -66818,7 +67075,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 32",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 B，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "正确选项。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 32"
+        }
+      }
     },
     {
       "id": "9a09d704c6a3",
@@ -66852,7 +67127,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 33",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 E，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "正确选项。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 33"
+        }
+      }
     },
     {
       "id": "ac5cd40c8b7c",
@@ -66886,7 +67179,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 34",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 D，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "正确选项。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 34"
+        }
+      }
     },
     {
       "id": "ffbd04d7274d",
@@ -66920,7 +67231,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 35",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 C，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "正确选项。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 35"
+        }
+      }
     },
     {
       "id": "f803427cb07f",
@@ -66954,7 +67283,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 36",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 A，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 36"
+        }
+      }
     },
     {
       "id": "f23af2fb6862",
@@ -66988,7 +67335,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 37",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 A，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 37"
+        }
+      }
     },
     {
       "id": "8f61e4b4403a",
@@ -67022,7 +67387,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 38",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 B，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "正确选项。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 38"
+        }
+      }
     },
     {
       "id": "f884fd5840a4",
@@ -67056,7 +67439,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 40",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 AC，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "正确选项。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 40"
+        }
+      }
     },
     {
       "id": "626af88211a4",
@@ -67090,7 +67491,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 41",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 AC，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "正确选项。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 41"
+        }
+      }
     },
     {
       "id": "1dbd90239711",
@@ -67124,7 +67543,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 42",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 ABCE，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "正确选项。",
+          "C": "正确选项。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "正确选项。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 42"
+        }
+      }
     },
     {
       "id": "7aa84ad71591",
@@ -67158,7 +67595,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 43",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 ACDE，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "正确选项。",
+          "D": "正确选项。",
+          "E": "正确选项。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 43"
+        }
+      }
     },
     {
       "id": "5c666d54741d",
@@ -67192,7 +67647,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 44",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 ABCD，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "正确选项。",
+          "C": "正确选项。",
+          "D": "正确选项。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 44"
+        }
+      }
     },
     {
       "id": "a405e01cf8a8",
@@ -67226,7 +67699,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 45",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 ABC，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "正确选项。",
+          "C": "正确选项。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 45"
+        }
+      }
     },
     {
       "id": "46d58a7b6b6e",
@@ -67260,7 +67751,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 46",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 AE，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "正确选项。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 46"
+        }
+      }
     },
     {
       "id": "29e8286e69b2",
@@ -67294,7 +67803,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 4",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 B，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "正确选项。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 4"
+        }
+      }
     },
     {
       "id": "63356d408832",
@@ -67328,7 +67855,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 5",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 B，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "正确选项。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 5"
+        }
+      }
     },
     {
       "id": "dd5fd0e9ad3e",
@@ -67362,7 +67907,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 6",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 B，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "与题干考查的概念或事实不符。",
+          "B": "正确选项。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 6"
+        }
+      }
     },
     {
       "id": "36015bdb9878",
@@ -67396,7 +67959,25 @@
       "answer_source": "original_source",
       "answer_source_file": "2-医学细胞生物学题库B.docx",
       "answer_source_location": "段落 31",
-      "answer_match_method": "same_source_paragraph"
+      "answer_match_method": "same_source_paragraph",
+      "explanation_detail": {
+        "correct_answer_reason": "原始题库答案为 A，对应选项内容与题干所问的细胞生物学概念一致。",
+        "plain_explanation": "本题考查细胞生物学基础概念，先抓住题干中的定义、发现史或结构功能关键词，再核对选项。",
+        "option_analysis": {
+          "A": "正确选项。",
+          "B": "与题干考查的概念或事实不符。",
+          "C": "与题干考查的概念或事实不符。",
+          "D": "与题干考查的概念或事实不符。",
+          "E": "与题干考查的概念或事实不符。"
+        },
+        "clinical_connection": "该基础概念是理解细胞结构、遗传信息和疾病机制的基础。",
+        "exam_focus": "细胞学说、细胞结构与功能以及原核/真核差异是西医综合和执业医师基础题常考内容。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 31"
+        }
+      }
     }
   ],
   "cases": {
