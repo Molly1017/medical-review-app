@@ -18,6 +18,7 @@ OPTION_PATTERNS = [
     re.compile(r"(?:^|[\s])([A-E])(?=[\u4e00-\u9fff])"),
 ]
 ANSWER_RE = re.compile(r"(?:【\s*答案\s*】|答案\s*[:：]?)[\s]*([A-E](?:\s*[,、和及/]\s*[A-E])*)", re.I)
+ANSWER_TAIL_RE = re.compile(r"(?:答案|参考答案|正确答案)\s*[:：]\s*[A-E]+.*$", re.I | re.S)
 CASE_RE = re.compile(r"案例\s*(\d+)")
 
 
@@ -68,6 +69,11 @@ def main() -> int:
 
     for question in questions:
         raw = str(question.get("raw") or "")
+        answer_tail = ANSWER_TAIL_RE.search(raw)
+        if answer_tail and not question.get("answer"):
+            extracted = re.search(r"[A-E]+", answer_tail.group(0).upper())
+            if extracted:
+                question["answer"] = extracted.group(0)
         parsed = parse_options(raw)
         existing = question.get("options") or {}
         malformed = any(k not in "ABCDE" or not str(v).strip() or re.search(r"(?:^|\s)[A-E][.．、:：)]", str(v)) for k, v in existing.items())
@@ -94,6 +100,12 @@ def main() -> int:
             question["needs_review"] = True
             question["needs_review_reason"] = "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。"
         if question.get("options"):
+            cleaned = {}
+            for label, value in question["options"].items():
+                value = ANSWER_TAIL_RE.split(str(value), maxsplit=1)[0].strip()
+                if value:
+                    cleaned[label] = value
+            question["options"] = cleaned
             question["options"] = {label: question["options"][label] for label in "ABCDE" if label in question["options"]}
         if question.get("type") in {"单选题", "多选题"} and set(question.get("options", {})) != set("ABCDE"):
             question["status"] = "needs_review"
