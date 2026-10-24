@@ -21,7 +21,7 @@
       "案例分析原始文档未随仓库提供；案例记录保留 needs_review 并按导出段落建立保守 case_id。",
       "未分章/未分类章节未依据关键词猜测。"
     ],
-    "repaired_option_sets": 76,
+    "repaired_option_sets": 89,
     "repaired_question_types": 0,
     "inferred_answers": 0,
     "original_case_source": "0.docx",
