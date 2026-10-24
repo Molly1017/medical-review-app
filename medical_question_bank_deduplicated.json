@@ -1012,7 +1012,8 @@
     "term_generated_references": 47,
     "term_needs_review": 71,
     "batch2_term_splits": 17,
-    "cell_all_choice_recovered": 48
+    "cell_all_choice_recovered": 48,
+    "batch3_ad_enabled": 23
   },
   "questions": [
     {
@@ -5382,13 +5383,13 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "选择题缺少完整 A-E 选项，暂不进入刷题。",
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。",
       "source_verified": true,
       "source_paragraph": 440,
       "answer_source": "original_source",
       "answer_source_file": "医学免疫学题库.docx",
       "answer_source_location": "段落 431",
-      "exclude_from_quiz": true,
+      "exclude_from_quiz": false,
       "answer_match_method": "source_occurrence_exact"
     },
     {
@@ -6124,13 +6125,13 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "选择题缺少完整 A-E 选项，暂不进入刷题。",
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。",
       "source_verified": true,
       "source_paragraph": 517,
       "answer_source": "original_source",
       "answer_source_file": "医学免疫学题库.docx",
       "answer_source_location": "段落 508",
-      "exclude_from_quiz": true,
+      "exclude_from_quiz": false,
       "answer_match_method": "source_occurrence_exact"
     },
     {
@@ -6193,11 +6194,11 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "选择题缺少完整 A-E 选项，暂不进入刷题。",
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。",
       "answer_source": "original_source",
       "answer_source_file": "医学免疫学题库.docx",
       "answer_source_location": "段落 518",
-      "exclude_from_quiz": true,
+      "exclude_from_quiz": false,
       "answer_match_method": "source_occurrence_exact"
     },
     {
@@ -13558,13 +13559,13 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "选择题缺少完整 A-E 选项，暂不进入刷题。",
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。",
       "source_verified": true,
       "source_paragraph": 1278,
       "answer_source": "original_source",
       "answer_source_file": "医学免疫学题库.docx",
       "answer_source_location": "段落 1250",
-      "exclude_from_quiz": true,
+      "exclude_from_quiz": false,
       "answer_match_method": "source_occurrence_exact"
     },
     {
@@ -14314,13 +14315,13 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "选择题缺少完整 A-E 选项，暂不进入刷题。",
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。",
       "source_verified": true,
       "source_paragraph": 1344,
       "answer_source": "original_source",
       "answer_source_file": "医学免疫学题库.docx",
       "answer_source_location": "段落 1316",
-      "exclude_from_quiz": true,
+      "exclude_from_quiz": false,
       "answer_match_method": "source_occurrence_exact"
     },
     {
@@ -16797,11 +16798,11 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "选择题缺少完整 A-E 选项，暂不进入刷题。",
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。",
       "answer_source": "original_source",
       "answer_source_file": "医学免疫学题库.docx",
       "answer_source_location": "段落 1605",
-      "exclude_from_quiz": true,
+      "exclude_from_quiz": false,
       "answer_match_method": "source_occurrence_exact"
     },
     {
@@ -17911,13 +17912,13 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "选择题缺少完整 A-E 选项，暂不进入刷题。",
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。",
       "source_verified": true,
       "source_paragraph": 1766,
       "answer_source": "original_source",
       "answer_source_file": "医学免疫学题库.docx",
       "answer_source_location": "段落 1728",
-      "exclude_from_quiz": true,
+      "exclude_from_quiz": false,
       "answer_match_method": "source_occurrence_exact"
     },
     {
@@ -37923,11 +37924,11 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "选择题缺少完整 A-E 选项，暂不进入刷题。",
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。",
       "answer_source": "original_source",
       "answer_source_file": "医学免疫学题库.docx",
       "answer_source_location": "段落 3907",
-      "exclude_from_quiz": true,
+      "exclude_from_quiz": false,
       "answer_match_method": "source_occurrence_exact"
     },
     {
@@ -40850,13 +40851,13 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "选择题缺少完整 A-E 选项，暂不进入刷题。",
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。",
       "source_verified": true,
       "source_paragraph": 227,
       "answer_source": "original_source",
       "answer_source_file": "医学细胞生物学题库B.docx",
       "answer_source_location": "段落 226",
-      "exclude_from_quiz": true,
+      "exclude_from_quiz": false,
       "answer_match_method": "source_occurrence_exact"
     },
     {
@@ -40886,13 +40887,13 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "选择题缺少完整 A-E 选项，暂不进入刷题。",
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。",
       "source_verified": true,
       "source_paragraph": 228,
       "answer_source": "original_source",
       "answer_source_file": "医学细胞生物学题库B.docx",
       "answer_source_location": "段落 227",
-      "exclude_from_quiz": true,
+      "exclude_from_quiz": false,
       "answer_match_method": "source_occurrence_exact"
     },
     {
@@ -40922,13 +40923,13 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "选择题缺少完整 A-E 选项，暂不进入刷题。",
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。",
       "source_verified": true,
       "source_paragraph": 229,
       "answer_source": "original_source",
       "answer_source_file": "医学细胞生物学题库B.docx",
       "answer_source_location": "段落 228",
-      "exclude_from_quiz": true,
+      "exclude_from_quiz": false,
       "answer_match_method": "source_occurrence_exact"
     },
     {
@@ -42546,7 +42547,7 @@
       "needs_review": true,
       "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
       "exclude_from_quiz": true,
-      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。"
     },
     {
       "id": "e320c641689f",
@@ -42638,7 +42639,7 @@
       "needs_review": true,
       "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
       "exclude_from_quiz": true,
-      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。"
     },
     {
       "id": "9603bca9c2cf",
@@ -42676,7 +42677,7 @@
       "needs_review": true,
       "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
       "exclude_from_quiz": true,
-      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。"
     },
     {
       "id": "fac8ba2f0f3d",
@@ -42714,7 +42715,7 @@
       "needs_review": true,
       "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
       "exclude_from_quiz": true,
-      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。"
     },
     {
       "id": "70c1245e1510",
@@ -42752,7 +42753,7 @@
       "needs_review": true,
       "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
       "exclude_from_quiz": true,
-      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。"
     },
     {
       "id": "db2848c8944a",
@@ -43060,7 +43061,7 @@
       "needs_review": true,
       "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
       "exclude_from_quiz": true,
-      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。"
     },
     {
       "id": "33f38f694d2f",
@@ -54032,11 +54033,11 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "选择题缺少完整 A-E 选项，暂不进入刷题。",
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。",
       "answer_source": "original_source",
       "answer_source_file": "医学微生物学题库.docx",
       "answer_source_location": "段落 1171",
-      "exclude_from_quiz": true,
+      "exclude_from_quiz": false,
       "answer_match_method": "source_occurrence_exact"
     },
     {
@@ -54313,13 +54314,13 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "选择题缺少完整 A-E 选项，暂不进入刷题。",
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。",
       "source_verified": true,
       "source_paragraph": 1331,
       "answer_source": "original_source",
       "answer_source_file": "医学微生物学题库.docx",
       "answer_source_location": "段落 1208",
-      "exclude_from_quiz": true,
+      "exclude_from_quiz": false,
       "answer_conflict": true,
       "answer_match_method": "source_occurrence_exact"
     },
@@ -68702,8 +68703,8 @@
         }
       },
       "needs_review": true,
-      "exclude_from_quiz": true,
-      "needs_review_reason": "选项边界无法从原始记录唯一恢复，暂不进入刷题。"
+      "exclude_from_quiz": false,
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。"
     },
     {
       "id": "63356d408832",
@@ -68757,8 +68758,8 @@
         }
       },
       "needs_review": true,
-      "exclude_from_quiz": true,
-      "needs_review_reason": "选项边界无法从原始记录唯一恢复，暂不进入刷题。"
+      "exclude_from_quiz": false,
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。"
     },
     {
       "id": "dd5fd0e9ad3e",
@@ -68812,8 +68813,8 @@
         }
       },
       "needs_review": true,
-      "exclude_from_quiz": true,
-      "needs_review_reason": "选项边界无法从原始记录唯一恢复，暂不进入刷题。"
+      "exclude_from_quiz": false,
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。"
     },
     {
       "id": "36015bdb9878",
@@ -68867,8 +68868,8 @@
         }
       },
       "needs_review": true,
-      "exclude_from_quiz": true,
-      "needs_review_reason": "选项边界无法从原始记录唯一恢复，暂不进入刷题。"
+      "exclude_from_quiz": false,
+      "needs_review_reason": "原题选项为四项或答案待核实；允许练习但不自动判分。"
     },
     {
       "id": "19f3134c73ad",
