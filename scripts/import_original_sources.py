@@ -94,6 +94,26 @@ def question_number_near(rows: list[str], paragraph: int) -> int | None:
     return None
 
 
+def answer_letters(value: object) -> str:
+    return "".join(re.findall(r"[A-E]", str(value or "").upper()))
+
+
+def reliable_gradeable_record(q: dict) -> bool:
+    if not str(q.get("question") or "").strip() or len(str(q.get("question") or "").strip()) < 5:
+        return False
+    if q.get("type") == "判断题":
+        return str(q.get("answer")) in {"正确", "错误"} and q.get("answer_source") == "original_source"
+    options = q.get("options") or {}
+    if set(options) != set("ABCDE") or any(not str(v).strip() or len(str(v).strip()) < 1 for v in options.values()):
+        return False
+    answer = answer_letters(q.get("answer"))
+    if not answer or not set(answer) <= set(options):
+        return False
+    if q.get("type") == "多选题" and len(set(answer)) < 2:
+        return False
+    return q.get("answer_source") == "original_source" and bool(q.get("answer_match_method"))
+
+
 def apply_source_context(questions: list[dict], path: Path, source_name: str) -> None:
     rows = source_context(path)
     for q in questions:
@@ -121,6 +141,7 @@ def apply_source_context(questions: list[dict], path: Path, source_name: str) ->
                 q["answer_source"] = "original_source"
                 q["answer_source_file"] = path.name
                 q["answer_source_location"] = f"段落 {i + 1}"
+                q["answer_match_method"] = "same_source_paragraph"
                 q["source_verified"] = True
 
 
@@ -245,9 +266,8 @@ def map_case_records(questions: list[dict], cases: dict[str, dict], ranges: dict
                     q["answer_source"] = "original_source"
                     q["answer_source_file"] = path.name
                     q["answer_source_location"] = f"段落 {sub['source_paragraph']}"
+                    q["answer_match_method"] = "case_subquestion_answer"
                     q["status"] = "ready"
-                    q.pop("needs_review", None)
-                    q.pop("needs_review_reason", None)
             elif not sub["options"]:
                 q["type"] = "问答题"
                 q["status"] = "needs_review"
@@ -273,6 +293,7 @@ def main() -> int:
     if args.cell:
         apply_source_context(questions, args.cell, "医学细胞生物学题库B.docx")
         chapter_orders["医学细胞生物学"] = chapter_order(args.cell)
+    promoted: list[str] = []
     if args.micro:
         apply_source_context(questions, args.micro, "医学微生物学题库.docx")
         chapter_orders["医学微生物学"] = chapter_order(args.micro)
@@ -284,13 +305,17 @@ def main() -> int:
             paragraph = int(q.get("source_paragraph", 1)) - 1
             number = question_number_near(micro_rows, paragraph)
             answer = micro_answers.get(number)
-            if answer and not q.get("answer"):
+            if answer and q.get("answer") and answer_letters(q["answer"]) != answer:
+                q["answer_conflict"] = True
+                q["status"] = "needs_review"
+                q["needs_review"] = True
+                q["needs_review_reason"] = "原始答案表与当前答案不一致，待人工核对。"
+            elif answer:
                 q["answer"] = answer
                 q["answer_source"] = "original_source"
                 q["answer_source_file"] = args.micro.name
                 q["answer_source_location"] = f"答案表题号 {number}"
-                if set(q.get("options", {})) == set("ABCDE"):
-                    q["status"] = "ready"
+                q["answer_match_method"] = "micro_answer_table_question_number"
     if args.cases:
         cases, ranges = parse_cases(args.cases)
         map_case_records(questions, cases, ranges, args.cases)
@@ -304,20 +329,27 @@ def main() -> int:
             q["answer_source"] = "original_source"
             q["answer_source_file"] = q.get("source")
             q["answer_source_location"] = q.get("source_location")
+            q["answer_match_method"] = "source_occurrence_exact"
         if q.get("options"):
             q["options"] = {label: q["options"][label] for label in "ABCDE" if label in q["options"]}
-        if q.get("answer_source") == "original_source" and q.get("type") in {"单选题", "多选题"} and set(q.get("options", {})) == set("ABCDE") and q.get("answer"):
+        if q.get("answer_source") == "original_source" and q.get("type") in {"单选题", "多选题", "判断题"} and reliable_gradeable_record(q):
+            previous_status = q.get("status")
             q["status"] = "ready"
-            q.pop("needs_review", None)
-            q.pop("needs_review_reason", None)
+            q["needs_review"] = False
+            q["review_resolution"] = f"由 {q.get('answer_match_method')} 核实；原状态 {previous_status}"
+            promoted.append(q["id"])
     for q in questions:
         if q.get("type") == "判断题" and q.get("source") == "判断题.pdf":
             answers = {str(o.get("original_answer")) for o in q.get("source_occurrences", []) if o.get("original_answer")}
             if str(q.get("answer")) in {"正确", "错误"} and answers <= {str(q.get("answer"))}:
                 q["status"] = "ready"
-                q.pop("needs_review", None)
-                q.pop("needs_review_reason", None)
+                q["answer_source"] = "original_source"
+                q["answer_match_method"] = "source_occurrence_exact"
+                q["needs_review"] = False
+                q["review_resolution"] = "由判断题 PDF 原始答案核实"
+                promoted.append(q["id"])
     data["version"] = "0.4-original-source-import"
+    data["summary"]["promoted_to_ready"] = sorted(set(promoted))
     data["summary"].setdefault("repair_notes", []).append("已根据用户提供的原始 Word 文档恢复章节、病例背景及小题索引；无法解析的记录仍需审核。")
     args.output.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"questions={len(questions)} cases={len(data.get('cases', {}))}")
