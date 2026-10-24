@@ -28,6 +28,16 @@ def load_paragraphs(path: Path) -> list[str]:
     return [p.text.strip() for p in Document(path).paragraphs]
 
 
+def extract_chapter(text: str) -> str | None:
+    lines = (text or "").splitlines()
+    if not lines:
+        return None
+    first = lines[0].strip()
+    if not CHAPTER_RE.match(first) or "_" in first or len(first) > 60:
+        return None
+    return first
+
+
 def source_context(path: Path) -> list[tuple[int, str, str | None, str | None]]:
     """Return paragraph index/text/current chapter/current type."""
     rows = load_paragraphs(path)
@@ -35,8 +45,9 @@ def source_context(path: Path) -> list[tuple[int, str, str | None, str | None]]:
     kind = None
     out = []
     for i, text in enumerate(rows):
-        if CHAPTER_RE.match(text):
-            chapter = text
+        found_chapter = extract_chapter(text)
+        if found_chapter:
+            chapter = found_chapter
         if re.search(r"名词解释", text):
             kind = "名词解释"
         elif re.search(r"填空题", text):
@@ -53,6 +64,15 @@ def source_context(path: Path) -> list[tuple[int, str, str | None, str | None]]:
             kind = "单选题"
         out.append((i, text, chapter, kind))
     return out
+
+
+def chapter_order(path: Path) -> list[str]:
+    seen: list[str] = []
+    for text in load_paragraphs(path):
+        found = extract_chapter(text)
+        if found and found not in seen:
+            seen.append(found)
+    return seen
 
 
 def apply_source_context(questions: list[dict], path: Path, source_name: str) -> None:
@@ -214,12 +234,16 @@ def main() -> int:
     args = parser.parse_args()
     data = json.loads(args.input.read_text(encoding="utf-8"))
     questions = data["questions"]
+    chapter_orders = data.setdefault("chapter_order", {})
     if args.immune:
         apply_source_context(questions, args.immune, "医学免疫学题库.docx")
+        chapter_orders["医学免疫学"] = chapter_order(args.immune)
     if args.cell:
         apply_source_context(questions, args.cell, "医学细胞生物学题库B.docx")
+        chapter_orders["医学细胞生物学"] = chapter_order(args.cell)
     if args.micro:
         apply_source_context(questions, args.micro, "医学微生物学题库.docx")
+        chapter_orders["医学微生物学"] = chapter_order(args.micro)
     if args.cases:
         cases, ranges = parse_cases(args.cases)
         map_case_records(questions, cases, ranges, args.cases)
