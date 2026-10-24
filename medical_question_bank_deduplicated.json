@@ -218,7 +218,6 @@
       "2acdc4125ce3",
       "2ad686d0665d",
       "2adc823432bb",
-      "2b4bae214de8",
       "2b4dccc428aa",
       "2b64653a46e2",
       "2b7f45ecf9f4",
@@ -403,7 +402,6 @@
       "55651d26e9f8",
       "55d3b314cd05",
       "55fb958c6d15",
-      "561a3535afc3",
       "56b120fab29f",
       "572dee732692",
       "57403c58a78f",
@@ -515,7 +513,6 @@
       "707e0b5f0105",
       "708cf170e688",
       "70a00ce7bc6f",
-      "70c1245e1510",
       "711a5d584001",
       "71deabeac54c",
       "72025fc93ff5",
@@ -668,7 +665,6 @@
       "95b661441496",
       "95bd7e9f8cb6",
       "95cddcde8311",
-      "9603bca9c2cf",
       "9634109b4e36",
       "968e342a8e8c",
       "96d09119d157",
@@ -969,7 +965,6 @@
       "e01e5b1dabd8",
       "e073d96b3e7e",
       "e0787e958a0e",
-      "e0aa89dd20f9",
       "e0b2f8986c1b",
       "e1295396f5a0",
       "e1311a8afea7",
@@ -1070,7 +1065,6 @@
       "fa44852749bd",
       "faad58bb4195",
       "fab8662e6a80",
-      "fac8ba2f0f3d",
       "fb5284ab2be7",
       "fb8dfd6811a3",
       "fbeaf8fb6a52",
@@ -1129,7 +1123,8 @@
       "f803427cb07f",
       "f884fd5840a4",
       "ffbd04d7274d"
-    ]
+    ],
+    "chapter1_reliability_downgraded": 6
   },
   "questions": [
     {
@@ -41934,7 +41929,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 34",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "细菌细胞壁肽聚糖主要成分为\nA.脂多糖、聚糖骨架和四肽侧链\nB.脂质双层、四肽侧链和五肽交联桥\nC.特异性多糖、核心多糖和脂质\n聚糖骨架、四肽侧链和五肽交联桥\n脂蛋白、脂质双层和脂多糖\n10.有关质粒，错误的描述是\nA.细菌生命活动不可缺少的基因  B.细菌染色体以外的遗传物质\nC.具有自我复制的特点          D.可在细菌间转移\nE.可自行丢失\n11.细菌的测量单位是\nA.厘米(cm) B.微米(μm) C.毫米(mm) D.纳米(nm) E.米(m)\n12.缺乏细胞壁结构的原核细胞型微生物是\nA.螺旋体  B.衣原体  C.L型细菌 D.真菌 E.立克次体",
       "source_occurrences": [
         {
@@ -41950,8 +41945,10 @@
       "answer_source_file": "8.docx",
       "answer_source_location": "答案表题号 9",
       "answer_match_method": "micro_answer_table_question_number",
-      "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "needs_review": true,
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "exclude_from_quiz": true,
+      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
     },
     {
       "id": "e320c641689f",
@@ -42024,7 +42021,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 40",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "关于G+菌细胞壁，不正确的叙述是\nA.主要成分是黏肽 B.含有磷壁酸 C.对青霉素敏感\nD.含有大量脂多糖 E.易被溶菌酶破坏\n15.普通菌毛的作用是\nA.吸附宿主细胞 B.与运动性有关 C.介导接合作用\nD.抗吞噬作用   E.有丝分裂\n16.不属于G﹣菌细胞壁成分的是\nA.黏膜B.磷壁酸 C.脂蛋白 D.脂多糖 E.外膜\n17.畑菌“核质以外的遗传物质”是指\nA.核糖体 B.mRNA  C.性菌毛 D.质粒 E.异染顆粒\n18.细菌的运动器官是\nA.菌毛B.鞭毛 C,荚膜D.芽胞E.质粒\n19.芽胞是细菌的\nA.生长状态B.耐药状态C.发育状态D.休眠状杰E.繁殖状杰\n20.磷壁酸是\nA.细菌细胞膜的主要成分B.细菌荚膜的主要成分\nc.细菌芽胞中耐热性成分D.革兰阴性菌细胞壁成分\nE.革兰阳性菌细胞壁成分\n21.检验圧力蒸汽灭菌是否合格常用的指示菌是\nA.大肠埃希菌  B.沙门菌 C.芽胞杆菌\nD.葡萄球菌    E.结核分枝杆菌",
       "source_occurrences": [
         {
@@ -42040,8 +42037,10 @@
       "answer_source_file": "8.docx",
       "answer_source_location": "答案表题号 21",
       "answer_match_method": "micro_answer_table_question_number",
-      "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "needs_review": true,
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "exclude_from_quiz": true,
+      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
     },
     {
       "id": "9603bca9c2cf",
@@ -42060,7 +42059,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 41",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "青霉素的作用机制是\nA.水解细胞壁磷壁酸 B.溶解细胞壁细胞膜\nC.破坏细菌外膜結枸 D.抑制肽聚糖合成\nE.水解肽聚糖β-1,4糖苷键\n23.不属于细菌特殊结构的是\nA.荚膜B.鞭毛C.质粒D.芽胞E.菌毛",
       "source_occurrences": [
         {
@@ -42076,8 +42075,10 @@
       "answer_source_file": "8.docx",
       "answer_source_location": "答案表题号 23",
       "answer_match_method": "micro_answer_table_question_number",
-      "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "needs_review": true,
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "exclude_from_quiz": true,
+      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
     },
     {
       "id": "fac8ba2f0f3d",
@@ -42096,7 +42097,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 42",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "与内毒素有关的细菌结构是\nA.外膜B.核膜c.线粒体膜D.荚膜E.细胞膜\n25.关于内毒素脂质A,不正确的描述是\nA.为内毒素主要毒性成分 B.为内毒素主要生物活性组分\nC.无种属特昇性         D.由革兰阳性菌产生\nE.高温不易破坏\n26.与细菌L型形成无关的诱发因素是\nA.溶酶菌B.溶葡萄球菌素C.透明质酸酶 D.胆汁E.青霉素",
       "source_occurrences": [
         {
@@ -42112,8 +42113,10 @@
       "answer_source_file": "8.docx",
       "answer_source_location": "答案表题号 25",
       "answer_match_method": "micro_answer_table_question_number",
-      "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "needs_review": true,
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "exclude_from_quiz": true,
+      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
     },
     {
       "id": "70c1245e1510",
@@ -42132,7 +42135,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 44",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "可用于鉴别细菌的结构是\nA.原生质体B,异染顆粒 C.包涵体D.线粒体E.中介体\n28.与细菌侵袭力有关的表面结构是\nA.芽胞B.荚膜 C.质粒 D.线粒体E.包涵体\n29.红霉素的杀菌机制为\nA.破坏细菌细胞膜结构  B.抑制细菌蛋白质的合成\nC.抑制细菌的核酸代谢  D.干扰细胞壁脂多糖合成\nE.干扰细胞壁肽聚糖合成\n[A2型题]\n30.男性,22岁 ,因高热咳嗽5天急诊人院。患者5天前洗澡受凉后出现寒战，体温高达40℃，伴咳嗽、咳痰,痰少呈铁锈色，无痰中带血，无胸痛。口服抗生素及止咳退热剂3天后不见好转,体温仍波动于38.5-40℃。 急性热病容,神志清楚，无皮疹，浅表淋巴结无肿大,巩膜无黄染,咽(-),，气管居中。左中上肺叩浊音，语颤增强，可闻湿性哕音，叩诊心界不大,心率100次1分,律齐,无杂音。腹平软,肝脾未及,病理反射未引出。实验室检查:Hb140g/L WBC12x109L,N 82%,L18%，PLT180x109;尿常规(-);粪便常规(-),初步诊断为大叶性肺炎。该病原体的主要致病物质是\nA.荚膜B.脂质C.鞭毛\nD.内毒素E.菌毛",
       "source_occurrences": [
         {
@@ -42148,8 +42151,10 @@
       "answer_source_file": "8.docx",
       "answer_source_location": "答案表题号 28",
       "answer_match_method": "micro_answer_table_question_number",
-      "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "needs_review": true,
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "exclude_from_quiz": true,
+      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
     },
     {
       "id": "db2848c8944a",
@@ -42438,7 +42443,7 @@
       "explanation": null,
       "source": "医学微生物学题库.docx",
       "source_location": "段落 60",
-      "status": "ready",
+      "status": "needs_review",
       "raw": "某幼儿园3岁小朋友，以发热咽痛、呼吸困难人院。查体；体温38.5C.口腔黏膜上散在白色玩点，明部及扁桃体有一层灰白色膜，疑是白喉。请问该传染病的病原菌经奈瑟染色后,有助于诊断的细菌结构是\nA.质粒  B.异染颗粒  C.荚膜\nD.芽胞  E.鞭毛\n[B1型題]\n(37-38題共用备选答案)\nA.磷壁酸 B.SPA  C.脂质 D.多糖 E.多偏磷酸盐\n37.白喉棒状杆菌异染颗粒的主要成分是",
       "source_occurrences": [
         {
@@ -42454,8 +42459,10 @@
       "answer_source_file": "8.docx",
       "answer_source_location": "答案表题号 36",
       "answer_match_method": "micro_answer_table_question_number",
-      "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "needs_review": true,
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "exclude_from_quiz": true,
+      "needs_review_reason": "第一章原始段落包含合并题目或选项文本，无法可靠核对，暂不展示正式解析。"
     },
     {
       "id": "33f38f694d2f",
