@@ -35,11 +35,15 @@ def main() -> int:
             if not str(value).strip() or OPTION_MARKER.search(str(value)):
                 errors.append(f"{prefix}: option {label} is empty or contains another option marker")
         if q.get("status") == "ready" and q.get("type") in GRADEABLE:
-            if set(options) != LABELS:
-                errors.append(f"{prefix}: ready gradeable question must have A-E options")
             answer = str(q.get("answer") or "").upper()
-            if not answer or not set(answer) <= LABELS:
-                errors.append(f"{prefix}: ready gradeable question has invalid answer")
+            if q.get("type") == "判断题":
+                if answer not in {"正确", "错误"}:
+                    errors.append(f"{prefix}: ready judgment question has invalid answer")
+            else:
+                if set(options) != LABELS:
+                    errors.append(f"{prefix}: ready choice question must have A-E options")
+                if not answer or not set(answer) <= LABELS:
+                    errors.append(f"{prefix}: ready choice question has invalid answer")
         if q.get("source") == "案例分析.docx":
             if not q.get("case_id"):
                 errors.append(f"{prefix}: case records must retain case_id")
