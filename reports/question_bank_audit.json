@@ -308,130 +308,10 @@
       "source": "医学免疫学题库.docx",
       "source_location": "段落 1775",
       "type": "单选题",
-      "severity": "critical",
-      "kind": "next_question_in_option",
-      "detail": "A 选项疑似混入下一题",
-      "suggestion": "按原始题号重新拆分"
-    },
-    {
-      "id": "741a3b551bb0",
-      "course": "医学免疫学",
-      "chapter": "第八章 主要组织相容性复合体",
-      "source": "医学免疫学题库.docx",
-      "source_location": "段落 1775",
-      "type": "单选题",
-      "severity": "critical",
-      "kind": "next_question_in_option",
-      "detail": "B 选项疑似混入下一题",
-      "suggestion": "按原始题号重新拆分"
-    },
-    {
-      "id": "741a3b551bb0",
-      "course": "医学免疫学",
-      "chapter": "第八章 主要组织相容性复合体",
-      "source": "医学免疫学题库.docx",
-      "source_location": "段落 1775",
-      "type": "单选题",
-      "severity": "critical",
-      "kind": "next_question_in_option",
-      "detail": "C 选项疑似混入下一题",
-      "suggestion": "按原始题号重新拆分"
-    },
-    {
-      "id": "741a3b551bb0",
-      "course": "医学免疫学",
-      "chapter": "第八章 主要组织相容性复合体",
-      "source": "医学免疫学题库.docx",
-      "source_location": "段落 1775",
-      "type": "单选题",
-      "severity": "critical",
-      "kind": "next_question_in_option",
-      "detail": "D 选项疑似混入下一题",
-      "suggestion": "按原始题号重新拆分"
-    },
-    {
-      "id": "741a3b551bb0",
-      "course": "医学免疫学",
-      "chapter": "第八章 主要组织相容性复合体",
-      "source": "医学免疫学题库.docx",
-      "source_location": "段落 1775",
-      "type": "单选题",
-      "severity": "critical",
-      "kind": "next_question_in_option",
-      "detail": "E 选项疑似混入下一题",
-      "suggestion": "按原始题号重新拆分"
-    },
-    {
-      "id": "741a3b551bb0",
-      "course": "医学免疫学",
-      "chapter": "第八章 主要组织相容性复合体",
-      "source": "医学免疫学题库.docx",
-      "source_location": "段落 1775",
-      "type": "单选题",
       "severity": "medium",
       "kind": "source_unmatched",
       "detail": "题目未与原始来源明确匹配",
       "suggestion": "人工对照原始文件"
-    },
-    {
-      "id": "589cc8dc2939",
-      "course": "医学免疫学",
-      "chapter": "第九章 B淋巴细胞",
-      "source": "医学免疫学题库.docx",
-      "source_location": "段落 1901",
-      "type": "单选题",
-      "severity": "critical",
-      "kind": "next_question_in_option",
-      "detail": "A 选项疑似混入下一题",
-      "suggestion": "按原始题号重新拆分"
-    },
-    {
-      "id": "589cc8dc2939",
-      "course": "医学免疫学",
-      "chapter": "第九章 B淋巴细胞",
-      "source": "医学免疫学题库.docx",
-      "source_location": "段落 1901",
-      "type": "单选题",
-      "severity": "critical",
-      "kind": "next_question_in_option",
-      "detail": "B 选项疑似混入下一题",
-      "suggestion": "按原始题号重新拆分"
-    },
-    {
-      "id": "589cc8dc2939",
-      "course": "医学免疫学",
-      "chapter": "第九章 B淋巴细胞",
-      "source": "医学免疫学题库.docx",
-      "source_location": "段落 1901",
-      "type": "单选题",
-      "severity": "critical",
-      "kind": "next_question_in_option",
-      "detail": "C 选项疑似混入下一题",
-      "suggestion": "按原始题号重新拆分"
-    },
-    {
-      "id": "589cc8dc2939",
-      "course": "医学免疫学",
-      "chapter": "第九章 B淋巴细胞",
-      "source": "医学免疫学题库.docx",
-      "source_location": "段落 1901",
-      "type": "单选题",
-      "severity": "critical",
-      "kind": "next_question_in_option",
-      "detail": "D 选项疑似混入下一题",
-      "suggestion": "按原始题号重新拆分"
-    },
-    {
-      "id": "589cc8dc2939",
-      "course": "医学免疫学",
-      "chapter": "第九章 B淋巴细胞",
-      "source": "医学免疫学题库.docx",
-      "source_location": "段落 1901",
-      "type": "单选题",
-      "severity": "critical",
-      "kind": "next_question_in_option",
-      "detail": "E 选项疑似混入下一题",
-      "suggestion": "按原始题号重新拆分"
     },
     {
       "id": "8f7103d37821",
@@ -552,18 +432,6 @@
       "kind": "source_unmatched",
       "detail": "题目未与原始来源明确匹配",
       "suggestion": "人工对照原始文件"
-    },
-    {
-      "id": "ee0e0747322f",
-      "course": "医学细胞生物学",
-      "chapter": "第八章 细胞核",
-      "source": "医学细胞生物学题库B.docx",
-      "source_location": "段落 203",
-      "type": "名词解释",
-      "severity": "high",
-      "kind": "term_merge_suspected",
-      "detail": "名词解释可能粘连多个术语或后续题目",
-      "suggestion": "按原始段落/题号拆分"
     },
     {
       "id": "b15559df8147",
@@ -806,18 +674,6 @@
       "suggestion": "人工对照原始文件"
     },
     {
-      "id": "397d654e95e5",
-      "course": "医学微生物学",
-      "chapter": "第八章 球菌",
-      "source": "医学微生物学题库.docx",
-      "source_location": "段落 420",
-      "type": "单选题",
-      "severity": "critical",
-      "kind": "next_question_in_option",
-      "detail": "D 选项疑似混入下一题",
-      "suggestion": "按原始题号重新拆分"
-    },
-    {
       "id": "01d165cbff14",
       "course": "医学微生物学",
       "chapter": "第八章 球菌",
@@ -998,18 +854,6 @@
       "suggestion": "核对答案表与原题"
     },
     {
-      "id": "a946baf10d0d",
-      "course": "医学微生物学",
-      "chapter": "第二十五章 呼吸道病毒",
-      "source": "医学微生物学题库.docx",
-      "source_location": "段落 1402",
-      "type": "名词解释",
-      "severity": "high",
-      "kind": "term_merge_suspected",
-      "detail": "名词解释可能粘连多个术语或后续题目",
-      "suggestion": "按原始段落/题号拆分"
-    },
-    {
       "id": "bf3653a038ed",
       "course": "医学微生物学",
       "chapter": "第二十五章 呼吸道病毒",
@@ -1056,30 +900,6 @@
       "kind": "answer_outside_options",
       "detail": "答案 C 不在选项集合中",
       "suggestion": "核对答案表与原题"
-    },
-    {
-      "id": "4699a601d896",
-      "course": "医学微生物学",
-      "chapter": "第三十二章 逆转录病毒",
-      "source": "医学微生物学题库.docx",
-      "source_location": "段落 1503",
-      "type": "单选题",
-      "severity": "critical",
-      "kind": "next_question_in_option",
-      "detail": "A 选项疑似混入下一题",
-      "suggestion": "按原始题号重新拆分"
-    },
-    {
-      "id": "4699a601d896",
-      "course": "医学微生物学",
-      "chapter": "第三十二章 逆转录病毒",
-      "source": "医学微生物学题库.docx",
-      "source_location": "段落 1503",
-      "type": "单选题",
-      "severity": "critical",
-      "kind": "next_question_in_option",
-      "detail": "B 选项疑似混入下一题",
-      "suggestion": "按原始题号重新拆分"
     },
     {
       "id": "9774d66b0325",
@@ -2016,15 +1836,73 @@
       "kind": "duplicate_stem",
       "detail": "与 db57e5cc6a7d 题干重复",
       "suggestion": "核对是否重复题或不同选项版本"
+    },
+    {
+      "id": "7324785a2ca8",
+      "course": "医学微生物学",
+      "chapter": "第二十五章 呼吸道病毒",
+      "source": "医学微生物学题库.docx",
+      "source_location": "段落 1404",
+      "type": "名词解释",
+      "severity": "medium",
+      "kind": "duplicate_stem",
+      "detail": "与 c432eaa18742 题干重复",
+      "suggestion": "核对是否重复题或不同选项版本"
+    },
+    {
+      "id": "213c62f89f1d",
+      "course": "医学微生物学",
+      "chapter": "第二十五章 呼吸道病毒",
+      "source": "医学微生物学题库.docx",
+      "source_location": "段落 1405",
+      "type": "名词解释",
+      "severity": "medium",
+      "kind": "duplicate_stem",
+      "detail": "与 30ecaa54d639 题干重复",
+      "suggestion": "核对是否重复题或不同选项版本"
+    },
+    {
+      "id": "a2760e75803c",
+      "course": "医学微生物学",
+      "chapter": "名词解释汇编",
+      "source": "名词解释.pdf",
+      "source_location": "第 40 页，第 143 题",
+      "type": "名词解释",
+      "severity": "medium",
+      "kind": "duplicate_stem",
+      "detail": "与 125edcb74393 题干重复",
+      "suggestion": "核对是否重复题或不同选项版本"
+    },
+    {
+      "id": "5946c8bb38cd",
+      "course": "医学微生物学",
+      "chapter": "名词解释汇编",
+      "source": "名词解释.pdf",
+      "source_location": "第 40 页，第 144 题",
+      "type": "名词解释",
+      "severity": "medium",
+      "kind": "duplicate_stem",
+      "detail": "与 a946baf10d0d 题干重复",
+      "suggestion": "核对是否重复题或不同选项版本"
+    },
+    {
+      "id": "46a0fd0c2ca8",
+      "course": "医学微生物学",
+      "chapter": "名词解释汇编",
+      "source": "名词解释.pdf",
+      "source_location": "第 40 页，第 145 题",
+      "type": "名词解释",
+      "severity": "medium",
+      "kind": "duplicate_stem",
+      "detail": "与 e043293e3681 题干重复",
+      "suggestion": "核对是否重复题或不同选项版本"
     }
   ],
   "issue_counts": {
     "option_incomplete": 31,
     "answer_outside_options": 15,
     "source_unmatched": 97,
-    "next_question_in_option": 13,
-    "term_merge_suspected": 2,
-    "duplicate_stem": 10
+    "duplicate_stem": 15
   },
   "courses": {
     "医学免疫学": 1157,

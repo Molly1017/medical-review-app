@@ -1010,7 +1010,8 @@
     "cell_intro_explanations_generated": 29,
     "term_original_answers": 160,
     "term_generated_references": 47,
-    "term_needs_review": 71
+    "term_needs_review": 71,
+    "batch2_term_splits": 17
   },
   "questions": [
     {
@@ -39665,7 +39666,7 @@
       "course": "医学细胞生物学",
       "chapter": "第七章 细胞骨架",
       "type": "名词解释",
-      "question": "微管组织中心：细胞内微管组装发源点称微管组织中心，主要包括中心体、纤毛基体和着丝点等部位，它们在微管装配过程中起着重要作用。",
+      "question": "微管组织中心",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -39682,14 +39683,21 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 172
+      "source_paragraph": 172,
+      "reference_answer": "细胞内微管组装发源点称微管组织中心，主要包括中心体、纤毛基体和着丝点等部位，它们在微管装配过程中起着重要作用。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 171",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "36188546bb44",
       "course": "医学细胞生物学",
       "chapter": "第七章 细胞骨架",
       "type": "名词解释",
-      "question": "微管踏车：是指微管的聚合和解聚过程，在微管的正极端异二聚体微管蛋白聚合的同时，微管的负极端不断解聚，解聚下来的微管蛋白又可聚合到微管的正极端，这种 “微管蛋白流” 称微管踏车活动。",
+      "question": "微管踏车",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -39706,7 +39714,14 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 173
+      "source_paragraph": 173,
+      "reference_answer": "是指微管的聚合和解聚过程，在微管的正极端异二聚体微管蛋白聚合的同时，微管的负极端不断解聚，解聚下来的微管蛋白又可聚合到微管的正极端，这种 “微管蛋白流” 称微管踏车活动。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 172",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "b5cad2247184",
@@ -40265,7 +40280,7 @@
       "course": "医学细胞生物学",
       "chapter": "第八章 细胞核",
       "type": "名词解释",
-      "question": "核孔复合体：是指包括核孔及其相关联的环状结构体系。除了膜结构外，核孔复合体的基本组分包括孔环颗粒、周边颗粒、中央颗粒和细纤丝。核孔复合体中央的核孔是含水的通道，它允许 5kD 以下的小分子物质自由通过核被膜，分子量较大的物质则要通过调控核孔复合体的关闭进行运输。",
+      "question": "核孔复合体",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -40282,14 +40297,21 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 204
+      "source_paragraph": 204,
+      "reference_answer": "是指包括核孔及其相关联的环状结构体系。除了膜结构外，核孔复合体的基本组分包括孔环颗粒、周边颗粒、中央颗粒和细纤丝。核孔复合体中央的核孔是含水的通道，它允许 5kD 以下的小分子物质自由通过核被膜，分子量较大的物质则要通过调控核孔复合体的关闭进行运输。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 203",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "e039c12dda3e",
       "course": "医学细胞生物学",
       "chapter": "第八章 细胞核",
       "type": "名词解释",
-      "question": "常染色质：是转录活跃的 DNA 部分，在间期细胞核中为解旋的细纤维丝，折叠盘曲度小，分散度大。在细胞分裂期，常染色质位于染色体臂。常染色质含有单一和重复顺序的 DNA，在一定条件下可进行复制和转录，是正常情况下经常处于功能活跃状态的染色质。",
+      "question": "常染色质",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -40306,14 +40328,21 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 205
+      "source_paragraph": 205,
+      "reference_answer": "是转录活跃的 DNA 部分，在间期细胞核中为解旋的细纤维丝，折叠盘曲度小，分散度大。在细胞分裂期，常染色质位于染色体臂。常染色质含有单一和重复顺序的 DNA，在一定条件下可进行复制和转录，是正常情况下经常处于功能活跃状态的染色质。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 204",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "f104239ee731",
       "course": "医学细胞生物学",
       "chapter": "第八章 细胞核",
       "type": "名词解释",
-      "question": "动粒：位于染色体着丝粒两侧的特化圆盘状蛋白质复合结构，是有丝分裂、减数分裂中纺锤体微管的附着位点。可与纺锤丝微管结合，负责牵引染色体排列、分离与移向两极，同时参与细胞分裂检查点调控，保证染色体均等分配。",
+      "question": "动粒",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -40330,7 +40359,14 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 206
+      "source_paragraph": 206,
+      "reference_answer": "位于染色体着丝粒两侧的特化圆盘状蛋白质复合结构，是有丝分裂、减数分裂中纺锤体微管的附着位点。可与纺锤丝微管结合，负责牵引染色体排列、分离与移向两极，同时参与细胞分裂检查点调控，保证染色体均等分配。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 205",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "2a2a9b26f529",
@@ -40899,7 +40935,7 @@
       "course": "医学细胞生物学",
       "chapter": "第八章 细胞核",
       "type": "名词解释",
-      "question": "有丝分裂：有丝分裂主要指细胞分裂过程中细胞核有明显的形态学变化，特别是染色质凝集成染色体和由微管形成各种丝状结构（纺锤丝等），进而构成纺锤体，是机体生长发育中细胞增殖的主要方式。",
+      "question": "有丝分裂",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -40916,14 +40952,21 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 236
+      "source_paragraph": 236,
+      "reference_answer": "有丝分裂主要指细胞分裂过程中细胞核有明显的形态学变化，特别是染色质凝集成染色体和由微管形成各种丝状结构（纺锤丝等），进而构成纺锤体，是机体生长发育中细胞增殖的主要方式。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 235",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "dff949fd5661",
       "course": "医学细胞生物学",
       "chapter": "第八章 细胞核",
       "type": "名词解释",
-      "question": "细胞周期： 指连续分裂的细胞从一次有丝分裂结束开始，到下一次有丝分裂结束为止所经历的全过程。包括分裂间期（G1 期、S 期、G2 期）和分裂期（M 期），间期完成物质准备与 DNA 复制，分裂期完成细胞分裂，周而复始调控细胞增殖。",
+      "question": "细胞周期",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -40940,14 +40983,21 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 237
+      "source_paragraph": 237,
+      "reference_answer": "指连续分裂的细胞从一次有丝分裂结束开始，到下一次有丝分裂结束为止所经历的全过程。包括分裂间期（G1 期、S 期、G2 期）和分裂期（M 期），间期完成物质准备与 DNA 复制，分裂期完成细胞分裂，周而复始调控细胞增殖。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 236",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "4e29a7f470d0",
       "course": "医学细胞生物学",
       "chapter": "第八章 细胞核",
       "type": "名词解释",
-      "question": "减数分裂：是有性生殖个体形成生殖细胞过程中发生的一种特殊的分裂方式。整个细胞周期经过 2 次细胞分裂，而 DNA 只复制 1 次，这样就由染色体数目为 2n 的体细胞产生出染色体数目减半（n）的精子或卵子。",
+      "question": "减数分裂",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -40964,7 +41014,14 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 239
+      "source_paragraph": 239,
+      "reference_answer": "是有性生殖个体形成生殖细胞过程中发生的一种特殊的分裂方式。整个细胞周期经过 2 次细胞分裂，而 DNA 只复制 1 次，这样就由染色体数目为 2n 的体细胞产生出染色体数目减半（n）的精子或卵子。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 238",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "4727bef7b7a4",
@@ -41307,7 +41364,7 @@
       "course": "医学细胞生物学",
       "chapter": "第十五章 细胞分化",
       "type": "名词解释",
-      "question": "细胞分化：受精卵产生的细胞在形态、功能和蛋白质合成方面发生稳定性差异的过程称为细胞分化。",
+      "question": "细胞分化",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -41324,14 +41381,21 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 260
+      "source_paragraph": 260,
+      "reference_answer": "受精卵产生的细胞在形态、功能和蛋白质合成方面发生稳定性差异的过程称为细胞分化。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 259",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "502e47ae0e0a",
       "course": "医学细胞生物学",
       "chapter": "第十五章 细胞分化",
       "type": "名词解释",
-      "question": "胚胎诱导：在胚胎发育过程中，一部分细胞对邻近的另一部分细胞产生影响，并决定其分化方向的作用称为胚胎诱导。",
+      "question": "胚胎诱导",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -41348,14 +41412,21 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 261
+      "source_paragraph": 261,
+      "reference_answer": "在胚胎发育过程中，一部分细胞对邻近的另一部分细胞产生影响，并决定其分化方向的作用称为胚胎诱导。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 260",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "3a83dea2dc89",
       "course": "医学细胞生物学",
       "chapter": "第十五章 细胞分化",
       "type": "名词解释",
-      "question": "多能细胞：受精卵发育到三胚层的原肠胚后，分化的潜能开始出现一定的局限性。但此时仍能分化形成多种类型细胞，这些细胞称为多能细胞。",
+      "question": "多能细胞",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -41372,7 +41443,14 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 262
+      "source_paragraph": 262,
+      "reference_answer": "受精卵发育到三胚层的原肠胚后，分化的潜能开始出现一定的局限性。但此时仍能分化形成多种类型细胞，这些细胞称为多能细胞。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 261",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "bf76c5d930b6",
@@ -41511,7 +41589,7 @@
       "course": "医学细胞生物学",
       "chapter": "第十六章 细胞衰老与细胞死亡",
       "type": "名词解释",
-      "question": "细胞凋亡：也称程序性细胞死亡，是为维持内环境稳定，由基因控制的细胞自主有序的死亡，是个体发育必不可少的。",
+      "question": "细胞凋亡",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -41528,7 +41606,14 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 282
+      "source_paragraph": 282,
+      "reference_answer": "也称程序性细胞死亡，是为维持内环境稳定，由基因控制的细胞自主有序的死亡，是个体发育必不可少的。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 281",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "68ac07da18c9",
@@ -55875,7 +55960,7 @@
       "course": "医学微生物学",
       "chapter": "第二十五章 呼吸道病毒",
       "type": "名词解释",
-      "question": "抗原性转变：流感病毒株表面抗原结构一种或两种发生变异，变异幅度大，形成新亚型，属于质变。由于与前一次流行株抗原结构相异，人们缺少对变异病毒株的免疫力，从而引起大流行。",
+      "question": "抗原性转变",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -55892,14 +55977,21 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1544
+      "source_paragraph": 1544,
+      "reference_answer": "流感病毒株表面抗原结构一种或两种发生变异，变异幅度大，形成新亚型，属于质变。由于与前一次流行株抗原结构相异，人们缺少对变异病毒株的免疫力，从而引起大流行。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学微生物学题库.docx",
+      "answer_source_location": "段落 1401",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "a946baf10d0d",
       "course": "医学微生物学",
       "chapter": "第二十五章 呼吸道病毒",
       "type": "名词解释",
-      "question": "血凝素:成分是糖蛋白,易变异,和NA一起作为甲型流感病毒划分亚型的依据。主要功能有:①凝集红细胞,能使多种动物或人的红细胞发生凝集,这种血凝现象可以被特异性抗体所抑制;②吸附宿主细胞,使病毒进入机体细胞;③具有抗原性刺激机体可产生保护性抗体。",
+      "question": "血凝素",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -55916,14 +56008,21 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1545
+      "source_paragraph": 1545,
+      "reference_answer": "成分是糖蛋白,易变异,和NA一起作为甲型流感病毒划分亚型的依据。主要功能有:①凝集红细胞,能使多种动物或人的红细胞发生凝集,这种血凝现象可以被特异性抗体所抑制;②吸附宿主细胞,使病毒进入机体细胞;③具有抗原性刺激机体可产生保护性抗体。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学微生物学题库.docx",
+      "answer_source_location": "段落 1402",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "e043293e3681",
       "course": "医学微生物学",
       "chapter": "第二十五章 呼吸道病毒",
       "type": "名词解释",
-      "question": "抗原性漂移:流感病毒毒株表面抗原结构发生了点突变,变异幅度小或连续变异,部分人群对新毒株没有免疫力,引起小规模流行。一般认为是属于量变,即亚型内变异。",
+      "question": "抗原性漂移",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -55940,14 +56039,21 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1546
+      "source_paragraph": 1546,
+      "reference_answer": "流感病毒毒株表面抗原结构发生了点突变,变异幅度小或连续变异,部分人群对新毒株没有免疫力,引起小规模流行。一般认为是属于量变,即亚型内变异。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学微生物学题库.docx",
+      "answer_source_location": "段落 1403",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "7324785a2ca8",
       "course": "医学微生物学",
       "chapter": "第二十五章 呼吸道病毒",
       "type": "名词解释",
-      "question": "神经氨酸酶:成分是糖蛋白,易变异,和HA一起作为甲型流感病毒划分亚型的依据。主要功能有:①参与病毒释放;②促进病毒扩散;具有抗原性,刺激机体可产生抗体,但该抗体不能中和病毒的感染性,能抑制酶的水解。",
+      "question": "神经氨酸酶",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -55964,14 +56070,21 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1547
+      "source_paragraph": 1547,
+      "reference_answer": "成分是糖蛋白,易变异,和HA一起作为甲型流感病毒划分亚型的依据。主要功能有:①参与病毒释放;②促进病毒扩散;具有抗原性,刺激机体可产生抗体,但该抗体不能中和病毒的感染性,能抑制酶的水解。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学微生物学题库.docx",
+      "answer_source_location": "段落 1404",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "213c62f89f1d",
       "course": "医学微生物学",
       "chapter": "第二十五章 呼吸道病毒",
       "type": "名词解释",
-      "question": "先天性风疹综合征:是指孕妇感染风疹病毒后,病毒可通过胎盘感染胎儿,引起胎儿畸形、死亡、流产或产后死亡。胎儿畸形的主要表现为先天性心脏病、白内障和耳聋3大主症。在女性怀孕的前三个月感染风疹病毒风险最高。",
+      "question": "先天性风疹综合征",
       "options": {},
       "answer": null,
       "explanation": null,
@@ -55988,7 +56101,14 @@
         }
       ],
       "source_verified": true,
-      "source_paragraph": 1548
+      "source_paragraph": 1548,
+      "reference_answer": "是指孕妇感染风疹病毒后,病毒可通过胎盘感染胎儿,引起胎儿畸形、死亡、流产或产后死亡。胎儿畸形的主要表现为先天性心脏病、白内障和耳聋3大主症。在女性怀孕的前三个月感染风疹病毒风险最高。",
+      "answer_source": "original_source",
+      "answer_source_file": "医学微生物学题库.docx",
+      "answer_source_location": "段落 1405",
+      "answer_match_method": "same_record_definition",
+      "needs_review": false,
+      "review_resolution": "从同一原始记录的术语与定义拆分"
     },
     {
       "id": "bf3653a038ed",
