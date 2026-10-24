@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 LABELS = set("ABCDE")
@@ -60,7 +61,10 @@ def main() -> int:
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
+    visible_types = {"单选题": "选择题", "多选题": "选择题", "判断题": "判断题", "填空题": "填空题", "名词解释": "名词解释"}
+    visible = [q for q in questions if not q.get("exclude_from_quiz") and q.get("type") in visible_types]
     print(f"validated {len(questions)} questions; option, answer, case, and chapter invariants passed")
+    print(f"visible_quiz_records={len(visible)} visible_types={dict(Counter(visible_types[q['type']] for q in visible))}")
     return 0
 
 
