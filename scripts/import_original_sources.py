@@ -18,6 +18,7 @@ NUM_RE = re.compile(r"^\s*(\d+)\s*[.．、)]\s*(.*)$")
 OPTION_RE = re.compile(r"^\s*([A-E])\s*[.．、:：)]\s*(.*)$")
 CASE_RE = re.compile(r"^案例\s*(\d+)\s*$")
 ANSWER_RE = re.compile(r"【答案】\s*([A-E]+)")
+INLINE_ANSWER_RE = re.compile(r"(?:答案|参考答案)\s*[:：;；]?\s*([A-E]+|正确|错误)", re.I)
 
 
 def clean(value: str) -> str:
@@ -75,6 +76,24 @@ def chapter_order(path: Path) -> list[str]:
     return seen
 
 
+def micro_choice_answers(path: Path) -> dict[int, str]:
+    answers: dict[int, str] = {}
+    for text in load_paragraphs(path):
+        for match in re.finditer(r"(\d+)\s*[-~～]\s*(\d+)\s*([A-E]+)", text, re.I):
+            start, end, letters = int(match.group(1)), int(match.group(2)), match.group(3).upper()
+            if len(letters) == end - start + 1:
+                answers.update({start + i: letter for i, letter in enumerate(letters)})
+    return answers
+
+
+def question_number_near(rows: list[str], paragraph: int) -> int | None:
+    for i in range(min(paragraph, len(rows) - 1), max(-1, paragraph - 4), -1):
+        numbers = re.findall(r"(?:^|\n)\s*(\d+)\s*[.、)]", rows[i])
+        if numbers:
+            return int(numbers[-1])
+    return None
+
+
 def apply_source_context(questions: list[dict], path: Path, source_name: str) -> None:
     rows = source_context(path)
     for q in questions:
@@ -87,12 +106,22 @@ def apply_source_context(questions: list[dict], path: Path, source_name: str) ->
         loc_match = re.search(r"(\d+)", str(q.get("source_location", "")))
         target = int(loc_match.group(1)) if loc_match else 0
         i, chapter, kind = min(candidates, key=lambda x: abs(x[0] - target))
+        text = rows[i][1]
         q["source_verified"] = True
         q["source_paragraph"] = i + 1
         if chapter:
             q["chapter"] = chapter
         if kind and q.get("type") in {None, "未分类"}:
             q["type"] = kind
+        answer_match = INLINE_ANSWER_RE.search(text)
+        if answer_match and q.get("type") in {"单选题", "多选题", "判断题"}:
+            answer = answer_match.group(1).upper()
+            if q.get("answer") in (None, "", answer):
+                q["answer"] = answer
+                q["answer_source"] = "original_source"
+                q["answer_source_file"] = path.name
+                q["answer_source_location"] = f"段落 {i + 1}"
+                q["source_verified"] = True
 
 
 def parse_cases(path: Path) -> tuple[dict[str, dict], dict[int, tuple[int, int]]]:
@@ -213,6 +242,9 @@ def map_case_records(questions: list[dict], cases: dict[str, dict], ranges: dict
                 q["type"] = "单选题"
                 if sub.get("answer"):
                     q["answer"] = sub["answer"]
+                    q["answer_source"] = "original_source"
+                    q["answer_source_file"] = path.name
+                    q["answer_source_location"] = f"段落 {sub['source_paragraph']}"
                     q["status"] = "ready"
                     q.pop("needs_review", None)
                     q.pop("needs_review_reason", None)
@@ -244,12 +276,36 @@ def main() -> int:
     if args.micro:
         apply_source_context(questions, args.micro, "医学微生物学题库.docx")
         chapter_orders["医学微生物学"] = chapter_order(args.micro)
+        micro_answers = micro_choice_answers(args.micro)
+        micro_rows = load_paragraphs(args.micro)
+        for q in questions:
+            if q.get("source") != "医学微生物学题库.docx" or q.get("type") not in {"单选题", "多选题"}:
+                continue
+            paragraph = int(q.get("source_paragraph", 1)) - 1
+            number = question_number_near(micro_rows, paragraph)
+            answer = micro_answers.get(number)
+            if answer and not q.get("answer"):
+                q["answer"] = answer
+                q["answer_source"] = "original_source"
+                q["answer_source_file"] = args.micro.name
+                q["answer_source_location"] = f"答案表题号 {number}"
+                if set(q.get("options", {})) == set("ABCDE"):
+                    q["status"] = "ready"
     if args.cases:
         cases, ranges = parse_cases(args.cases)
         map_case_records(questions, cases, ranges, args.cases)
         data["cases"] = cases
         data["summary"]["original_case_source"] = args.cases.name
         data["summary"]["case_records_imported"] = len(cases)
+    for q in questions:
+        occurrences = q.get("source_occurrences") or []
+        original_answers = {str(o.get("original_answer")) for o in occurrences if o.get("original_answer")}
+        if q.get("answer") and original_answers and str(q["answer"]) in original_answers and len(original_answers) == 1:
+            q["answer_source"] = "original_source"
+            q["answer_source_file"] = q.get("source")
+            q["answer_source_location"] = q.get("source_location")
+        if q.get("options"):
+            q["options"] = {label: q["options"][label] for label in "ABCDE" if label in q["options"]}
     for q in questions:
         if q.get("type") == "判断题" and q.get("source") == "判断题.pdf":
             answers = {str(o.get("original_answer")) for o in q.get("source_occurrences", []) if o.get("original_answer")}
