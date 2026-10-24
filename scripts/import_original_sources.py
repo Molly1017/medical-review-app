@@ -95,7 +95,8 @@ def parse_cases(path: Path) -> tuple[dict[str, dict], dict[int, tuple[int, int]]
         current: dict | None = None
         seen_question = False
         answer_section = False
-        for idx, text in case_rows[1:]:
+        case_content = case_rows[1:]
+        for row_pos, (idx, text) in enumerate(case_content):
             if not text or text.startswith("【案例介绍】") or text.startswith("【案例分析】"):
                 continue
             if text.startswith("【答案解析】"):
@@ -134,6 +135,13 @@ def parse_cases(path: Path) -> tuple[dict[str, dict], dict[int, tuple[int, int]]
                 subquestions.append(current)
                 seen_question = True
                 continue
+            if current is None and not answer_section:
+                next_text = next((t for _, t in case_content[row_pos + 1 :] if t), "")
+                if OPTION_RE.match(next_text):
+                    current = {"number": len(subquestions) + 1, "stem": text, "options": {}, "answer": None, "source_paragraph": idx + 1}
+                    subquestions.append(current)
+                    seen_question = True
+                    continue
             if current is not None and not text.startswith("【"):
                 current["stem"] = (current["stem"] + " " + text).strip()
         cases[f"case-{number}"] = {
@@ -165,6 +173,18 @@ def map_case_records(questions: list[dict], cases: dict[str, dict], ranges: dict
         q["source_verified"] = True
         q["source_paragraph"] = paragraph + 1
         matching = [s for s in case["subquestions"] if clean(s["stem"]) in clean(q["question"]) or clean(q["question"]) in clean(s["stem"])]
+        answer_matching = [s for s in case["subquestions"] if s.get("answer_text") and clean(q["question"]) in clean(s["answer_text"])]
+        if answer_matching:
+            # The previous export emitted answer paragraphs as records. Keep
+            # their text for traceability, but never present them as questions.
+            answer_sub = answer_matching[0]
+            q["record_role"] = "answer_fragment"
+            q["exclude_from_quiz"] = True
+            q["answer_fragment_for"] = answer_sub["number"]
+            q["needs_review"] = True
+            q["needs_review_reason"] = "原始文档中的答案/解析段落，已归入对应病例小题。"
+            q["status"] = "needs_review"
+            continue
         if matching:
             sub = matching[0]
             q["case_subquestion"] = sub["number"]

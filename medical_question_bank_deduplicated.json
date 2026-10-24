@@ -20,6 +20,8 @@
       "选项仅在 raw 中存在唯一完整 A-E 选项集时重建。",
       "案例分析原始文档未随仓库提供；案例记录保留 needs_review 并按导出段落建立保守 case_id。",
       "未分章/未分类章节未依据关键词猜测。",
+      "已根据用户提供的原始 Word 文档恢复章节、病例背景及小题索引；无法解析的记录仍需审核。",
+      "已根据用户提供的原始 Word 文档恢复章节、病例背景及小题索引；无法解析的记录仍需审核。",
       "已根据用户提供的原始 Word 文档恢复章节、病例背景及小题索引；无法解析的记录仍需审核。"
     ],
     "repaired_option_sets": 56,
@@ -48294,14 +48296,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-1",
       "case_ids_in_raw": [
         "case-1"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 21
+      "source_paragraph": 21,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 1
     },
     {
       "id": "4c3d7beb236f",
@@ -48325,7 +48330,7 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-1",
       "case_ids_in_raw": [
         "case-1",
@@ -48333,7 +48338,10 @@
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 22
+      "source_paragraph": 22,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 2
     },
     {
       "id": "7cd9d41dd0ff",
@@ -48421,14 +48429,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-2",
       "case_ids_in_raw": [
         "case-2"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 43
+      "source_paragraph": 43,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 1
     },
     {
       "id": "eed23d7cb119",
@@ -48452,7 +48463,7 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-2",
       "case_ids_in_raw": [
         "case-2",
@@ -48460,7 +48471,10 @@
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 44
+      "source_paragraph": 44,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 2
     },
     {
       "id": "a779bbbf7ed6",
@@ -49288,14 +49302,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-14",
       "case_ids_in_raw": [
         "case-14"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 275
+      "source_paragraph": 275,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 1
     },
     {
       "id": "9f60a3d7fecb",
@@ -49319,14 +49336,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-14",
       "case_ids_in_raw": [
         "case-14"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 276
+      "source_paragraph": 276,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 2
     },
     {
       "id": "33b0da66731e",
@@ -49350,14 +49370,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-14",
       "case_ids_in_raw": [
         "case-14"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 277
+      "source_paragraph": 277,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 3
     },
     {
       "id": "31cec0c1d078",
@@ -49381,7 +49404,7 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-14",
       "case_ids_in_raw": [
         "case-14",
@@ -49389,7 +49412,10 @@
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 278
+      "source_paragraph": 278,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 4
     },
     {
       "id": "9bbf7805e043",
@@ -49509,14 +49535,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-15",
       "case_ids_in_raw": [
         "case-15"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 290
+      "source_paragraph": 290,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 1
     },
     {
       "id": "171a956fc3a6",
@@ -49540,14 +49569,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-15",
       "case_ids_in_raw": [
         "case-15"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 291
+      "source_paragraph": 291,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 2
     },
     {
       "id": "317af0159156",
@@ -49571,7 +49603,7 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-15",
       "case_ids_in_raw": [
         "case-15",
@@ -49579,7 +49611,10 @@
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 292
+      "source_paragraph": 292,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 3
     },
     {
       "id": "09d8d263c2da",
@@ -50541,14 +50576,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-37",
       "case_ids_in_raw": [
         "case-37"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 635
+      "source_paragraph": 635,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 1
     },
     {
       "id": "49b2441c4718",
@@ -50572,7 +50610,7 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-37",
       "case_ids_in_raw": [
         "case-37",
@@ -50580,7 +50618,10 @@
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 636
+      "source_paragraph": 636,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 2
     },
     {
       "id": "b6b24aad5bd6",
@@ -50747,14 +50788,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-39",
       "case_ids_in_raw": [
         "case-39"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 666
+      "source_paragraph": 666,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 1
     },
     {
       "id": "72e9169177eb",
@@ -50778,7 +50822,7 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-39",
       "case_ids_in_raw": [
         "case-39",
@@ -50786,7 +50830,10 @@
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 667
+      "source_paragraph": 667,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 2
     },
     {
       "id": "45e610b923b5",
@@ -50915,14 +50962,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-41",
       "case_ids_in_raw": [
         "case-41"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 697
+      "source_paragraph": 697,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 1
     },
     {
       "id": "dcab05d25f8d",
@@ -50946,7 +50996,7 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-41",
       "case_ids_in_raw": [
         "case-41",
@@ -50954,7 +51004,10 @@
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 698
+      "source_paragraph": 698,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 2
     },
     {
       "id": "dab788c76fda",
@@ -51222,14 +51275,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-44",
       "case_ids_in_raw": [
         "case-44"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 758
+      "source_paragraph": 758,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 1
     },
     {
       "id": "9d0fb8e2a7de",
@@ -51253,14 +51309,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-44",
       "case_ids_in_raw": [
         "case-44"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 759
+      "source_paragraph": 759,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 2
     },
     {
       "id": "9d2d02c939de",
@@ -51284,14 +51343,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-44",
       "case_ids_in_raw": [
         "case-44"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 760
+      "source_paragraph": 760,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 3
     },
     {
       "id": "2854e3a89d29",
@@ -51315,7 +51377,7 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-44",
       "case_ids_in_raw": [
         "case-44",
@@ -51323,7 +51385,10 @@
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 761
+      "source_paragraph": 761,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 4
     },
     {
       "id": "9dfa2594dc6f",
@@ -51443,14 +51508,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-45",
       "case_ids_in_raw": [
         "case-45"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 773
+      "source_paragraph": 773,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 1
     },
     {
       "id": "f884e77c97ee",
@@ -51474,14 +51542,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-45",
       "case_ids_in_raw": [
         "case-45"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 774
+      "source_paragraph": 774,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 2
     },
     {
       "id": "cea198b960d6",
@@ -51505,14 +51576,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-45",
       "case_ids_in_raw": [
         "case-45"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 775
+      "source_paragraph": 775,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 3
     },
     {
       "id": "c607587f79ff",
@@ -51536,7 +51610,7 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-45",
       "case_ids_in_raw": [
         "case-45",
@@ -51544,7 +51618,10 @@
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 776
+      "source_paragraph": 776,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 4
     },
     {
       "id": "a5553fd45e5e",
@@ -51664,14 +51741,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-46",
       "case_ids_in_raw": [
         "case-46"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 787
+      "source_paragraph": 787,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 1
     },
     {
       "id": "9cc6af6e20a9",
@@ -51695,14 +51775,17 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-46",
       "case_ids_in_raw": [
         "case-46"
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 788
+      "source_paragraph": 788,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 2
     },
     {
       "id": "4251021026ec",
@@ -51726,7 +51809,7 @@
         }
       ],
       "needs_review": true,
-      "needs_review_reason": "原始案例文档未提供；病例背景与小题关联只能依据导出顺序保守分组。",
+      "needs_review_reason": "原始文档中的答案/解析段落，已归入对应病例小题。",
       "case_id": "case-46",
       "case_ids_in_raw": [
         "case-46",
@@ -51734,7 +51817,10 @@
       ],
       "case_group_source": "0.docx",
       "source_verified": true,
-      "source_paragraph": 789
+      "source_paragraph": 789,
+      "record_role": "answer_fragment",
+      "exclude_from_quiz": true,
+      "answer_fragment_for": 3
     },
     {
       "id": "10041144dbe7",
@@ -57665,7 +57751,18 @@
       "case_id": "case-34",
       "title": "案例34",
       "background": "流感患者行血清学诊断，双份血清抗体效价增高多少倍有诊断意义\nA. 2倍\nB. 4倍",
-      "subquestions": [],
+      "subquestions": [
+        {
+          "number": 1,
+          "stem": "流感患者行血清学诊断，双份血清抗体效价增高多少倍有诊断意义",
+          "options": {
+            "A": "2倍",
+            "B": "4倍"
+          },
+          "answer": "B",
+          "source_paragraph": 608
+        }
+      ],
       "source": "0.docx",
       "source_range": [
         607,
@@ -58392,7 +58489,21 @@
       "case_id": "case-55",
       "title": "案例55",
       "background": "真菌选择性培养基常规添加物质是\nA. 青霉素＋庆大霉素\nB. 氯霉素＋放线菌酮\nC. 两性霉素B\nD. 放线菌素\nE. 氟康唑或伊曲康唑",
-      "subquestions": [],
+      "subquestions": [
+        {
+          "number": 1,
+          "stem": "真菌选择性培养基常规添加物质是",
+          "options": {
+            "A": "青霉素＋庆大霉素",
+            "B": "氯霉素＋放线菌酮",
+            "C": "两性霉素B",
+            "D": "放线菌素",
+            "E": "氟康唑或伊曲康唑"
+          },
+          "answer": "B",
+          "source_paragraph": 951
+        }
+      ],
       "source": "0.docx",
       "source_range": [
         950,
@@ -58403,7 +58514,21 @@
       "case_id": "case-56",
       "title": "案例56",
       "background": "1月龄女婴，反复鹅口疮、重症肺部真菌感染，胸腺发育不全。患儿持续真菌感染的主要原因是\nA. 吞噬细胞缺陷\nB. 细胞免疫缺陷\nC. 体液免疫缺陷\nD. 补体系统缺陷\nE. 继发性免疫缺陷",
-      "subquestions": [],
+      "subquestions": [
+        {
+          "number": 1,
+          "stem": "1月龄女婴，反复鹅口疮、重症肺部真菌感染，胸腺发育不全。患儿持续真菌感染的主要原因是",
+          "options": {
+            "A": "吞噬细胞缺陷",
+            "B": "细胞免疫缺陷",
+            "C": "体液免疫缺陷",
+            "D": "补体系统缺陷",
+            "E": "继发性免疫缺陷"
+          },
+          "answer": "C",
+          "source_paragraph": 961
+        }
+      ],
       "source": "0.docx",
       "source_range": [
         960,
@@ -58414,7 +58539,21 @@
       "case_id": "case-57",
       "title": "案例57",
       "background": "侵袭性真菌感染诊断金标准是\nA. 显微镜检查\nB. 培养检查\nC. 生化试验\nD. 动物实验\nE. 血清学实验",
-      "subquestions": [],
+      "subquestions": [
+        {
+          "number": 1,
+          "stem": "侵袭性真菌感染诊断金标准是",
+          "options": {
+            "A": "显微镜检查",
+            "B": "培养检查",
+            "C": "生化试验",
+            "D": "动物实验",
+            "E": "血清学实验"
+          },
+          "answer": "B",
+          "source_paragraph": 971
+        }
+      ],
       "source": "0.docx",
       "source_range": [
         970,
@@ -58425,7 +58564,21 @@
       "case_id": "case-58",
       "title": "案例58",
       "background": "77岁卧床糖尿病患者，尿路感染头孢治疗无效，尿培养白假丝酵母。首选治疗药物是\nA. 氨苄青霉素\nB. 氧氟沙星\nC. 制霉菌素\nD. 酮康唑\nE. 氟康唑",
-      "subquestions": [],
+      "subquestions": [
+        {
+          "number": 1,
+          "stem": "77岁卧床糖尿病患者，尿路感染头孢治疗无效，尿培养白假丝酵母。首选治疗药物是",
+          "options": {
+            "A": "氨苄青霉素",
+            "B": "氧氟沙星",
+            "C": "制霉菌素",
+            "D": "酮康唑",
+            "E": "氟康唑"
+          },
+          "answer": "E",
+          "source_paragraph": 981
+        }
+      ],
       "source": "0.docx",
       "source_range": [
         980,
@@ -58436,7 +58589,21 @@
       "case_id": "case-59",
       "title": "案例59",
       "background": "长期激素使用女性，阴道炎，分泌物见革兰阳性芽生孢子、假菌丝。病原体为\nA. 无芽胞厌氧菌\nB. 新生隐球菌\nC. 解脲脲原体\nD. 白假丝酵母\nE. 梅毒螺旋体",
-      "subquestions": [],
+      "subquestions": [
+        {
+          "number": 1,
+          "stem": "长期激素使用女性，阴道炎，分泌物见革兰阳性芽生孢子、假菌丝。病原体为",
+          "options": {
+            "A": "无芽胞厌氧菌",
+            "B": "新生隐球菌",
+            "C": "解脲脲原体",
+            "D": "白假丝酵母",
+            "E": "梅毒螺旋体"
+          },
+          "answer": "D",
+          "source_paragraph": 991
+        }
+      ],
       "source": "0.docx",
       "source_range": [
         990,
@@ -58447,7 +58614,21 @@
       "case_id": "case-60",
       "title": "案例60",
       "background": "14岁患者，面部红斑脓疱、瘙痒发热，头孢无效，皮屑镜检见隔菌丝、大小分生孢子，培养基产红色色素。病原体为\nA. 红色毛癣菌\nB. 石膏样小孢子菌\nC. 絮状表皮癣菌\nD. 石膏样毛癣菌\nE. 铁锈色小孢子菌",
-      "subquestions": [],
+      "subquestions": [
+        {
+          "number": 1,
+          "stem": "14岁患者，面部红斑脓疱、瘙痒发热，头孢无效，皮屑镜检见隔菌丝、大小分生孢子，培养基产红色色素。病原体为",
+          "options": {
+            "A": "红色毛癣菌",
+            "B": "石膏样小孢子菌",
+            "C": "絮状表皮癣菌",
+            "D": "石膏样毛癣菌",
+            "E": "铁锈色小孢子菌"
+          },
+          "answer": "A",
+          "source_paragraph": 1001
+        }
+      ],
       "source": "0.docx",
       "source_range": [
         1000,
@@ -58458,7 +58639,21 @@
       "case_id": "case-61",
       "title": "案例61",
       "background": "养鸽女性，头痛低热呕吐，脑脊液墨汁染色见带厚荚膜圆形菌体。病原体为\nA. 白假丝酵母\nB. 新生隐球菌\nC. 结核分枝杆菌\nD. 脑膜炎奈瑟菌\nE. 流感嗜血杆菌",
-      "subquestions": [],
+      "subquestions": [
+        {
+          "number": 1,
+          "stem": "养鸽女性，头痛低热呕吐，脑脊液墨汁染色见带厚荚膜圆形菌体。病原体为",
+          "options": {
+            "A": "白假丝酵母",
+            "B": "新生隐球菌",
+            "C": "结核分枝杆菌",
+            "D": "脑膜炎奈瑟菌",
+            "E": "流感嗜血杆菌"
+          },
+          "answer": "B",
+          "source_paragraph": 1011
+        }
+      ],
       "source": "0.docx",
       "source_range": [
         1010,
@@ -58469,7 +58664,21 @@
       "case_id": "case-62",
       "title": "案例62",
       "background": "哮喘患者，肺部真菌感染，菌落深绿色粉末状，镜见隔菌丝、单层小梗顶囊。病原体为\nA. 新生隐球菌\nB. 白假丝酵母\nC. 烟曲霉\nD. 放线菌\nE. 申克孢子丝菌",
-      "subquestions": [],
+      "subquestions": [
+        {
+          "number": 1,
+          "stem": "哮喘患者，肺部真菌感染，菌落深绿色粉末状，镜见隔菌丝、单层小梗顶囊。病原体为",
+          "options": {
+            "A": "新生隐球菌",
+            "B": "白假丝酵母",
+            "C": "烟曲霉",
+            "D": "放线菌",
+            "E": "申克孢子丝菌"
+          },
+          "answer": "C",
+          "source_paragraph": 1021
+        }
+      ],
       "source": "0.docx",
       "source_range": [
         1020,
@@ -58480,7 +58689,21 @@
       "case_id": "case-63",
       "title": "案例63",
       "background": "肝硬化患者，雨季反复肺部感染，抗生素无效，痰培养黄绿色菌落，双层小梗顶囊。病原体为\nA. 白假丝酵母\nB. 烟曲霉\nC. 黄曲霉\nD. 新生隐球菌\nE. 石膏样小孢子菌",
-      "subquestions": [],
+      "subquestions": [
+        {
+          "number": 1,
+          "stem": "肝硬化患者，雨季反复肺部感染，抗生素无效，痰培养黄绿色菌落，双层小梗顶囊。病原体为",
+          "options": {
+            "A": "白假丝酵母",
+            "B": "烟曲霉",
+            "C": "黄曲霉",
+            "D": "新生隐球菌",
+            "E": "石膏样小孢子菌"
+          },
+          "answer": "C",
+          "source_paragraph": 1031
+        }
+      ],
       "source": "0.docx",
       "source_range": [
         1030,
@@ -58491,7 +58714,21 @@
       "case_id": "case-64",
       "title": "案例64",
       "background": "AIDS患者，严重肺炎，痰涂片见孢子、滋养体。病原体为\nA. 新生隐球菌\nB. 申克孢子丝菌\nC. 烟曲霉\nD. 白假丝酵母\nE. 卡氏肺孢子菌",
-      "subquestions": [],
+      "subquestions": [
+        {
+          "number": 1,
+          "stem": "AIDS患者，严重肺炎，痰涂片见孢子、滋养体。病原体为",
+          "options": {
+            "A": "新生隐球菌",
+            "B": "申克孢子丝菌",
+            "C": "烟曲霉",
+            "D": "白假丝酵母",
+            "E": "卡氏肺孢子菌"
+          },
+          "answer": "E",
+          "source_paragraph": 1041
+        }
+      ],
       "source": "0.docx",
       "source_range": [
         1040,

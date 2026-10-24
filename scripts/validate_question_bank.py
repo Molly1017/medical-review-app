@@ -18,6 +18,10 @@ def main() -> int:
     questions = data["questions"]
     errors: list[str] = []
     ids: set[str] = set()
+    cases = data.get("cases", {})
+    for case_id, case in cases.items():
+        if "background" not in case or not case.get("subquestions"):
+            errors.append(f"{case_id}: case must retain background field and subquestions")
     for i, q in enumerate(questions):
         prefix = f"questions[{i}]/{q.get('id', '?')}"
         if q.get("id") in ids:
@@ -43,6 +47,10 @@ def main() -> int:
                     errors.append(f"{prefix}: ready case record must be verified with complete options and answer")
             elif q.get("needs_review") is not True:
                 errors.append(f"{prefix}: unresolved case records must retain needs_review")
+            if q.get("record_role") == "answer_fragment" and q.get("exclude_from_quiz") is not True:
+                errors.append(f"{prefix}: answer fragment must be excluded from quiz")
+            if q.get("record_role") != "answer_fragment" and re.match(r"^(初步诊断|最可能诊断|诊断|依据|标本及检查|对症支持|传播途径|防治)[:：]", str(q.get("question", ""))):
+                errors.append(f"{prefix}: answer-like text was exposed as a question")
         if q.get("chapter") in (None, ""):
             errors.append(f"{prefix}: missing chapter value")
         if q.get("chapter") in ("未分章", "未分类") and q.get("source") != "案例分析.docx" and q.get("needs_review") is not True:
