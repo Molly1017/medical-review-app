@@ -28,6 +28,16 @@ def load_paragraphs(path: Path) -> list[str]:
     return [p.text.strip() for p in Document(path).paragraphs]
 
 
+def extract_chapter(text: str) -> str | None:
+    lines = (text or "").splitlines()
+    if not lines:
+        return None
+    first = lines[0].strip()
+    if not CHAPTER_RE.match(first) or "_" in first or len(first) > 60:
+        return None
+    return first
+
+
 def source_context(path: Path) -> list[tuple[int, str, str | None, str | None]]:
     """Return paragraph index/text/current chapter/current type."""
     rows = load_paragraphs(path)
@@ -35,8 +45,9 @@ def source_context(path: Path) -> list[tuple[int, str, str | None, str | None]]:
     kind = None
     out = []
     for i, text in enumerate(rows):
-        if CHAPTER_RE.match(text):
-            chapter = text
+        found_chapter = extract_chapter(text)
+        if found_chapter:
+            chapter = found_chapter
         if re.search(r"名词解释", text):
             kind = "名词解释"
         elif re.search(r"填空题", text):
@@ -53,6 +64,15 @@ def source_context(path: Path) -> list[tuple[int, str, str | None, str | None]]:
             kind = "单选题"
         out.append((i, text, chapter, kind))
     return out
+
+
+def chapter_order(path: Path) -> list[str]:
+    seen: list[str] = []
+    for text in load_paragraphs(path):
+        found = extract_chapter(text)
+        if found and found not in seen:
+            seen.append(found)
+    return seen
 
 
 def apply_source_context(questions: list[dict], path: Path, source_name: str) -> None:
@@ -95,7 +115,8 @@ def parse_cases(path: Path) -> tuple[dict[str, dict], dict[int, tuple[int, int]]
         current: dict | None = None
         seen_question = False
         answer_section = False
-        for idx, text in case_rows[1:]:
+        case_content = case_rows[1:]
+        for row_pos, (idx, text) in enumerate(case_content):
             if not text or text.startswith("【案例介绍】") or text.startswith("【案例分析】"):
                 continue
             if text.startswith("【答案解析】"):
@@ -134,6 +155,13 @@ def parse_cases(path: Path) -> tuple[dict[str, dict], dict[int, tuple[int, int]]
                 subquestions.append(current)
                 seen_question = True
                 continue
+            if current is None and not answer_section:
+                next_text = next((t for _, t in case_content[row_pos + 1 :] if t), "")
+                if OPTION_RE.match(next_text):
+                    current = {"number": len(subquestions) + 1, "stem": text, "options": {}, "answer": None, "source_paragraph": idx + 1}
+                    subquestions.append(current)
+                    seen_question = True
+                    continue
             if current is not None and not text.startswith("【"):
                 current["stem"] = (current["stem"] + " " + text).strip()
         cases[f"case-{number}"] = {
@@ -165,6 +193,18 @@ def map_case_records(questions: list[dict], cases: dict[str, dict], ranges: dict
         q["source_verified"] = True
         q["source_paragraph"] = paragraph + 1
         matching = [s for s in case["subquestions"] if clean(s["stem"]) in clean(q["question"]) or clean(q["question"]) in clean(s["stem"])]
+        answer_matching = [s for s in case["subquestions"] if s.get("answer_text") and clean(q["question"]) in clean(s["answer_text"])]
+        if answer_matching:
+            # The previous export emitted answer paragraphs as records. Keep
+            # their text for traceability, but never present them as questions.
+            answer_sub = answer_matching[0]
+            q["record_role"] = "answer_fragment"
+            q["exclude_from_quiz"] = True
+            q["answer_fragment_for"] = answer_sub["number"]
+            q["needs_review"] = True
+            q["needs_review_reason"] = "原始文档中的答案/解析段落，已归入对应病例小题。"
+            q["status"] = "needs_review"
+            continue
         if matching:
             sub = matching[0]
             q["case_subquestion"] = sub["number"]
@@ -194,18 +234,29 @@ def main() -> int:
     args = parser.parse_args()
     data = json.loads(args.input.read_text(encoding="utf-8"))
     questions = data["questions"]
+    chapter_orders = data.setdefault("chapter_order", {})
     if args.immune:
         apply_source_context(questions, args.immune, "医学免疫学题库.docx")
+        chapter_orders["医学免疫学"] = chapter_order(args.immune)
     if args.cell:
         apply_source_context(questions, args.cell, "医学细胞生物学题库B.docx")
+        chapter_orders["医学细胞生物学"] = chapter_order(args.cell)
     if args.micro:
         apply_source_context(questions, args.micro, "医学微生物学题库.docx")
+        chapter_orders["医学微生物学"] = chapter_order(args.micro)
     if args.cases:
         cases, ranges = parse_cases(args.cases)
         map_case_records(questions, cases, ranges, args.cases)
         data["cases"] = cases
         data["summary"]["original_case_source"] = args.cases.name
         data["summary"]["case_records_imported"] = len(cases)
+    for q in questions:
+        if q.get("type") == "判断题" and q.get("source") == "判断题.pdf":
+            answers = {str(o.get("original_answer")) for o in q.get("source_occurrences", []) if o.get("original_answer")}
+            if str(q.get("answer")) in {"正确", "错误"} and answers <= {str(q.get("answer"))}:
+                q["status"] = "ready"
+                q.pop("needs_review", None)
+                q.pop("needs_review_reason", None)
     data["version"] = "0.4-original-source-import"
     data["summary"].setdefault("repair_notes", []).append("已根据用户提供的原始 Word 文档恢复章节、病例背景及小题索引；无法解析的记录仍需审核。")
     args.output.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

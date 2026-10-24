@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 LABELS = set("ABCDE")
@@ -18,6 +19,10 @@ def main() -> int:
     questions = data["questions"]
     errors: list[str] = []
     ids: set[str] = set()
+    cases = data.get("cases", {})
+    for case_id, case in cases.items():
+        if "background" not in case or not case.get("subquestions"):
+            errors.append(f"{case_id}: case must retain background field and subquestions")
     for i, q in enumerate(questions):
         prefix = f"questions[{i}]/{q.get('id', '?')}"
         if q.get("id") in ids:
@@ -30,11 +35,15 @@ def main() -> int:
             if not str(value).strip() or OPTION_MARKER.search(str(value)):
                 errors.append(f"{prefix}: option {label} is empty or contains another option marker")
         if q.get("status") == "ready" and q.get("type") in GRADEABLE:
-            if set(options) != LABELS:
-                errors.append(f"{prefix}: ready gradeable question must have A-E options")
             answer = str(q.get("answer") or "").upper()
-            if not answer or not set(answer) <= LABELS:
-                errors.append(f"{prefix}: ready gradeable question has invalid answer")
+            if q.get("type") == "判断题":
+                if answer not in {"正确", "错误"}:
+                    errors.append(f"{prefix}: ready judgment question has invalid answer")
+            else:
+                if set(options) != LABELS:
+                    errors.append(f"{prefix}: ready choice question must have A-E options")
+                if not answer or not set(answer) <= LABELS:
+                    errors.append(f"{prefix}: ready choice question has invalid answer")
         if q.get("source") == "案例分析.docx":
             if not q.get("case_id"):
                 errors.append(f"{prefix}: case records must retain case_id")
@@ -43,6 +52,10 @@ def main() -> int:
                     errors.append(f"{prefix}: ready case record must be verified with complete options and answer")
             elif q.get("needs_review") is not True:
                 errors.append(f"{prefix}: unresolved case records must retain needs_review")
+            if q.get("record_role") == "answer_fragment" and q.get("exclude_from_quiz") is not True:
+                errors.append(f"{prefix}: answer fragment must be excluded from quiz")
+            if q.get("record_role") != "answer_fragment" and re.match(r"^(初步诊断|最可能诊断|诊断|依据|标本及检查|对症支持|传播途径|防治)[:：]", str(q.get("question", ""))):
+                errors.append(f"{prefix}: answer-like text was exposed as a question")
         if q.get("chapter") in (None, ""):
             errors.append(f"{prefix}: missing chapter value")
         if q.get("chapter") in ("未分章", "未分类") and q.get("source") != "案例分析.docx" and q.get("needs_review") is not True:
@@ -52,7 +65,10 @@ def main() -> int:
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
+    visible_types = {"单选题": "选择题", "多选题": "选择题", "判断题": "判断题", "填空题": "填空题", "名词解释": "名词解释"}
+    visible = [q for q in questions if not q.get("exclude_from_quiz") and q.get("type") in visible_types]
     print(f"validated {len(questions)} questions; option, answer, case, and chapter invariants passed")
+    print(f"visible_quiz_records={len(visible)} visible_types={dict(Counter(visible_types[q['type']] for q in visible))}")
     return 0
 
 
