@@ -9,7 +9,7 @@ from collections import Counter
 from pathlib import Path
 
 LABELS = set("ABCDE")
-OPTION_MARKER = re.compile(r"\s[A-E][.．、:：)]")
+OPTION_MARKER = re.compile(r"\s[A-E][.．、:：)]\s*(?=[\u4e00-\u9fff])")
 GRADEABLE = {"单选题", "多选题", "判断题"}
 
 

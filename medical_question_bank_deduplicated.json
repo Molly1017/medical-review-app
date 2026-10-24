@@ -1094,6 +1094,41 @@
       "ffca2f96323c",
       "ffe83e5cfd51",
       "fff8b4e40dd6"
+    ],
+    "chapter1_explanations_generated": 13,
+    "chapter1_explanations_verified": 13,
+    "explanation_policy": "仅为原始题干、选项和原始答案均可靠的医学微生物学第一章选择题生成；未生成记录保持待审核。",
+    "cell_missing_questions_recovered": 29,
+    "cell_missing_question_ids": [
+      "02db7261b08e",
+      "06cc7ce3a24b",
+      "1dbd90239711",
+      "25802a5ab43b",
+      "29e8286e69b2",
+      "36015bdb9878",
+      "3745a6af64ac",
+      "46d58a7b6b6e",
+      "5a30a3569f84",
+      "5c666d54741d",
+      "626af88211a4",
+      "63356d408832",
+      "7aa84ad71591",
+      "8b019f521940",
+      "8c905624ec38",
+      "8f61e4b4403a",
+      "9a09d704c6a3",
+      "a405e01cf8a8",
+      "ac5cd40c8b7c",
+      "ad53f5a5bc0f",
+      "c3543e7f242c",
+      "dd5fd0e9ad3e",
+      "e07f21d192d5",
+      "e2937c1aaf98",
+      "e3644ca8e006",
+      "f23af2fb6862",
+      "f803427cb07f",
+      "f884fd5840a4",
+      "ffbd04d7274d"
     ]
   },
   "questions": [
@@ -41538,7 +41573,25 @@
       "answer_source_location": "答案表题号 2",
       "answer_match_method": "micro_answer_table_question_number",
       "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "explanation_detail": {
+        "correct_answer_reason": "荚膜位于细菌最外层，可减少吞噬细胞的清除，因此答案为 D。",
+        "plain_explanation": "荚膜是部分细菌形成的多糖或多肽外层，可帮助黏附并增强抗吞噬能力。质粒是遗传物质，鞭毛负责运动，菌毛主要参与黏附或接合，芽胞是休眠和耐受结构。",
+        "option_analysis": {
+          "A": "该选项与题干考查的核心机制不符。",
+          "B": "该选项与题干考查的核心机制不符。",
+          "C": "该选项与题干考查的核心机制不符。",
+          "D": "正确：荚膜位于细菌最外层，可减少吞噬细胞的清除，因此答案为 D。",
+          "E": "该选项与题干考查的核心机制不符。"
+        },
+        "clinical_connection": "肺炎链球菌等有荚膜菌更容易逃避免疫清除；荚膜抗原也可用于分型。",
+        "exam_focus": "荚膜功能、细菌特殊结构与致病性的联系是西医综合和执业医师微生物学常考点。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "医学微生物学题库.docx",
+          "location": "段落 24"
+        }
+      }
     },
     {
       "id": "07de27665470",
@@ -41574,7 +41627,25 @@
       "answer_source_location": "答案表题号 3",
       "answer_match_method": "micro_answer_table_question_number",
       "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "explanation_detail": {
+        "correct_answer_reason": "溶菌酶水解肽聚糖骨架中的 β-1,4 糖苷键，因此答案为 C。",
+        "plain_explanation": "肽聚糖是细菌细胞壁的重要支架。溶菌酶切断其糖苷键，使细胞壁失去强度。",
+        "option_analysis": {
+          "A": "该选项与题干考查的核心机制不符。",
+          "B": "该选项与题干考查的核心机制不符。",
+          "C": "正确：溶菌酶水解肽聚糖骨架中的 β-1,4 糖苷键，因此答案为 C。",
+          "D": "该选项与题干考查的核心机制不符。",
+          "E": "该选项与题干考查的核心机制不符。"
+        },
+        "clinical_connection": "革兰阳性菌通常更容易受到溶菌酶作用；革兰阴性菌的外膜可提供额外屏障。",
+        "exam_focus": "肽聚糖、溶菌酶和青霉素的作用部位要区分记忆。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "医学微生物学题库.docx",
+          "location": "段落 26"
+        }
+      }
     },
     {
       "id": "3ab705f35f57",
@@ -41610,7 +41681,25 @@
       "answer_source_location": "答案表题号 4",
       "answer_match_method": "micro_answer_table_question_number",
       "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "explanation_detail": {
+        "correct_answer_reason": "芽胞具有多层保护结构、低含水量和特殊耐受成分，对外界抵抗力最强，因此答案为 D。",
+        "plain_explanation": "芽胞是部分细菌在不利条件下形成的休眠体，不是繁殖体，能耐受干燥、热和多种化学因素。",
+        "option_analysis": {
+          "A": "该选项与题干考查的核心机制不符。",
+          "B": "该选项与题干考查的核心机制不符。",
+          "C": "该选项与题干考查的核心机制不符。",
+          "D": "正确：芽胞具有多层保护结构、低含水量和特殊耐受成分，对外界抵抗力最强，因此答案为 D。",
+          "E": "该选项与题干考查的核心机制不符。"
+        },
+        "clinical_connection": "破伤风梭菌、肉毒梭菌和炭疽芽胞杆菌的芽胞具有重要公共卫生意义。",
+        "exam_focus": "芽胞与荚膜、鞭毛的功能不要混淆。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "医学微生物学题库.docx",
+          "location": "段落 28"
+        }
+      }
     },
     {
       "id": "9ff833c7c017",
@@ -41646,7 +41735,25 @@
       "answer_source_location": "答案表题号 5",
       "answer_match_method": "micro_answer_table_question_number",
       "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "explanation_detail": {
+        "correct_answer_reason": "抗吞噬是荚膜的主要功能，不是细胞壁的一般功能，因此答案为 C。",
+        "plain_explanation": "细胞壁维持形态、抵抗低渗破裂，并参与抗原性和物质交换；抗吞噬主要由荚膜等表面结构完成。",
+        "option_analysis": {
+          "A": "该选项与题干考查的核心机制不符。",
+          "B": "该选项与题干考查的核心机制不符。",
+          "C": "正确：抗吞噬是荚膜的主要功能，不是细胞壁的一般功能，因此答案为 C。",
+          "D": "该选项与题干考查的核心机制不符。",
+          "E": "该选项与题干考查的核心机制不符。"
+        },
+        "clinical_connection": "细胞壁受损可导致细菌在低渗环境中裂解，青霉素和溶菌酶的作用也与细胞壁有关。",
+        "exam_focus": "细胞壁功能与荚膜功能的辨析是常见选择题陷阱。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "医学微生物学题库.docx",
+          "location": "段落 29"
+        }
+      }
     },
     {
       "id": "1ae60f3f131d",
@@ -41682,7 +41789,25 @@
       "answer_source_location": "答案表题号 6",
       "answer_match_method": "micro_answer_table_question_number",
       "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "explanation_detail": {
+        "correct_answer_reason": "细胞壁不是所有细菌生存都必需的结构，答案为 A。",
+        "plain_explanation": "细胞膜、核质是维持基本生命活动所必需的；鞭毛和荚膜主要影响运动、黏附或免疫逃逸。",
+        "option_analysis": {
+          "A": "正确：细胞壁不是所有细菌生存都必需的结构，答案为 A。",
+          "B": "该选项与题干考查的核心机制不符。",
+          "C": "该选项与题干考查的核心机制不符。",
+          "D": "该选项与题干考查的核心机制不符。",
+          "E": "该选项与题干考查的核心机制不符。"
+        },
+        "clinical_connection": "β-内酰胺类药物抑制肽聚糖合成，可能诱导细胞壁缺陷型。",
+        "exam_focus": "细胞壁缺陷型、L 型细菌与抗菌药物作用机制常结合考查。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "医学微生物学题库.docx",
+          "location": "段落 31"
+        }
+      }
     },
     {
       "id": "f9c407a3d8df",
@@ -41718,7 +41843,25 @@
       "answer_source_location": "答案表题号 7",
       "answer_match_method": "micro_answer_table_question_number",
       "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "explanation_detail": {
+        "correct_answer_reason": "荚膜通常不是增强耐热性的主要结构，错误项为 B。",
+        "plain_explanation": "荚膜主要作用是抗吞噬、黏附和保护菌体，成分多为多糖或多肽，并可具有免疫原性。",
+        "option_analysis": {
+          "A": "该选项与题干考查的核心机制不符。",
+          "B": "正确：荚膜通常不是增强耐热性的主要结构，错误项为 B。",
+          "C": "该选项与题干考查的核心机制不符。",
+          "D": "该选项与题干考查的核心机制不符。",
+          "E": "该选项与题干考查的核心机制不符。"
+        },
+        "clinical_connection": "耐热性主要与芽胞等结构有关。",
+        "exam_focus": "荚膜与芽胞的功能要分别记忆。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "医学微生物学题库.docx",
+          "location": "段落 32"
+        }
+      }
     },
     {
       "id": "cdf03f5cbad7",
@@ -41754,7 +41897,25 @@
       "answer_source_location": "答案表题号 8",
       "answer_match_method": "micro_answer_table_question_number",
       "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "explanation_detail": {
+        "correct_answer_reason": "外膜是革兰阴性菌特有的包膜结构，因此答案为 A。",
+        "plain_explanation": "革兰阴性菌在薄肽聚糖层外还有含脂多糖的外膜；磷壁酸是革兰阳性菌典型成分。",
+        "option_analysis": {
+          "A": "正确：外膜是革兰阴性菌特有的包膜结构，因此答案为 A。",
+          "B": "该选项与题干考查的核心机制不符。",
+          "C": "该选项与题干考查的核心机制不符。",
+          "D": "该选项与题干考查的核心机制不符。",
+          "E": "该选项与题干考查的核心机制不符。"
+        },
+        "clinical_connection": "外膜和脂多糖影响内毒素效应和药物通透性。",
+        "exam_focus": "革兰阳性/阴性细胞壁结构比较是基础高频考点。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "医学微生物学题库.docx",
+          "location": "段落 33"
+        }
+      }
     },
     {
       "id": "2b4bae214de8",
@@ -41826,7 +41987,25 @@
       "answer_source_location": "答案表题号 13",
       "answer_match_method": "micro_answer_table_question_number",
       "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "explanation_detail": {
+        "correct_answer_reason": "内毒素是脂多糖成分，甲醛不能把它转化为类毒素，因此答案为 E。",
+        "plain_explanation": "内毒素主要来自革兰阴性菌外膜，耐热性较强，通常不能像外毒素那样制成类毒素。",
+        "option_analysis": {
+          "A": "该选项与题干考查的核心机制不符。",
+          "B": "该选项与题干考查的核心机制不符。",
+          "C": "该选项与题干考查的核心机制不符。",
+          "D": "该选项与题干考查的核心机制不符。",
+          "E": "正确：内毒素是脂多糖成分，甲醛不能把它转化为类毒素，因此答案为 E。"
+        },
+        "clinical_connection": "内毒素可引起发热、低血压、休克和弥散性血管内凝血。",
+        "exam_focus": "内毒素与外毒素的来源、热稳定性和类毒素特性要成组比较。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "医学微生物学题库.docx",
+          "location": "段落 39"
+        }
+      }
     },
     {
       "id": "561a3535afc3",
@@ -42006,7 +42185,25 @@
       "answer_source_location": "答案表题号 31",
       "answer_match_method": "micro_answer_table_question_number",
       "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "explanation_detail": {
+        "correct_answer_reason": "中毒性痢疾的全身中毒表现与革兰阴性菌内毒素有关，答案为 D。",
+        "plain_explanation": "内毒素可引起发热和全身炎症反应，重症时出现意识障碍和休克。",
+        "option_analysis": {
+          "A": "该选项与题干考查的核心机制不符。",
+          "B": "该选项与题干考查的核心机制不符。",
+          "C": "该选项与题干考查的核心机制不符。",
+          "D": "正确：中毒性痢疾的全身中毒表现与革兰阴性菌内毒素有关，答案为 D。",
+          "E": "该选项与题干考查的核心机制不符。"
+        },
+        "clinical_connection": "重症细菌性痢疾需要补液、抗感染并监测休克和神经系统并发症。",
+        "exam_focus": "病原体、毒力因子和全身表现的联系是临床微生物学重点。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "医学微生物学题库.docx",
+          "location": "段落 49"
+        }
+      }
     },
     {
       "id": "5acc723a0511",
@@ -42042,7 +42239,25 @@
       "answer_source_location": "答案表题号 32",
       "answer_match_method": "micro_answer_table_question_number",
       "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "explanation_detail": {
+        "correct_answer_reason": "大叶性肺炎的典型病原体是肺炎链球菌，其主要致病因素是荚膜，答案为 B。",
+        "plain_explanation": "荚膜可抵抗吞噬，是肺炎链球菌侵袭和致病的重要基础；铁锈色痰和肺叶实变支持该临床背景。",
+        "option_analysis": {
+          "A": "该选项与题干考查的核心机制不符。",
+          "B": "正确：大叶性肺炎的典型病原体是肺炎链球菌，其主要致病因素是荚膜，答案为 B。",
+          "C": "该选项与题干考查的核心机制不符。",
+          "D": "该选项与题干考查的核心机制不符。",
+          "E": "该选项与题干考查的核心机制不符。"
+        },
+        "clinical_connection": "肺炎链球菌肺炎可出现高热、寒战、咳嗽和铁锈色痰。",
+        "exam_focus": "肺炎链球菌荚膜与典型肺炎表现是常考组合。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "医学微生物学题库.docx",
+          "location": "段落 52"
+        }
+      }
     },
     {
       "id": "6058b28d01d2",
@@ -42078,7 +42293,25 @@
       "answer_source_location": "答案表题号 33",
       "answer_match_method": "micro_answer_table_question_number",
       "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "explanation_detail": {
+        "correct_answer_reason": "革兰阴性肾形双球菌提示脑膜炎奈瑟菌，主要致病物质为内毒素，答案为 D。",
+        "plain_explanation": "脑膜炎奈瑟菌外膜脂多糖释放的内毒素可造成高热、休克、皮肤出血点和弥散性血管内凝血。",
+        "option_analysis": {
+          "A": "该选项与题干考查的核心机制不符。",
+          "B": "该选项与题干考查的核心机制不符。",
+          "C": "该选项与题干考查的核心机制不符。",
+          "D": "正确：革兰阴性肾形双球菌提示脑膜炎奈瑟菌，主要致病物质为内毒素，答案为 D。",
+          "E": "该选项与题干考查的核心机制不符。"
+        },
+        "clinical_connection": "流行性脑脊髓膜炎需关注脑膜刺激征、皮肤瘀点和休克，并尽快抗感染和支持治疗。",
+        "exam_focus": "革兰阴性双球菌、内毒素与暴发性休克的联系是临床微生物学重点。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "医学微生物学题库.docx",
+          "location": "段落 54"
+        }
+      }
     },
     {
       "id": "2e31f9968e7a",
@@ -42114,7 +42347,25 @@
       "answer_source_location": "答案表题号 34",
       "answer_match_method": "micro_answer_table_question_number",
       "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "explanation_detail": {
+        "correct_answer_reason": "痢疾志贺菌的主要致病物质包括内毒素，题干选项中答案为 A。",
+        "plain_explanation": "内毒素参与发热和全身中毒反应；志贺毒素可造成肠黏膜损伤，但本题选项对应的是内毒素。",
+        "option_analysis": {
+          "A": "正确：痢疾志贺菌的主要致病物质包括内毒素，题干选项中答案为 A。",
+          "B": "该选项与题干考查的核心机制不符。",
+          "C": "该选项与题干考查的核心机制不符。",
+          "D": "该选项与题干考查的核心机制不符。",
+          "E": "该选项与题干考查的核心机制不符。"
+        },
+        "clinical_connection": "里急后重、脓血便提示侵袭性肠道感染，需要粪便检查并及时治疗。",
+        "exam_focus": "志贺菌的内毒素、志贺毒素和侵袭性表现需要结合题干区分。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "医学微生物学题库.docx",
+          "location": "段落 56"
+        }
+      }
     },
     {
       "id": "b71be932dc16",
@@ -42150,7 +42401,25 @@
       "answer_source_location": "答案表题号 35",
       "answer_match_method": "micro_answer_table_question_number",
       "needs_review": false,
-      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready"
+      "review_resolution": "由 micro_answer_table_question_number 核实；原状态 ready",
+      "explanation_detail": {
+        "correct_answer_reason": "破伤风的主要致病物质是破伤风痉挛毒素，属于外毒素，答案为 D。",
+        "plain_explanation": "芽胞负责在厌氧伤口中存活和发芽，真正造成牙关紧闭、肌肉痉挛和角弓反张的是外毒素。",
+        "option_analysis": {
+          "A": "该选项与题干考查的核心机制不符。",
+          "B": "正确：破伤风的主要致病物质是破伤风痉挛毒素，属于外毒素，答案为 D。",
+          "C": "该选项与题干考查的核心机制不符。",
+          "D": "该选项与题干考查的核心机制不符。",
+          "E": "该选项与题干考查的核心机制不符。"
+        },
+        "clinical_connection": "伤口处理、破伤风免疫球蛋白、类毒素和控制痉挛是处理重点。",
+        "exam_focus": "芽胞是存活结构，外毒素是症状来源，二者不要混淆。",
+        "source": {
+          "kind": "original_source_derived",
+          "file": "医学微生物学题库.docx",
+          "location": "段落 58"
+        }
+      }
     },
     {
       "id": "e0aa89dd20f9",
@@ -66142,6 +66411,992 @@
       "needs_review_reason": "选项集合或答案标记不完整，待原始题库核对后再自动判分。",
       "answer_match_method": "source_occurrence_exact",
       "review_resolution": "由判断题 PDF 原始答案核实"
+    },
+    {
+      "id": "c3543e7f242c",
+      "course": "医学细胞生物学",
+      "chapter": "第一章 绪论",
+      "type": "单选题",
+      "question": "在1933年底设计制造了世界上第一台电子显微镜(投射式)的学者是",
+      "options": {
+        "A": "德国的鲁斯卡(Ruska)",
+        "B": "英国的马丁(Martin)",
+        "C": "比利时的马顿(Marton)",
+        "D": "德国的赫尔穆特(Helmut)",
+        "E": "德国的德里斯特(Driest)"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 7",
+      "status": "ready",
+      "raw": "4 在1933年底设计制造了世界上第一台电子显微镜(投射式)的学者是\nA. 德国的鲁斯卡(Ruska) B. 英国的马丁(Martin) C. 比利时的马顿(Marton)\nD. 德国的赫尔穆特(Helmut) E. 德国的德里斯特(Driest)\n答案：A",
+      "source_occurrences": [
+        {
+          "id": "c3543e7f242c",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 7",
+          "original_answer": "A"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 7,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 7",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "8c905624ec38",
+      "course": "医学细胞生物学",
+      "chapter": "第一章 绪论",
+      "type": "单选题",
+      "question": "在1944年首次证实 DNA分子为细胞的遗传物质的学者是",
+      "options": {
+        "A": "沃森",
+        "B": "克里克",
+        "C": "埃弗里(Avery)",
+        "D": "福尔根(Feulgen)",
+        "E": "摩尔根"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 8",
+      "status": "ready",
+      "raw": "5 在1944年首次证实 DNA分子为细胞的遗传物质的学者是\nA. 沃森 B. 克里克 C. 埃弗里(Avery) D. 福尔根(Feulgen) E. 摩尔根\n答案：C",
+      "source_occurrences": [
+        {
+          "id": "8c905624ec38",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 8",
+          "original_answer": "C"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 8,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 8",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "3745a6af64ac",
+      "course": "医学细胞生物学",
+      "chapter": "第一章 绪论",
+      "type": "多选题",
+      "question": "19世纪自然科学的三大发现是",
+      "options": {
+        "A": "细胞学说",
+        "B": "能量转换定律",
+        "C": "达尔文进化论",
+        "D": "爱因斯坦相对论",
+        "E": "孟德尔遗传定律"
+      },
+      "answer": "ABC",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 10",
+      "status": "ready",
+      "raw": "19世纪自然科学的三大发现是\nA.细胞学说B.能量转换定律C.达尔文进化论\nD.爱因斯坦相对论E.孟德尔遗传定律\n答案：ABC",
+      "source_occurrences": [
+        {
+          "id": "3745a6af64ac",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 10",
+          "original_answer": "ABC"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 10,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 10",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "e2937c1aaf98",
+      "course": "医学细胞生物学",
+      "chapter": "第一章 绪论",
+      "type": "多选题",
+      "question": "电子显微镜的应用使下列哪些细胞器的微细结构得以发现或明确",
+      "options": {
+        "A": "内质网",
+        "B": "溶酶体",
+        "C": "高尔基复合体",
+        "D": "核糖体",
+        "E": "线粒体"
+      },
+      "answer": "ABCDE",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 11",
+      "status": "ready",
+      "raw": "电子显微镜的应用使下列哪些细胞器的微细结构得以发现或明确\nA.内质网B.溶酶体C.高尔基复合体\nD.核糖体E.线粒体\n答案：ABCDE",
+      "source_occurrences": [
+        {
+          "id": "e2937c1aaf98",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 11",
+          "original_answer": "ABCDE"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 11,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 11",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "5a30a3569f84",
+      "course": "医学细胞生物学",
+      "chapter": "第一章 绪论",
+      "type": "多选题",
+      "question": "20世纪70-80年代，细胞生物学在分子水平的重要研究成果有",
+      "options": {
+        "A": "提出生物膜的流动镶嵌模型",
+        "B": "提出遗传信息传递的“中心法则”",
+        "C": "提出内质网膜上蛋白质合成的信号肽假说",
+        "D": "发现真核细胞基因中的内含子",
+        "E": "发现MPF细胞周期相关因子"
+      },
+      "answer": "ACDE",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 12",
+      "status": "ready",
+      "raw": "20世纪70-80年代，细胞生物学在分子水平的重要研究成果有\nA.提出生物膜的流动镶嵌模型\nB.提出遗传信息传递的“中心法则”\nC.提出内质网膜上蛋白质合成的信号肽假说\nD.发现真核细胞基因中的内含子\nE.发现MPF细胞周期相关因子\n答案：ACDE",
+      "source_occurrences": [
+        {
+          "id": "5a30a3569f84",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 12",
+          "original_answer": "ACDE"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 12,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 12",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "e07f21d192d5",
+      "course": "医学细胞生物学",
+      "chapter": "第一章 绪论",
+      "type": "多选题",
+      "question": "细胞生物学的主要研究领域有",
+      "options": {
+        "A": "细胞间信息传递",
+        "B": "细胞增殖与细胞周期调控",
+        "C": "细胞分化与干细胞特性",
+        "D": "细胞衰老与细胞死亡",
+        "E": "细胞组学"
+      },
+      "answer": "ABCDE",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 13",
+      "status": "ready",
+      "raw": "细胞生物学的主要研究领域有\nA.细胞间信息传递B.细胞增殖与细胞周期调控\nC.细胞分化与干细胞特性D.细胞衰老与细胞死亡\nE.细胞组学\n答案：ABCDE",
+      "source_occurrences": [
+        {
+          "id": "e07f21d192d5",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 13",
+          "original_answer": "ABCDE"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 13,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 13",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "e3644ca8e006",
+      "course": "医学细胞生物学",
+      "chapter": "第一章 绪论",
+      "type": "多选题",
+      "question": "实验细胞学阶段主要提出了",
+      "options": {
+        "A": "原生质理论",
+        "B": "染色体遗传理论",
+        "C": "基因学说",
+        "D": "细胞学说",
+        "E": "中心法则"
+      },
+      "answer": "BC",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 14",
+      "status": "ready",
+      "raw": "实验细胞学阶段主要提出了\nA.原生质理论B.染色体遗传理论C.基因学说\nD.细胞学说E.中心法则\n答案：BC",
+      "source_occurrences": [
+        {
+          "id": "e3644ca8e006",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 14",
+          "original_answer": "BC"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 14,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 14",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "06cc7ce3a24b",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "单选题",
+      "question": "在原核细胞中",
+      "options": {
+        "A": "只有DNA，没有RNA",
+        "B": "只有 RNA，没有DNA",
+        "C": "只有DNA，没有蛋白质",
+        "D": "只有RNA，没有蛋白质",
+        "E": "既有DNA，也有RNA"
+      },
+      "answer": "E",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 27",
+      "status": "ready",
+      "raw": "1 在原核细胞中\nA. 只有DNA，没有RNA B. 只有 RNA，没有DNA C. 只有DNA，没有蛋白质\nD. 只有RNA，没有蛋白质 E. 既有DNA，也有RNA\n答案：E",
+      "source_occurrences": [
+        {
+          "id": "06cc7ce3a24b",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 27",
+          "original_answer": "E"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 27,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 27",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "8b019f521940",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "单选题",
+      "question": "人体生命活动的基本结构与功能的单位是",
+      "options": {
+        "A": "细胞膜",
+        "B": "细胞核",
+        "C": "细胞器",
+        "D": "细胞",
+        "E": "核糖体"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 28",
+      "status": "ready",
+      "raw": "2 人体生命活动的基本结构与功能的单位是\nA. 细胞膜 B. 细胞核 C. 细胞器 D. 细胞 E. 核糖体\n答案：D",
+      "source_occurrences": [
+        {
+          "id": "8b019f521940",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 28",
+          "original_answer": "D"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 28,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 28",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "25802a5ab43b",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "单选题",
+      "question": "关于 DNA分子，下列哪项叙述有误",
+      "options": {
+        "A": "带有遗传信息",
+        "B": "具有双螺旋的空间结构",
+        "C": "由两条同方向的单核苷酸链互补结合而成",
+        "D": "在DNA分子上分布有众多的基因",
+        "E": "所含碱基位于螺旋结构的中央区域"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 29",
+      "status": "ready",
+      "raw": "3 关于 DNA分子，下列哪项叙述有误\nA. 带有遗传信息 B. 具有双螺旋的空间结构\nC. 由两条同方向的单核苷酸链互补结合而成\nD. 在DNA分子上分布有众多的基因 E. 所含碱基位于螺旋结构的中央区域\n答案：C",
+      "source_occurrences": [
+        {
+          "id": "25802a5ab43b",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 29",
+          "original_answer": "C"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 29,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 29",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "ad53f5a5bc0f",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "单选题",
+      "question": "关于 mRNA，下列哪项叙述有误",
+      "options": {
+        "A": "携带有相应基因的遗传信息",
+        "B": "是DNA转录的产物",
+        "C": "主要分布在细胞核中",
+        "D": "可直接指导蛋白质合成",
+        "E": "不同基因的mRNA 分子量悬殊较大"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 30",
+      "status": "ready",
+      "raw": "4 关于 mRNA，下列哪项叙述有误\nA. 携带有相应基因的遗传信息 B. 是DNA转录的产物 C. 主要分布在细胞核中\nD. 可直接指导蛋白质合成 E. 不同基因的mRNA 分子量悬殊较大\n答案：C",
+      "source_occurrences": [
+        {
+          "id": "ad53f5a5bc0f",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 30",
+          "original_answer": "C"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 30,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 30",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "02db7261b08e",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "单选题",
+      "question": "下列哪一类细胞一般呈梭形",
+      "options": {
+        "A": "神经细胞",
+        "B": "肌细胞",
+        "C": "血细胞",
+        "D": "上皮细胞",
+        "E": "精细胞"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 32",
+      "status": "ready",
+      "raw": "6 下列哪一类细胞一般呈梭形\nA. 神经细胞 B. 肌细胞 C. 血细胞 D. 上皮细胞 E. 精细胞\n答案：B",
+      "source_occurrences": [
+        {
+          "id": "02db7261b08e",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 32",
+          "original_answer": "B"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 32,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 32",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "9a09d704c6a3",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "单选题",
+      "question": "原核细胞与真核细胞都具有的一种细胞器是",
+      "options": {
+        "A": "细胞骨架",
+        "B": "线粒体",
+        "C": "高尔基体",
+        "D": "中心体",
+        "E": "核糖体"
+      },
+      "answer": "E",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 33",
+      "status": "ready",
+      "raw": "7 原核细胞与真核细胞都具有的一种细胞器是\nA. 细胞骨架 B. 线粒体 C. 高尔基体 D. 中心体 E. 核糖体\n答案：E",
+      "source_occurrences": [
+        {
+          "id": "9a09d704c6a3",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 33",
+          "original_answer": "E"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 33,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 33",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "ac5cd40c8b7c",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "单选题",
+      "question": "下列哪项不是原核细胞",
+      "options": {
+        "A": "大肠杆菌",
+        "B": "肺炎环菌",
+        "C": "支原体",
+        "D": "真菌",
+        "E": "蓝藻"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 34",
+      "status": "ready",
+      "raw": "8 下列哪项不是原核细胞\nA. 大肠杆菌 B. 肺炎环菌 C. 支原体 D. 真菌 E. 蓝藻\n答案：D",
+      "source_occurrences": [
+        {
+          "id": "ac5cd40c8b7c",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 34",
+          "original_answer": "D"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 34,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 34",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "ffbd04d7274d",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "单选题",
+      "question": "细菌这样的原核细胞所具有的中间体与真核细胞的下列哪种细胞器功能相似",
+      "options": {
+        "A": "高尔基体",
+        "B": "中心体",
+        "C": "线粒体",
+        "D": "溶酶体",
+        "E": "内质网"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 35",
+      "status": "ready",
+      "raw": "9 细菌这样的原核细胞所具有的中间体与真核细胞的下列哪种细胞器功能相似\nA. 高尔基体 B. 中心体 C. 线粒体 D. 溶酶体 E. 内质网\n答案：C",
+      "source_occurrences": [
+        {
+          "id": "ffbd04d7274d",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 35",
+          "original_answer": "C"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 35,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 35",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "f803427cb07f",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "单选题",
+      "question": "下列哪种细胞器为非膜相结构",
+      "options": {
+        "A": "核糖体",
+        "B": "内质网",
+        "C": "线粒体",
+        "D": "溶酶体",
+        "E": "高尔基体"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 36",
+      "status": "ready",
+      "raw": "10 下列哪种细胞器为非膜相结构\nA. 核糖体 B. 内质网 C. 线粒体 D. 溶酶体 E. 高尔基体\n答案：A",
+      "source_occurrences": [
+        {
+          "id": "f803427cb07f",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 36",
+          "original_answer": "A"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 36,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 36",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "f23af2fb6862",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "单选题",
+      "question": "关于原核细胞的遗传物质，下列哪项叙述有误",
+      "options": {
+        "A": "常为一条线形的DNA分子",
+        "B": "分布在核区",
+        "C": "其 DNA 裸露不与组蛋白结合",
+        "D": "其遗传信息的转录和翻译同时进行",
+        "E": "控制细胞的代谢、生长和繁殖"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 37",
+      "status": "ready",
+      "raw": "11 关于原核细胞的遗传物质，下列哪项叙述有误\nA. 常为一条线形的DNA分子 B. 分布在核区 C. 其 DNA 裸露不与组蛋白结合\nD. 其遗传信息的转录和翻译同时进行 E. 控制细胞的代谢、生长和繁殖\n答案：A",
+      "source_occurrences": [
+        {
+          "id": "f23af2fb6862",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 37",
+          "original_answer": "A"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 37,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 37",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "8f61e4b4403a",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "单选题",
+      "question": "在普通光镜下可以观察到的细胞结构是",
+      "options": {
+        "A": "核孔",
+        "B": "核仁",
+        "C": "溶酶体",
+        "D": "核糖体",
+        "E": "微丝"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 38",
+      "status": "ready",
+      "raw": "12 在普通光镜下可以观察到的细胞结构是\nA. 核孔 B. 核仁 C. 溶酶体 D. 核糖体 E. 微丝\n答案：B",
+      "source_occurrences": [
+        {
+          "id": "8f61e4b4403a",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 38",
+          "original_answer": "B"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 38,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 38",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "f884fd5840a4",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "多选题",
+      "question": "原核细胞具有的结构是",
+      "options": {
+        "A": "质粒",
+        "B": "线粒体",
+        "C": "核糖体",
+        "D": "高尔基复合体",
+        "E": "溶酶体"
+      },
+      "answer": "AC",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 40",
+      "status": "ready",
+      "raw": "原核细胞具有的结构是\nA.质粒B.线粒体C.核糖体\nD.高尔基复合体E.溶酶体\n答案：AC",
+      "source_occurrences": [
+        {
+          "id": "f884fd5840a4",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 40",
+          "original_answer": "AC"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 40,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 40",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "626af88211a4",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "多选题",
+      "question": "DNA是细胞内重要的生物分子，是因为DNA",
+      "options": {
+        "A": "能够转录",
+        "B": "能够翻译",
+        "C": "能够自我复制",
+        "D": "是构成细胞膜的结构成分",
+        "E": "可作为催化生化反应的酶"
+      },
+      "answer": "AC",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 41",
+      "status": "ready",
+      "raw": "DNA是细胞内重要的生物分子，是因为DNA\nA.能够转录B.能够翻译C.能够自我复制\nD.是构成细胞膜的结构成分E.可作为催化生化反应的酶\n答案：AC",
+      "source_occurrences": [
+        {
+          "id": "626af88211a4",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 41",
+          "original_answer": "AC"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 41,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 41",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "1dbd90239711",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "多选题",
+      "question": "目前认为地球上原始生命诞生所经历的过程包括",
+      "options": {
+        "A": "从无机小分子形成有机小分子物质",
+        "B": "从有机小分子物质形成生物大分子物质",
+        "C": "以生物大分子物质组成多分子体系",
+        "D": "从土星上转移过来",
+        "E": "从多分子体系演变为原始生命"
+      },
+      "answer": "ABCE",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 42",
+      "status": "ready",
+      "raw": "目前认为地球上原始生命诞生所经历的过程包括\nA.从无机小分子形成有机小分子物质B.从有机小分子物质形成生物大分子物质\nC.以生物大分子物质组成多分子体系D.从土星上转移过来\nE.从多分子体系演变为原始生命\n答案：ABCE",
+      "source_occurrences": [
+        {
+          "id": "1dbd90239711",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 42",
+          "original_answer": "ABCE"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 42,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 42",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "7aa84ad71591",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "多选题",
+      "question": "下列属于非膜性细胞结构的是",
+      "options": {
+        "A": "中心体",
+        "B": "过氧化物酶体",
+        "C": "染色体",
+        "D": "核仁",
+        "E": "细胞骨架"
+      },
+      "answer": "ACDE",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 43",
+      "status": "ready",
+      "raw": "下列属于非膜性细胞结构的是\nA.中心体B.过氧化物酶体C.染色体\nD.核仁E.细胞骨架\n答案：ACDE",
+      "source_occurrences": [
+        {
+          "id": "7aa84ad71591",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 43",
+          "original_answer": "ACDE"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 43,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 43",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "5c666d54741d",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "多选题",
+      "question": "细胞中含有的有机小分子包括",
+      "options": {
+        "A": "氨基酸",
+        "B": "脂肪酸",
+        "C": "核苷酸",
+        "D": "单糖",
+        "E": "核酸"
+      },
+      "answer": "ABCD",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 44",
+      "status": "ready",
+      "raw": "细胞中含有的有机小分子包括\nA.氨基酸B.脂肪酸C.核苷酸D.单糖E.核酸\n答案：ABCD",
+      "source_occurrences": [
+        {
+          "id": "5c666d54741d",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 44",
+          "original_answer": "ABCD"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 44,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 44",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "a405e01cf8a8",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "多选题",
+      "question": "细胞内的生物大分子包括",
+      "options": {
+        "A": "核酸",
+        "B": "蛋白质",
+        "C": "多糖",
+        "D": "脂肪",
+        "E": "氨基酸"
+      },
+      "answer": "ABC",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 45",
+      "status": "ready",
+      "raw": "细胞内的生物大分子包括\nA.核酸B.蛋白质C.多糖D.脂肪E.氨基酸\n答案：ABC\n解析：脂肪分子量较小，不属于生物大分子范畴。",
+      "source_occurrences": [
+        {
+          "id": "a405e01cf8a8",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 45",
+          "original_answer": "ABC"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 45,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 45",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "46d58a7b6b6e",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "多选题",
+      "question": "原核细胞与真核细胞都有的细胞结构是",
+      "options": {
+        "A": "核糖体",
+        "B": "中心体",
+        "C": "高尔基复合体",
+        "D": "细胞骨架",
+        "E": "细胞膜"
+      },
+      "answer": "AE",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 46",
+      "status": "ready",
+      "raw": "原核细胞与真核细胞都有的细胞结构是\nA.核糖体B.中心体C.高尔基复合体\nD.细胞骨架E.细胞膜\n答案：AE",
+      "source_occurrences": [
+        {
+          "id": "46d58a7b6b6e",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 46",
+          "original_answer": "AE"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 46,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 46",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "29e8286e69b2",
+      "course": "医学细胞生物学",
+      "chapter": "第一章 绪论",
+      "type": "单选题",
+      "question": "细胞学说的创始人是",
+      "options": {
+        "A": "R.Hook",
+        "B": "Schleiden and Schwann",
+        "C": "R.Brown",
+        "D": "W.Flemming",
+        "E": "C.Darwin"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 4",
+      "status": "ready",
+      "raw": "1 细胞学说的创始人是\nA. R.Hook B. Schleiden and Schwann C. R.Brown\nD. W.Flemming E. C.Darwin\n答案：B",
+      "source_occurrences": [
+        {
+          "id": "29e8286e69b2",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 4",
+          "original_answer": "B"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 4,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 4",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "63356d408832",
+      "course": "医学细胞生物学",
+      "chapter": "第一章 绪论",
+      "type": "单选题",
+      "question": "最早观察到活细胞的学者是",
+      "options": {
+        "A": "R.Hook",
+        "B": "A. Leeuwenhook",
+        "C": "Brown",
+        "D": "W.Flemming",
+        "E": "C.Darwin"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 5",
+      "status": "ready",
+      "raw": "2 最早观察到活细胞的学者是\nA. R.Hook B. A. Leeuwenhook C. Brown D. W.Flemming E. C.Darwin\n答案：B",
+      "source_occurrences": [
+        {
+          "id": "63356d408832",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 5",
+          "original_answer": "B"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 5,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 5",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "dd5fd0e9ad3e",
+      "course": "医学细胞生物学",
+      "chapter": "第一章 绪论",
+      "type": "单选题",
+      "question": "最早自制显微镜并用于观察细胞的学者是",
+      "options": {
+        "A": "Schleiden and Schwann",
+        "B": "R.Hook and A.Leeuwenhook",
+        "C": "Virchow",
+        "D": "R.Brown",
+        "E": "C.Darwin"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 6",
+      "status": "ready",
+      "raw": "3 最早自制显微镜并用于观察细胞的学者是\nA. Schleiden and Schwann B. R.Hook and A.Leeuwenhook\nC. Virchow D. R.Brown E. C.Darwin\n答案：B",
+      "source_occurrences": [
+        {
+          "id": "dd5fd0e9ad3e",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 6",
+          "original_answer": "B"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 6,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 6",
+      "answer_match_method": "same_source_paragraph"
+    },
+    {
+      "id": "36015bdb9878",
+      "course": "医学细胞生物学",
+      "chapter": "第二章 细胞基本概念与分子基础",
+      "type": "单选题",
+      "question": "关于rRNA，下列哪项叙述有误",
+      "options": {
+        "A": "只分布在核糖体中",
+        "B": "是构成核糖体的主要成分之一",
+        "C": "由 A、U、G、C构成的生物分子",
+        "D": "占细胞中全部 RNA的80%以上",
+        "E": "基本为线形分子"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source": "2-医学细胞生物学题库B.docx",
+      "source_location": "段落 31",
+      "status": "ready",
+      "raw": "5 关于rRNA，下列哪项叙述有误\nA. 只分布在核糖体中 B. 是构成核糖体的主要成分之一\nC. 由 A、U、G、C构成的生物分子 D. 占细胞中全部 RNA的80%以上\nE. 基本为线形分子\n答案：A",
+      "source_occurrences": [
+        {
+          "id": "36015bdb9878",
+          "file": "2-医学细胞生物学题库B.docx",
+          "location": "段落 31",
+          "original_answer": "A"
+        }
+      ],
+      "source_verified": true,
+      "source_paragraph": 31,
+      "answer_source": "original_source",
+      "answer_source_file": "2-医学细胞生物学题库B.docx",
+      "answer_source_location": "段落 31",
+      "answer_match_method": "same_source_paragraph"
     }
   ],
   "cases": {
